@@ -1,11 +1,14 @@
 var bannerList, currentTheme;
 
+var to = null;
+var int = null;
+
 function banner(){
 	$.ajax("/iMaps/bootstrap4/banners.txt", {
 /*		 data: data,*/
 		success: function(result){
 		    bannerList = result.split('\n');
-			bannerList.shift();
+			// bannerList.shift(); //not sure why I was shifting the array
 			bannerList.pop();
 		}, 
 		error: function(){
@@ -45,14 +48,34 @@ function rotateImage(arrow){
 	$('#imageName').html(currentImage)
 }
 
-function adjustImage(direction){
-	currentTheme = $('#bannerImage').attr('class', function(index, className){
-		return (className.match (/(^|\s)img-\S+/g) || []).join(' ');
-	});
+function adjustImageMousedown(direction){  
+   getPosition(direction)
 
-	var currentPosition = $(currentTheme).css('background-position').split(' ')[1];
-	var moveUp = parseFloat(currentPosition)+1;
-	var moveDown = parseFloat(currentPosition)-1;
+	if (direction =="up"){
+		var temp = moveUp
+	    to = setTimeout(function () {
+        int = setInterval(function () {
+	        	temp++;
+	        	$(currentTheme).css('background-position', '50% ' + temp +'%')
+				$('#coverSize').html('background-position: 50% ' + temp +'%')
+       		}, 75);
+    	}, 500);
+		
+	}
+	if (direction =="down"){
+		var temp = moveDown
+	    to = setTimeout(function () {
+        int = setInterval(function () {
+	        	temp--;
+	        	$(currentTheme).css('background-position', '50% ' + temp +'%')
+				$('#coverSize').html('background-position: 50% ' + temp +'%')
+       		}, 75);
+    	}, 500);
+	}
+}
+
+function adjustImageClick(direction){
+	getPosition(direction)
 
 	if (direction =="up"){
 		$(currentTheme).css('background-position', '50% ' + moveUp +'%')
@@ -64,6 +87,20 @@ function adjustImage(direction){
 	}
 
 }
+
+function getPosition(direction){
+	currentTheme = $('#bannerImage').attr('class', function(index, className){
+		return (className.match (/(^|\s)img-\S+/g) || []).join(' ');
+	});
+
+	var currentPosition = $(currentTheme).css('background-position').split(' ')[1];
+	if(direction=="down"){
+		return moveDown = parseFloat(currentPosition)-1;
+	} else{return moveUp = parseFloat(currentPosition)+1;}
+	
+	
+}
+
 $(document).ready(function () {
 //toggle themes in docs
       $('#themeToggle input[type=radio]').on('change', function(e){
@@ -93,9 +130,15 @@ $(document).ready(function () {
         rotateImage(this.value)        
       });
 
-      $("#bannerPosition button").click(function(event){
-        adjustImage(this.value)
+      $("#bannerPosition button").on('mousedown',function(event){  	
+        adjustImageMousedown(this.value)
+      }).on("mouseup", function () {
+	        clearTimeout(to);
+	        clearInterval(int);
+	    });
 
+      $("#bannerPosition button").click(function(){
+      	adjustImageClick(this.value)
       })
 
 });
