@@ -27,7 +27,8 @@
 
 Set up dependencies and get to work:
 
-- Install [RubyInstaller](https://rubyinstaller.org/): Gives you [gem](http://guides.rubygems.org/rubygems-basics/)
+- Windows Users Install [RubyInstaller](https://rubyinstaller.org/): Gives you [gem](http://guides.rubygems.org/rubygems-basics/)
+- Linux Users Install [Ruby Version Manager](https://rubyinstaller.org/): Gives you [gem](http://guides.rubygems.org/rubygems-basics/)
 - Install Sass with gem: `gem install sass`
 - Install [nodeJS](https://nodejs.org/en/): Gives you Node Package Manager [(npm)](https://docs.npmjs.com/) 
     - If creating a new Bootstrap project (our source files are already setup): 
