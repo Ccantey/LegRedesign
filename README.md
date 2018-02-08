@@ -30,7 +30,7 @@ Set up dependencies and get to work:
 - Install [RubyInstaller](https://rubyinstaller.org/): Gives you [gem](http://guides.rubygems.org/rubygems-basics/)
 - Install Sass with gem: `gem install sass`
 - Install [nodeJS](https://nodejs.org/en/): Gives you Node Package Manager [(npm)](https://docs.npmjs.com/) 
-    - If creating a new Bootstrap project (ours is setup): 
+    - If creating a new Bootstrap project (our source files are already setup): 
         - Install bootstrap: `npm install bootstrap`
         - Install font-awesome: `npm install font-awesome`
         - Install jquery: `npm install jquery`
@@ -68,8 +68,9 @@ bootstrap4/
 │   │   ├── app.css.map
 │   │   ├── jquery-ui.css
 │   │   └── jquery-ui.css.map
+│   │
 │   ├── fonts/
-│   │   └── FontAwesome assets
+│   │
 │   └── scss/
 │       ├── _base.scss
 │       ├── _lnet.scss
@@ -82,10 +83,8 @@ bootstrap4/
 │       ├── jquery-ui
 │       └── jquery-ui.scss
 ├── img/
-│   ├── banners/
-│   │   └── many jpgs for use in banner
-│   ├── housefavicon.ico
-│   └── leadimageNet1.jpg
+│   └── banners/
+│
 ├── js/
 │   ├── jquery-ui.1.12.1.custom/
 │   │   └── jquery-ui assets
@@ -97,13 +96,13 @@ bootstrap4/
 │   └── navbarhelper.js
 └── node_modules/
     ├── bootstrap/
-    │   └── bootstrap assets
+    │
     ├── font-awesome/
-    │   └── font-awesome assets
+    │
     ├── jquery/
-    │   └── jquery assets
+    │
     ├── roboto-fontface/
-    │   └── roboto assets
+    │
     └── readme.txt
 
 ```
