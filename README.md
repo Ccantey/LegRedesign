@@ -3,7 +3,7 @@
     <img src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width=72 height=72>
   </a>
 
-  <h3 align="center">Bootstrap</h3>
+  <h3 align="center">LNET Redesign - Bootstrap</h3>
 
   <p align="center">
     Sleek, intuitive, and powerful front-end framework for faster and easier web development.
@@ -32,14 +32,12 @@
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/twbs/bootstrap/archive/v4.0.0-beta.2.zip)
-- Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
-- Install with [npm](https://www.npmjs.com/): `npm install bootstrap@4.0.0-beta.2`
-- Install with [yarn](https://yarnpkg.com/): `yarn add bootstrap@4.0.0-beta.2`
-- Install with [Composer](https://getcomposer.org/): `composer require twbs/bootstrap:4.0.0-beta.2`
-- Install with [NuGet](https://www.nuget.org/): CSS: `Install-Package bootstrap -Pre` Sass: `Install-Package bootstrap.sass -Pre` (`-Pre` is only required until Bootstrap v4 has a stable release).
+- Clone the repo: `https://github.com/Ccantey/LegRedesign.git`
+- Install [RubyInstaller](https://rubyinstaller.org/): Gives you [gem](http://guides.rubygems.org/rubygems-basics/)
+- Install Sass with gem: `gem install sass`
+- Install [nodeJS](https://nodejs.org/en/): Gives you [npm](https://docs.npmjs.com/) 
 
-Read the [Getting started page](https://getbootstrap.com/getting-started/) for information on the framework contents, templates and examples, and more.
+Read the [Sass](https://sass-lang.com/install) and [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/download/) documentation for information on the framework and more.
 
 
 ## What's included
@@ -188,5 +186,5 @@ See [the Releases section of our GitHub project](https://github.com/twbs/bootstr
 ## Copyright and license
 
 Code and documentation copyright 2011-2017 the [Bootstrap Authors](https://github.com/twbs/bootstrap/graphs/contributors) and [Twitter, Inc.](https://twitter.com) Code released under the [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
-# LegRedesign
-# LegRedesign
+
+
