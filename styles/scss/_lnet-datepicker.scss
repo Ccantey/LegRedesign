@@ -1,0 +1,185 @@
+
+.ui-widget{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* DatePicker Container */
+.ui-datepicker {
+  width: 100%;
+  height: auto;
+  margin: 5px auto 0;
+  padding:0;
+}
+.ui-datepicker a {
+  text-decoration: none;
+}
+
+.ui-corner-all{
+ border-radius: 0;
+}
+
+/* DatePicker Table */
+.ui-datepicker table {
+  width: 100%;
+  margin:0;
+}
+.ui-datepicker-header {
+  color: #e0e0e0;
+  font-weight: normal;
+  border:none;
+}
+.ui-datepicker-header{
+    .senate &{
+        background-color: $senate;
+    }
+    .joint &{
+        background-color: $joint;
+    }
+
+    .house &{
+        background-color: $house;
+    }
+}
+.ui-datepicker-title {
+  text-align: center;
+}
+
+.ui-datepicker thead {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #bbb;
+}
+.ui-datepicker th {
+  font-weight: normal;
+  font-size: .75rem;
+  padding: 5px;
+  color: $gray-700;
+}
+.ui-datepicker tbody td {
+  padding: 0;
+  border-right: 1px solid #ddd;
+}
+.ui-datepicker tbody td:last-child {
+  border-right: 0px;
+}
+.ui-datepicker tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+.ui-datepicker tbody tr:last-child {
+  border-bottom: 1px solid #ddd;
+  border-top:1px solid #ddd;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  min-width: 30px;
+  min-height:30px;
+  width: 100%;
+  height: 100%;
+  color: #666666;
+  padding: 0.4rem 0 0 0;
+}
+
+//bootstrap 4 Sass magic
+//compiles to if media breakpoint of 'sm' or larger, set a max-width of 300px;
+.calendar{
+  min-width: 245px;
+  @include media-breakpoint-up(lg) {
+    max-width: 300px;
+  }
+}
+
+.ui-datepicker-calendar .ui-state-default {
+  background-color: #fff;
+  border:none;
+  color:#346F9A;
+}
+.ui-datepicker-calendar .ui-state-hover { //calendar hover
+  background:#f7f7f7;
+  border: 1px solid $yellow;
+}
+
+.ui-widget-content .ui-state-active { //today
+  background:#f7f7f7;
+  border: 1px solid $yellow;
+  position: relative;
+}
+
+.ui-datepicker-other-month {
+  background-color: #333;
+}
+
+.ui-widget-content .ui-priority-secondary{
+    color: $gray-700;
+    opacity:0.9
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+  background: #f4f4f4;
+  color:#346F9A;
+  
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+  width: 29px;
+  margin-left: 0;
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+  width: 29px;
+  margin-right: 0;
+}
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+  height: 29px;
+  margin-bottom: 0;
+}
+
+// arrows
+.ui-widget-header .ui-icon{
+  background-image:none !important;
+}
+.ui-datepicker-prev span.ui-icon {
+    // width: 10px; //this the width of the icon. increase it if your icon is bigger
+    height: 16px;
+    display: block;
+    text-indent: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.ui-datepicker-prev span:before {
+    content: "\f053";
+    font-family: FontAwesome;
+    position: relative;
+}
+a.ui-datepicker-prev.ui-corner-all {
+  color: #fff;
+}
+a.ui-datepicker-prev-hover.ui-corner-all {
+    background: none;
+    border: none;
+    color: #fff !important;
+    cursor:pointer;
+}
+// .ui-datepicker-prev:hover {
+//     color: red;
+// }
+.ui-datepicker-next span.ui-icon {
+    // width: 10px; //this the width of the icon. increase it if your icon is bigger
+    height: 16px;
+    display: block;
+    text-indent: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.ui-datepicker-next span:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    position: relative;
+}
+a.ui-datepicker-next.ui-corner-all {
+  color: #fff;
+}
+a.ui-datepicker-next-hover.ui-corner-all {
+    background: none;
+    border: none;
+    color: #fff !important;
+    cursor:pointer;
+}

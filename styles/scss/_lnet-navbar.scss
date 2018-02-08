@@ -1,0 +1,173 @@
+//create .navbar-lnet (copied from _navbar.scss). text color control. actual colors defined in _variables
+.navbar-joint {
+  .navbar-brand {
+    color: $navbar-joint-active-color;
+
+    @include hover-focus {
+      color: $navbar-joint-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-joint-color;
+
+      @include hover-focus {
+        color: $navbar-joint-hover-color;
+      }
+
+      &.disabled {
+        color: $navbar-joint-disabled-color;
+      }
+    }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      color: $navbar-joint-active-color;
+    }
+  }
+
+  .navbar-toggler {
+    color: $navbar-joint-color;
+    border-color: $navbar-joint-toggler-border-color;
+    font-size: 1rem;
+    padding: 0.1rem 0.25rem;
+
+  }
+
+  .navbar-toggler-icon {
+    background-image: $navbar-dark-toggler-icon-bg;
+  }
+
+  .navbar-text {
+    color: $navbar-joint-color;
+    a {
+      color: $navbar-joint-active-color;
+
+      @include hover-focus {
+        color: $navbar-joint-active-color;
+      }
+    }
+  }
+}
+
+
+
+.navbar-senate {
+  .navbar-brand {
+    color: $navbar-senate-active-color;
+
+    @include hover-focus {
+      color: $navbar-senate-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-senate-color;
+
+      @include hover-focus {
+        color: $navbar-senate-hover-color;
+      }
+
+      &.disabled {
+        color: $navbar-senate-disabled-color;
+      }
+    }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      color: $navbar-senate-active-color;
+    }
+  }
+
+  .navbar-toggler {
+    color: $navbar-senate-color;
+    border-color: $navbar-senate-toggler-border-color;
+    font-size: 1rem;
+    padding: 0.1rem 0.25rem;
+  }
+
+  .navbar-toggler-icon {
+    background-image: $navbar-dark-toggler-icon-bg;
+  }
+
+  .navbar-text {
+    color: $navbar-senate-color;
+    a {
+      color: $navbar-senate-active-color;
+
+      @include hover-focus {
+        color: $navbar-senate-active-color;
+      }
+    }
+  }
+}
+
+//house
+.navbar-house {
+  .navbar-brand {
+    color: $navbar-house-active-color;
+
+    @include hover-focus {
+      color: $navbar-house-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-house-color;
+
+      @include hover-focus {
+        color: $navbar-house-hover-color;
+      }
+
+      &.disabled {
+        color: $navbar-house-disabled-color;
+      }
+    }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      color: $navbar-house-active-color;
+    }
+  }
+
+  .navbar-toggler {
+    color: $navbar-house-color;
+    border-color: $navbar-house-toggler-border-color;
+    font-size: 1rem;
+    padding: 0.1rem 0.25rem;
+  }
+
+  .navbar-toggler-icon {
+    background-image: $navbar-dark-toggler-icon-bg;
+  }
+
+  .navbar-text {
+    color: $navbar-house-color;
+    a {
+      color: $navbar-house-active-color;
+
+      @include hover-focus {
+        color: $navbar-house-active-color;
+      }
+    }
+  }
+}
+
+dd > a{
+  color:lighten($link-color, 35%);
+}
+
+dd > a:hover{  
+  // color:$link-color;
+  color: lighten($link-color, 25%);
+}
+

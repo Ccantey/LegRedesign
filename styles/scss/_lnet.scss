@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro); //'Source Sans Pro'
+// @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.container-fluid{
+    padding:0;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    // background: white;
+    font-size: 13px;
+     overflow-x: hidden;
+}
+
+a{
+    text-decoration: underline;
+    .navbar &{
+        text-decoration: none;
+    }
+    .card &{
+        text-decoration: none;
+    }
+    .footer &{
+        text-decoration: none;
+    }
+    dd &{
+        text-decoration: none;
+    }
+    .portal_head_text &{
+        text-decoration: none;
+    }
+    li &{
+        text-decoration: none;
+    }
+}
+
+.portal_head_text {
+    color: $gray-700;    
+    a{
+        color: $gray-700;
+    }
+}
+
+.navbar-senate, .navbar-joint, .navbar-house{
+    padding: .3rem 1rem;
+}
+
+//this is what makes Sass awesome
+// this example uses 3 Sass features:
+// 1. theming elements based on parent using &
+// 2. variables ($joint, $house, $senate)
+// 3. mixins: lighten 10%
+// another cool case of SASS in _lnet-datepicker (calendar max-width)
+.dropdown-menu.show{
+    border-radius: 0;
+    padding: 0;
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    .navbar-senate &{
+        background-color: lighten($senate, 10%);
+    }
+    .navbar-joint &{
+        background-color: lighten($joint, 5%);
+    }
+
+    .navbar-house &{
+        background-color: lighten($house, 10%);
+    }
+}
+
+.dropdown-item.disabled, .dropdown-item.disabled:hover{
+    color: #505555;
+    .navbar-joint &{
+        color:#8f8f8f;
+    }
+}
+
+.dropdown-item{
+    .navbar-joint &{
+        color:#cdcdcd;
+    }
+}
+
+.dropdown-item:hover{
+    .navbar-joint &{
+        color:#000;
+    }
+}
+
+.card{
+    z-index: 200;
+}
+.card-body ul{
+
+    margin-bottom:0;
+}
+.card-title{
+    color:$gray-700;
+}
+.card-body{
+    padding: .25rem;
+}
+
+.img-joint{
+    // position: relative;
+    height: 13rem;
+    // color: white;
+    // font-family: georgia,serif;
+    // z-index: 1;
+    // background-image: url(../../img/banners/cap_full_quadrangle.jpg); //excellent for house
+    // background-image: url(../../img/banners/cap_full_oblique.jpg); //good for joint 50% 30%;
+    // background-image: url(../../img/banners/cap_dome_green_leaves.jpg); //50% 60%
+    // background-image: url(../../img/banners/cap_reflection_yellow_leaves.jpg); //50% 55% OK for joint
+    // background-image: url(../../img/banners/full_cap_yellow_leaves.jpg); //50% 55%
+    // background-image: url(../../img/banners/cap_yellow_leaves_front.jpg);
+    // background-image: url(../../img/banners/cap_yellow_leaves.jpg);
+    // background-image: url(../../img/banners/cap_summer.jpg);  //50% 50%;
+    // background-image: url(../../img/banners/cap_summer_oblique.jpg);  //50% 30%;
+    background-image: url(../../img/banners/cap_quadrangle.jpg);  //excellent for joint 50% 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+    // padding-top: 6rem;
+    // padding-bottom: 6rem;
+    // margin-bottom: 0;
+    // background-color: #f7f7f7;
+}
+.img-senate{
+    height: 13rem;
+    background-image: url(../../img/banners/cap_rotundaR.jpg); //good for senate 50% 10%;
+    // background-image: url(../../img/banners/cap_bluesky_shady.jpg); //good 50 50
+    // background-image: url(../../img/banners/cap_summer_closeup.jpg); //good 50 35
+    // background-image: url(../../img/banners/cap_bluesky_runner.jpg);  //good for senate 50% 35%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.img-house{
+    height: 13rem;
+    background-image: url(../../img/banners/cap_full_quadrangle.jpg);  //excellent for joint 50% 50%;
+    // background-image: url(../../img/banners/cap_summer_closeup.jpg); //excellent
+    // background-image: url(../../img/banners/house_session.jpg); //good in session photo - speaker
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
+.titleContainer{
+    // max-width: 40rem;
+    background: rgba(0,0,0, 0.5);
+
+    color: white;
+}
+
+
+.leg_MainTitle {
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: georgia, serif;
+    // font-weight: normal;
+    // color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    // vertical-align: bottom;
+    letter-spacing: 3px;
+}
+
+
+#main_search {
+    width: 160px;
+    // box-sizing: border-box;
+    // border: 2px solid #ccc;
+    // border-radius: 4px;
+    // font-size: 1em;
+    // background-color: white;
+    // background-image: url('searchicon_sm.png');
+    background-position: 10px 6px; 
+    background-repeat: no-repeat;
+    padding: 4px 6px 4px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    // color: black;
+    // font-family: 'Open Sans', 'sans-serif';
+    }
+
+#main_search:focus {
+    width: 300px;
+}
+
+.card-body .form-inline .form-control{
+    width:100%;
+  //   white-space: nowrap;
+  // overflow: hidden;
+  //   text-overflow:ellipsis;
+}
+
+.card-body li{
+    border-bottom:1px solid #ddd;
+    padding: .2rem;
+}
+.card-body li:last-child{
+    border-bottom:none;
+}
+
+.calendar li{
+    // border-bottom:1px solid #ccc;
+    padding: .2rem 1rem;
+}
+
+dt {
+    font-weight: 500;
+}
+
+dd {
+    margin-bottom: .2rem;
+}
+
+#Billnumber, #senatebillnumber, #statutenumber{
+    width:115px;
+}
+
+.fa-2x{
+    font-size: 1.333333rem !important;
+}
