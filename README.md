@@ -40,6 +40,7 @@ Set up dependencies and get to work:
         - Install font-awesome: `npm install font-awesome`
         - Install jquery: `npm install jquery`
         - Install roboto-fontface: `npm install roboto-fontface`
+    - If adding new images to bootstrap4/img/banners/: `node bootstrap4/js/dirs.js`
 - Clone the repo: `https://github.com/Ccantey/LegRedesign.git`
 - Watch and compile Sass: `sass -watch styles/scss:styles/css`
     - Sass watches for .scss changes in `styles/scss` folder and compiles to .css in `styles/css` folder
