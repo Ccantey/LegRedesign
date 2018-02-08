@@ -10,12 +10,6 @@
     <br>
     <a href="https://getbootstrap.com/docs/4.0/"><strong>Explore Bootstrap docs »</strong></a>
     <br>
-    <br>
-    <a href="https://themes.getbootstrap.com/">Bootstrap Themes</a>
-    ·
-    <a href="https://jobs.getbootstrap.com/">Job Board</a>
-    ·
-    <a href="https://blog.getbootstrap.com/">Blog</a>
   </p>
 </p>
 
@@ -47,21 +41,6 @@ Several quick start options are available:
 
 Read the [Getting started page](https://getbootstrap.com/getting-started/) for information on the framework contents, templates and examples, and more.
 
-## Status
-
-[![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com/)
-[![Build Status](https://img.shields.io/travis/twbs/bootstrap/v4-dev.svg)](https://travis-ci.org/twbs/bootstrap)
-[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/bootstrap)
-[![Gem version](https://img.shields.io/gem/v/bootstrap.svg)](https://rubygems.org/gems/bootstrap)
-[![Meteor Atmosphere](https://img.shields.io/badge/meteor-twbs%3Abootstrap-blue.svg)](https://atmospherejs.com/twbs/bootstrap)
-[![Packagist Prerelease](https://img.shields.io/packagist/vpre/twbs/bootstrap.svg)](https://packagist.org/packages/twbs/bootstrap)
-[![NuGet](https://img.shields.io/nuget/vpre/bootstrap.svg)](https://www.nuget.org/packages/bootstrap/absoluteLatest)
-[![peerDependencies Status](https://img.shields.io/david/peer/twbs/bootstrap.svg)](https://david-dm.org/twbs/bootstrap?type=peer)
-[![devDependency Status](https://img.shields.io/david/dev/twbs/bootstrap.svg)](https://david-dm.org/twbs/bootstrap?type=dev)
-[![CSS gzip size](http://img.badgesize.io/twbs/bootstrap/v4-dev/dist/css/bootstrap.min.css?compression=gzip&label=CSS+gzip+size)](https://github.com/twbs/bootstrap/tree/v4-dev/dist/css/bootstrap.min.css)
-[![JS gzip size](http://img.badgesize.io/twbs/bootstrap/v4-dev/dist/js/bootstrap.min.js?compression=gzip&label=JS+gzip+size)](https://github.com/twbs/bootstrap/tree/v4-dev/dist/js/bootstrap.min.js)
-
-[![Sauce Labs Test Status](https://saucelabs.com/browser-matrix/bootstrap.svg)](https://saucelabs.com/u/bootstrap)
 
 ## What's included
 
@@ -72,7 +51,7 @@ bootstrap4/
 ├── html/
 │   ├── docs/
 │   │   ├── banner.html
-│   │   ├── components.html
+│   │   ├── assets.html
 │   │   ├── grid.html
 │   │   ├── lcc.html
 │   │   └── test.html
@@ -113,7 +92,7 @@ bootstrap4/
 │   └── leadimageNet1.jpg
 ├── js/
 │   ├── jquery-ui.1.12.1.custom/
-│   │   └── jquery-ui components
+│   │   └── jquery-ui assets
 │   ├── bootstrapWindowHelper.js
 │   ├── calendar.js
 │   ├── dirs.js
@@ -122,13 +101,13 @@ bootstrap4/
 │   └── navbarhelper.js
 └── node_modules/
     ├── bootstrap/
-    │   └── bootstrap components
+    │   └── bootstrap assets
     ├── font-awesome/
-    │   └── font-awesome components
+    │   └── font-awesome assets
     ├── jquery/
-    │   └── jquery components
+    │   └── jquery assets
     ├── roboto-fontface/
-    │   └── roboto components
+    │   └── roboto assets
     └── readme.txt
 
 ```
