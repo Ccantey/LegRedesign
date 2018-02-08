@@ -68,25 +68,69 @@ Read the [Getting started page](https://getbootstrap.com/getting-started/) for i
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 ```
-bootstrap/
-├── css/
-│   ├── bootstrap.css
-│   ├── bootstrap.css.map
-│   ├── bootstrap.min.css
-│   ├── bootstrap.min.css.map
-│   ├── bootstrap-grid.css
-│   ├── bootstrap-grid.css.map
-│   ├── bootstrap-grid.min.css
-│   ├── bootstrap-grid.min.css.map
-│   ├── bootstrap-reboot.css
-│   ├── bootstrap-reboot.css.map
-│   ├── bootstrap-reboot.min.css
-│   └── bootstrap-reboot.min.css.map
-└── js/
-    ├── bootstrap.bundle.js
-    ├── bootstrap.bundle.min.js
-    ├── bootstrap.js
-    └── bootstrap.min.js
+bootstrap4/
+├── html/
+│   ├── docs/
+│   │   ├── banner.html
+│   │   ├── components.html
+│   │   ├── grid.html
+│   │   ├── lcc.html
+│   │   └── test.html
+│   ├── house/
+│   │   └── index.html
+│   ├── joint/
+│   │   └── index.html
+│   └── senate/
+│       └── index.html
+├── styles/
+│   ├── css/
+│   │   ├── app.css
+│   │   ├── app.css.map
+│   │   ├── jquery-ui.css
+│   │   └── jquery-ui.css.map
+│   ├── fonts/
+│   │   ├── FontAwesome.otf
+│   │   ├── FontAwesome-webfont.eot
+│   │   ├── FontAwesome-webfont.svg
+│   │   ├── FontAwesome-webfont.ttf
+│   │   ├── FontAwesome-webfont.woff
+│   │   └── FontAwesome-webfont.woff2
+│   └── scss/
+│       ├── _base.scss
+│       ├── _lnet.scss
+│       ├── _lnet-datepicker.scss
+│       ├── _lnet-footer.scss
+│       ├── _lnet-mixins.scss
+│       ├── _lnet-navbar.scss
+│       ├── _variables.scss
+│       ├── app.scss
+│       ├── jquery-ui
+│       └── jquery-ui.scss
+├── img/
+│   ├── banners/
+│   │   └── many jpgs for use in banner
+│   ├── housefavicon.ico
+│   └── leadimageNet1.jpg
+├── js/
+│   ├── jquery-ui.1.12.1.custom/
+│   │   └── jquery-ui components
+│   ├── bootstrapWindowHelper.js
+│   ├── calendar.js
+│   ├── dirs.js
+│   ├── docsApp.js
+│   ├── getParameterByName.js
+│   └── navbarhelper.js
+└── node_modules/
+    ├── bootstrap/
+    │   └── bootstrap components
+    ├── font-awesome/
+    │   └── font-awesome components
+    ├── jquery/
+    │   └── jquery components
+    ├── roboto-fontface/
+    │   └── roboto components
+    └── readme.txt
+
 ```
 
 We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developers.google.com/web/tools/chrome-devtools/debug/readability/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools.
