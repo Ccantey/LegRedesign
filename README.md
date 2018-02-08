@@ -29,7 +29,7 @@ Set up dependencies and get to work:
 
 - Install [RubyInstaller](https://rubyinstaller.org/): Gives you [gem](http://guides.rubygems.org/rubygems-basics/)
 - Install Sass with gem: `gem install sass`
-- Install [nodeJS](https://nodejs.org/en/): Gives you [npm](https://docs.npmjs.com/) 
+- Install [nodeJS](https://nodejs.org/en/): Gives you Node Package Manager ([npm])(https://docs.npmjs.com/) 
     - If creating a new Bootstrap project (ours is setup): 
         - Install bootstrap: `npm install bootstrap`
         - Install font-awesome: `npm install font-awesome`
