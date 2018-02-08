@@ -32,10 +32,11 @@
 
 Several quick start options are available:
 
-- Clone the repo: `https://github.com/Ccantey/LegRedesign.git`
 - Install [RubyInstaller](https://rubyinstaller.org/): Gives you [gem](http://guides.rubygems.org/rubygems-basics/)
 - Install Sass with gem: `gem install sass`
 - Install [nodeJS](https://nodejs.org/en/): Gives you [npm](https://docs.npmjs.com/) 
+- Clone the repo: `https://github.com/Ccantey/LegRedesign.git`
+- Watch and compile Sass: `sass -watch styles/scss:styles/css`
 
 Read the [Sass](https://sass-lang.com/install) and [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/download/) documentation for information on the framework and more.
 
