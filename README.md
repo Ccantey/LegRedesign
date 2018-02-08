@@ -18,15 +18,10 @@
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [Status](#status)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
-- [Documentation](#documentation)
 - [Contributing](#contributing)
-- [Community](#community)
-- [Versioning](#versioning)
-- [Creators](#creators)
-- [Copyright and license](#copyright-and-license)
+
 
 ## Quick start
 
@@ -120,66 +115,10 @@ We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/twbs/bootstrap/issues/new).
 
-
-## Documentation
-
-Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](https://jekyllrb.com/) and publicly hosted on GitHub Pages at <https://getbootstrap.com/>. The docs may also be run locally.
-
-Documentation search is powered by [Algolia's DocSearch](https://community.algolia.com/docsearch/). Working on our search? Be sure to set `debug: true` in the `_scripts.html` include.
-
-
-
-### Documentation for previous releases
-
-- For v2.3.2: <https://getbootstrap.com/2.3.2/>
-- For v3.3.x: <https://getbootstrap.com/docs/3.3/>
-
-[Previous releases](https://github.com/twbs/bootstrap/releases) and their documentation are also available for download.
-
-
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+The [issue tracker] (https://github.com/Ccantey/LegRedesign/issues) is the preferred channel for 
 
-Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/twbs/bootstrap/tree/master/js/tests). All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
-
-Editor preferences are available in the [editor config](https://github.com/twbs/bootstrap/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org/>.
-
-
-## Community
-
-Get updates on Bootstrap's development and chat with the project maintainers and community members.
-
-- Follow [@getbootstrap on Twitter](https://twitter.com/getbootstrap).
-- Read and subscribe to [The Official Bootstrap Blog](https://blog.getbootstrap.com/).
-- Join [the official Slack room](https://bootstrap-slack.herokuapp.com/).
-- Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `##bootstrap` channel.
-- Implementation help may be found at Stack Overflow (tagged [`bootstrap-4`](https://stackoverflow.com/questions/tagged/bootstrap-4)).
-- Developers should use the keyword `bootstrap` on packages which modify or add to the functionality of Bootstrap when distributing through [npm](https://www.npmjs.com/browse/keyword/bootstrap) or similar delivery mechanisms for maximum discoverability.
-
-
-## Versioning
-
-For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under [the Semantic Versioning guidelines](http://semver.org/). Sometimes we screw up, but we'll adhere to those rules whenever possible.
-
-See [the Releases section of our GitHub project](https://github.com/twbs/bootstrap/releases) for changelogs for each release version of Bootstrap. Release announcement posts on [the official Bootstrap blog](https://blog.getbootstrap.com/) contain summaries of the most noteworthy changes made in each release.
-
-
-## Creators
-
-**Mark Otto**
-
-- <https://twitter.com/mdo>
-- <https://github.com/mdo>
-
-**Jacob Thornton**
-
-- <https://twitter.com/fat>
-- <https://github.com/fat>
-
-
-## Copyright and license
-
-Code and documentation copyright 2011-2017 the [Bootstrap Authors](https://github.com/twbs/bootstrap/graphs/contributors) and [Twitter, Inc.](https://twitter.com) Code released under the [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
+All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
 
