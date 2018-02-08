@@ -37,6 +37,7 @@ Several quick start options are available:
 - Install [nodeJS](https://nodejs.org/en/): Gives you [npm](https://docs.npmjs.com/) 
 - Clone the repo: `https://github.com/Ccantey/LegRedesign.git`
 - Watch and compile Sass: `sass -watch styles/scss:styles/css`
+-- sass watches `styles/scss` folder and writes to `styles/css` folder
 
 Read the [Sass](https://sass-lang.com/install) and [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/download/) documentation for information on the framework and more.
 
