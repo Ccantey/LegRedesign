@@ -30,14 +30,14 @@
 
 ## Quick start
 
-Several quick start options are available:
+Set up dependencies and get to work:
 
 - Install [RubyInstaller](https://rubyinstaller.org/): Gives you [gem](http://guides.rubygems.org/rubygems-basics/)
 - Install Sass with gem: `gem install sass`
 - Install [nodeJS](https://nodejs.org/en/): Gives you [npm](https://docs.npmjs.com/) 
 - Clone the repo: `https://github.com/Ccantey/LegRedesign.git`
 - Watch and compile Sass: `sass -watch styles/scss:styles/css`
-    - Sass watches `styles/scss` folder and writes to `styles/css` folder
+    - Sass watches for .scss changes in `styles/scss` folder and compiles to .css in `styles/css` folder
 
 Read the [Sass](https://sass-lang.com/install) and [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/download/) documentation for information on the framework and more.
 
@@ -68,12 +68,7 @@ bootstrap4/
 │   │   ├── jquery-ui.css
 │   │   └── jquery-ui.css.map
 │   ├── fonts/
-│   │   ├── FontAwesome.otf
-│   │   ├── FontAwesome-webfont.eot
-│   │   ├── FontAwesome-webfont.svg
-│   │   ├── FontAwesome-webfont.ttf
-│   │   ├── FontAwesome-webfont.woff
-│   │   └── FontAwesome-webfont.woff2
+│   │   └── FontAwesome assets
 │   └── scss/
 │       ├── _base.scss
 │       ├── _lnet.scss
