@@ -84,9 +84,9 @@
 //compiles to if media breakpoint of 'sm' or larger, set a max-width of 300px;
 .calendar{
   min-width: 245px;
-  @include media-breakpoint-up(lg) {
-    max-width: 300px;
-  }
+  // @include media-breakpoint-up(lg) {
+  //   max-width: 300px;
+  // }
 }
 
 .ui-datepicker-calendar .ui-state-default {

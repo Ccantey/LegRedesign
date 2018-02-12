@@ -9158,9 +9158,6 @@ a.text-joint:focus, a.text-joint:hover {
 
 .calendar {
   min-width: 245px; }
-  @media (min-width: 992px) {
-    .calendar {
-      max-width: 300px; } }
 
 .ui-datepicker-calendar .ui-state-default {
   background-color: #fff;
