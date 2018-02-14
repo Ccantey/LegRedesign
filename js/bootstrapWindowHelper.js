@@ -1,3 +1,9 @@
+/* bootstrap Window Helper
+ * Chris Cantey, https://github.com/Ccantey/bootstrapWindowSize.js
+ * A js plug-in that logs the bootstrap grid column class to the console
+ * when resizing the browser window
+*/
+
 $( document ).ready(function() {
   var resizeTimer;
   function getBootstrapBreakpoint(){
