@@ -84,7 +84,7 @@
 //compiles to if media breakpoint of 'sm' or larger, set a max-width of 300px;
 .calendar{
   min-width: 245px;
-  // @include media-breakpoint-up(lg) {
+  // @include media-breakpoint-up(lg) { //once we moved to container, no longer needed
   //   max-width: 300px;
   // }
 }
