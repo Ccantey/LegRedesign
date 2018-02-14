@@ -104,6 +104,7 @@ function getPosition(direction){
 $(document).ready(function () {
 //toggle themes in docs
       $('#themeToggle input[type=radio]').on('change', function(e){
+
         $('#subNav').removeClass(function(index, className){
           return (className.match (/(^|\s)bg-\S+/g) || []).join(' ');
         })
