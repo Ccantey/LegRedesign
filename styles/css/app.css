@@ -9344,7 +9344,13 @@ a {
   .portal_head_text a {
     text-decoration: none; }
   li a {
-    text-decoration: none; }
+    text-decoration: underline; }
+
+.navbar-nav li a:hover {
+  background-color: transparent;
+  text-decoration: underline; }
+li a:hover {
+  background-color: #dedede; }
 
 .portal_head_text {
   color: #495057; }
