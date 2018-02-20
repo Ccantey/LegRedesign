@@ -9323,6 +9323,22 @@ dd > a {
 dd > a:hover {
   color: #7baed2; }
 
+.navbar-nav li a:hover {
+  background-color: transparent;
+  text-decoration: underline; }
+li a:hover {
+  background-color: #dedede; }
+
+a.nav-link.dropdown-toggle {
+  text-align: center; }
+
+.collapse.show, .collapsing {
+  position: absolute;
+  width: 100%; }
+
+.collapse.show {
+  height: 13rem; }
+
 .container-fluid {
   padding: 0; }
 
@@ -9345,12 +9361,6 @@ a {
     text-decoration: none; }
   li a {
     text-decoration: underline; }
-
-.navbar-nav li a:hover {
-  background-color: transparent;
-  text-decoration: underline; }
-li a:hover {
-  background-color: #dedede; }
 
 .portal_head_text {
   color: #495057; }
@@ -9432,12 +9442,9 @@ li a:hover {
   width: 160px;
   background-position: 10px 6px;
   background-repeat: no-repeat;
-  padding: 4px 6px 4px 40px;
+  padding: 4px 6px 4px 5px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out; }
-
-#main_search:focus {
-  width: 300px; }
 
 .card-body .form-inline .form-control {
   width: 100%; }

@@ -171,3 +171,25 @@ dd > a:hover{
   color: lighten($link-color, 25%);
 }
 
+a:hover{  
+    .navbar-nav li &{
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    li &{
+        background-color: #dedede;
+    }
+}
+a.nav-link.dropdown-toggle{
+  text-align:center;
+}
+
+.collapse.show, .collapsing{
+  position: absolute;
+  width: 100%;
+}
+
+.collapse.show{
+  height: 13rem;
+}
+

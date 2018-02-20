@@ -35,18 +35,6 @@ a{
     }
 }
 
-a:hover{  
-
-    .navbar-nav li &{
-        background-color: transparent;
-        text-decoration: underline;
-    }
-    li &{
-        background-color: #dedede;
-    }
-}
-
-
 .portal_head_text {
     color: $gray-700;    
     a{
@@ -191,7 +179,7 @@ a:hover{
     // background-image: url('searchicon_sm.png');
     background-position: 10px 6px; 
     background-repeat: no-repeat;
-    padding: 4px 6px 4px 40px;
+    padding: 4px 6px 4px 5px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     // color: black;
@@ -199,7 +187,7 @@ a:hover{
     }
 
 #main_search:focus {
-    width: 300px;
+    // width: 200px; //expand on focus
 }
 
 .card-body .form-inline .form-control{
