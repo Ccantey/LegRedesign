@@ -9317,6 +9317,11 @@ Only Needed in Multi-Coloured Variation
     .navbar-house .navbar-text a:focus, .navbar-house .navbar-text a:hover {
       color: #fff; }
 
+@media (max-width: 767px) {
+  .navbar-nav.flex-row {
+    justify-content: center; }
+    .navbar-nav.flex-row li {
+      padding: 0 1rem; } }
 dd > a {
   color: #a1c5df; }
 
@@ -9329,16 +9334,20 @@ dd > a:hover {
 li a:hover {
   background-color: #dedede; }
 
-a.nav-link.dropdown-toggle {
+.bg-dark a.nav-link.dropdown-toggle {
   text-align: center; }
 
-.collapse.show, .collapsing {
+/*
+//to make external content over banner
+.collapse.show, .collapsing{
   position: absolute;
-  width: 100%; }
+  width: 100%;
+}
 
-.collapse.show {
-  height: 13rem; }
-
+.collapse.show{
+  height: 13rem;
+}
+*/
 .container-fluid {
   padding: 0; }
 

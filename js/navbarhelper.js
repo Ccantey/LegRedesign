@@ -5,6 +5,8 @@ $(document).ready(function () {
      
   $('[data-toggle="popover"]').popover()
 
+/*
+//fiddling with navigation collapse crap
   $('.nav-item').hover(function(event){
     $(".collapse").collapse('hide');
     $('.nav-item').removeClass('active');
@@ -19,19 +21,22 @@ $(document).ready(function () {
     }       
   });
 
-  $('.collapse').hover(function(){
+  $('#'+temp).hover(function(){
     $('#'+temp).collapse('show');
+  }, function(){
+    $('#'+temp).collapse('hide');
   })
+*/
+ $('.navbar-dark .nav-item').click(function(event){
 
- //  $('.nav-item a').hover(function(){
- //    // console.log($(this).attr('aria-controls'))
- //    temp=$(this).attr('aria-controls');
- //    console.log(temp)
- //    $('#'+temp).collapse('show');
- // }, function() {
- //    console.log(temp)
- //    $('#'+temp).collapse('hide');
- // });
+        if ($(this).hasClass('active')){
+            
+        } else {
+            $(".collapse").collapse('hide');
+            $('.nav-item').removeClass('active');
+            $(this).addClass('active')
+        }       
+      });
 
   // $(document).click(function (event) {
   //   var clickover = $(event.target);

@@ -162,6 +162,16 @@
   }
 }
 
+  //handy bs-sass mixin
+@include media-breakpoint-down(sm) {
+  .navbar-nav.flex-row {
+    justify-content:center;
+    li{
+      padding:0 1rem;
+    }
+  }
+}
+
 dd > a{
   color:lighten($link-color, 35%);
 }
@@ -180,10 +190,17 @@ a:hover{
         background-color: #dedede;
     }
 }
-a.nav-link.dropdown-toggle{
-  text-align:center;
+
+//in the small scenario where search and nav list crunch. need down-carrots centered
+.bg-dark{
+  a.nav-link.dropdown-toggle{
+    text-align:center;
+  }
 }
 
+
+/*
+//to make external content over banner
 .collapse.show, .collapsing{
   position: absolute;
   width: 100%;
@@ -192,4 +209,4 @@ a.nav-link.dropdown-toggle{
 .collapse.show{
   height: 13rem;
 }
-
+*/
