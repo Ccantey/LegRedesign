@@ -9334,9 +9334,9 @@ dd > a:hover {
 li a:hover {
   background-color: #dedede; }
 
-.bg-dark a.nav-link.dropdown-toggle {
-  text-align: center; }
-
+@media (min-width: 992px) {
+  .bg-dark a.nav-link.dropdown-toggle {
+    text-align: center; } }
 /*
 //to make external content over banner
 .collapse.show, .collapsing{

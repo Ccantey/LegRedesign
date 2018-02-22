@@ -7,6 +7,7 @@ cap_dome_green_leaves.jpg
 cap_fall.jpg
 cap_full_oblique.jpg
 cap_full_quadrangle.jpg
+cap_full_winter_evening.jpg
 cap_kids.jpg
 cap_quadrangle.jpg
 cap_reflection_yellow_leaves.jpg
