@@ -27,6 +27,7 @@ $(document).ready(function () {
     $('#'+temp).collapse('hide');
   })
 */
+
  $('.navbar-dark .nav-item').click(function(event){
 
         if ($(this).hasClass('active')){
@@ -60,7 +61,5 @@ $(document).ready(function () {
     var textOption = $(this).attr('data-child');
     $(textOption).html('More Links');
   });
-
-          
 
 });
