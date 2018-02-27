@@ -119,7 +119,7 @@ Have a bug or a feature request? Please first read the [issue guidelines](https:
 
 ## Contributing
 
-The [issue tracker] (https://github.com/Ccantey/LegRedesign/issues) is the preferred channel for 
+The [issue tracker](https://github.com/Ccantey/LegRedesign/issues) is the preferred channel for 
 
 All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
