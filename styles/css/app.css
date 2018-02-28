@@ -9146,6 +9146,9 @@ a.ui-datepicker-next-hover.ui-corner-all {
   padding-left: 10px;
   font-size: 1.2em; }
 
+.subtitle-widget {
+  color: #898989; }
+
 .title-widget::before {
   /*background-color: #ea5644;
   content: "";
