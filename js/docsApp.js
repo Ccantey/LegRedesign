@@ -4,7 +4,7 @@ var to = null;
 var int = null;
 
 function banner(){
-	$.ajax("/iMaps/bootstrap4/banners.txt", {
+	$.ajax("../../banners.txt", {
 /*		 data: data,*/
 		success: function(result){
 		    bannerList = result.split('\n');
