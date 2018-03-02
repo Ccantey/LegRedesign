@@ -116,7 +116,11 @@ Have a bug or a feature request? Please first read the [issue guidelines](https:
 
 ## Contributing
 
-The [issue tracker](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues) is the preferred channel for 
+**Do not edit `/styles/css/app.css` or  `node_modules/bootstrap/` directly!** Those files are automatically generated. You should edit the
+source files in [`/styles/scss/`] and (https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/tree/master/styles/scss)
+and/or [`/bootstrap/js/`](https://github.com/twbs/bootstrap/tree/v4-dev/js) instead.
+
+The [issue tracker](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues) is the preferred channel for bugs, feature requests, and submitting pull requests
 
 All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
