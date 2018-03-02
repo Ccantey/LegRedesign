@@ -10,6 +10,7 @@
     <br>
     <a href="https://getbootstrap.com/docs/4.0/"><strong>Explore Bootstrap docs »</strong></a>
     <br>
+    <a href="https://sass-lang.com/guide">Explore SASS</a>
   </p>
 </p>
 
@@ -36,8 +37,8 @@ Set up dependencies and get to work:
         - Install font-awesome: `npm install font-awesome`
         - Install jquery: `npm install jquery`
         - Install roboto-fontface: `npm install roboto-fontface`
-    - If adding new images to bootstrap4/img/banners/: `node bootstrap4/js/dirs.js`
-- Clone the repo: `https://github.com/Ccantey/LegRedesign.git`
+    - If adding new images to img/banners/: `node js/dirs.js`
+- Clone the repo: `git clone https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues`
 - Watch and compile Sass: `sass -watch styles/scss:styles/css`
     - Sass watches for .scss changes in `styles/scss` folder and compiles to .css in `styles/css` folder
 
@@ -49,7 +50,7 @@ Read the [Sass](https://sass-lang.com/install) and [Bootstrap](http://getbootstr
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 ```
-bootstrap4/
+2018_design/
 ├── html/
 │   ├── docs/
 │   │   ├── banner.html
@@ -99,13 +100,9 @@ bootstrap4/
 │
 └── node_modules/
     ├── bootstrap/
-    │
     ├── font-awesome/
-    │
     ├── jquery/
-    │
     ├── roboto-fontface/
-    │
     └── readme.txt
 
 ```
@@ -119,7 +116,7 @@ Have a bug or a feature request? Please first read the [issue guidelines](https:
 
 ## Contributing
 
-The [issue tracker](https://github.com/Ccantey/LegRedesign/issues) is the preferred channel for 
+The [issue tracker](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues) is the preferred channel for 
 
 All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
