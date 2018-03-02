@@ -10,7 +10,7 @@
     <br>
     <a href="https://getbootstrap.com/docs/4.0/"><strong>Explore Bootstrap docs »</strong></a>
     <br>
-    <a href="https://sass-lang.com/guide">Explore SASS</a>
+    <a href="https://sass-lang.com/guide">Explore SASS »</a>
   </p>
 </p>
 
@@ -107,14 +107,14 @@ Within the download you'll find the following directories and files, logically g
 
 ```
 
-We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developers.google.com/web/tools/chrome-devtools/debug/readability/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools.
+We will provide compiled CSS and JS (`app.*`), as well as compiled and minified CSS and JS (`app.min.*`). CSS [source maps](https://developers.google.com/web/tools/chrome-devtools/debug/readability/source-maps) (`app.css.map`) are available for use with certain browsers' developer tools.
 
 
 ## Contributing
 
 **Do not edit `/styles/css/app.css` or  `node_modules/bootstrap/` directly!** Those files are automatically generated. You should edit the
 source files in [`/styles/scss/`](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/tree/master/styles/scss)
-and/or [`/styles/js/`](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/tree/master/js) instead.
+and/or [`js/`](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/tree/master/js) instead.
 
 The [issue tracker](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues) is the preferred channel for bugs, feature requests, and submitting pull requests
 
