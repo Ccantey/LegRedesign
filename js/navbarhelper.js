@@ -13,12 +13,14 @@ $(document).ready(function () {
     if ($(this).not('active')){
         temp=$(this).children().attr('aria-controls');
         console.log(temp)
-        
+      
+
         $('#'+temp).collapse('show');
         $(this).addClass('active')
     } else {        
     }       
   });
+  
   $('#'+temp).hover(function(){
     $('#'+temp).collapse('show');
   }, function(){
