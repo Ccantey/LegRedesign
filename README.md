@@ -110,18 +110,16 @@ Within the download you'll find the following directories and files, logically g
 We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developers.google.com/web/tools/chrome-devtools/debug/readability/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools.
 
 
-## Bugs and feature requests
-
-Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/twbs/bootstrap/issues/new).
-
 ## Contributing
 
 **Do not edit `/styles/css/app.css` or  `node_modules/bootstrap/` directly!** Those files are automatically generated. You should edit the
-source files in [`/styles/scss/`] and (https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/tree/master/styles/scss)
-and/or [`/bootstrap/js/`](https://github.com/twbs/bootstrap/tree/v4-dev/js) instead.
+source files in [`/styles/scss/`](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/tree/master/styles/scss)
+and/or [`/styles/js/`](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/tree/master/js) instead.
 
 The [issue tracker](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues) is the preferred channel for bugs, feature requests, and submitting pull requests
 
 All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
+## Bugs and feature requests
 
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/twbs/bootstrap/issues/new).
