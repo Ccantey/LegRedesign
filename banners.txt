@@ -1,4 +1,6 @@
 SOB_1.jpg
+SOB_2.jpg
+bill.jpg
 cap_bluesky_fall.jpg
 cap_bluesky_runner.jpg
 cap_bluesky_shady.jpg
@@ -23,10 +25,9 @@ cap_xmas.jpg
 cap_yellow_leaves.jpg
 cap_yellow_leaves_front.jpg
 full_cap_yellow_leaves.jpg
+halloween.jpg
 house_floor.jpg
 house_floor_full.jpg
 house_session.jpg
 senate_building.jpg
 snowfall.jpg
-SOB_2.jpg
-bill.jpg

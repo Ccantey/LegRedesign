@@ -1,4 +1,4 @@
-const testFolder = '/web/gis/iMaps/bootstrap4/img/banners/';
+const testFolder = '/img/banners/';
 const fs = require('fs');
 
 fs.unlink('banners.txt', (err) => {
