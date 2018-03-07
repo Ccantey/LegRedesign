@@ -69,7 +69,8 @@ a{
     }
 }
 
-.dropdown-item.disabled, .dropdown-item.disabled:hover{
+.dropdown-item.disabled,
+.dropdown-item.disabled:hover{
     color: #505555;
     .navbar-joint &{
         color:#8f8f8f;
@@ -147,14 +148,12 @@ a{
     background-size: cover;
 }
 
-
 .titleContainer{
     // max-width: 40rem;
     background: rgba(0,0,0, 0.5);
 
     color: white;
 }
-
 
 .leg_MainTitle {
     font-size: 2em;
@@ -218,7 +217,9 @@ dd {
     margin-bottom: .2rem;
 }
 
-#Billnumber, #senatebillnumber, #statutenumber{
+#Billnumber,
+#senatebillnumber,
+#statutenumber{
     width:115px;
 }
 

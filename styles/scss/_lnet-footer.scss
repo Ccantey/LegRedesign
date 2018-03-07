@@ -93,15 +93,15 @@ border-top: 1px solid black;
 }
 #social {
     -webkit-transform:scale(0.8);
-/* Browser Variations: */
--moz-transform:scale(0.8);
--o-transform:scale(0.8); 
--webkit-transition-duration: 0.5s; 
--moz-transition-duration: 0.5s;
--o-transition-duration: 0.5s;
+    /* Browser Variations: */
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8); 
+    -webkit-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
 }           
 /* 
-Only Needed in Multi-Coloured Variation 
+Only Needed in Multi-Colored Variation 
 */
 .social-fb:hover {
     color: #3B5998;
