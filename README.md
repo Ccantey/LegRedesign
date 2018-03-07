@@ -118,4 +118,4 @@ and/or [`js/`](https://github.com/LegislativeCoordinatingCommissionGIS/2018_desi
 
 The [issue tracker](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues) is the preferred channel for bugs, feature requests, and submitting pull requests
 
-All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
+All HTML and CSS should conform <i>(generally)</i>to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
