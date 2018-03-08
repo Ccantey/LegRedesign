@@ -115,6 +115,6 @@ We will provide compiled CSS and JS (`app.*`), as well as compiled and minified 
 source files in [`/styles/scss/`](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/tree/master/styles/scss)
 and/or [`js/`](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/tree/master/js) instead.
 
-The [issue tracker](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues) is the preferred channel for bugs, feature requests, and submitting pull requests
+The [GitLab issue tracker](hhttp://gitrh01.revisor.mn.gov/legislature/2018_design/issues) or [GitHub](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues)  is the preferred channel for bugs, feature requests, and submitting pull requests
 
 All HTML and CSS should conform <i>(generally)</i> to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
