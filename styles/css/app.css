@@ -9025,7 +9025,8 @@ a.text-joint:focus, a.text-joint:hover {
   border-bottom: 1px solid #ddd;
   border-top: 1px solid #ddd; }
 
-.ui-datepicker td span, .ui-datepicker td a {
+.ui-datepicker td span,
+.ui-datepicker td a {
   display: inline-block;
   font-weight: normal;
   text-align: center;
@@ -9194,7 +9195,7 @@ a.ui-datepicker-next-hover.ui-corner-all {
   -o-transition-duration: 0.5s; }
 
 /* 
-Only Needed in Multi-Coloured Variation 
+Only Needed in Multi-Colored Variation 
 */
 .social-fb:hover {
   color: #3B5998; }
@@ -9336,6 +9337,8 @@ dd > a:hover {
   text-decoration: underline; }
 li a:hover {
   background-color: #dedede; }
+p a:hover {
+  background-color: #dedede; }
 
 @media (min-width: 992px) {
   .bg-dark a.nav-link.dropdown-toggle {
@@ -9379,7 +9382,9 @@ a {
   .portal_head_text a {
     color: #495057; }
 
-.navbar-senate, .navbar-joint, .navbar-house {
+.navbar-senate,
+.navbar-joint,
+.navbar-house {
   padding: .3rem 1rem; }
 
 .dropdown-menu.show {
@@ -9396,7 +9401,8 @@ a {
 
 .dropdown-item.disabled, .dropdown-item.disabled:hover {
   color: #505555; }
-  .navbar-joint .dropdown-item.disabled, .navbar-joint .dropdown-item.disabled:hover {
+  .navbar-joint .dropdown-item.disabled,
+  .navbar-joint .dropdown-item.disabled:hover {
     color: #8f8f8f; }
 
 .navbar-joint .dropdown-item {
@@ -9477,7 +9483,9 @@ dt {
 dd {
   margin-bottom: .2rem; }
 
-#Billnumber, #senatebillnumber, #statutenumber {
+#Billnumber,
+#senatebillnumber,
+#statutenumber {
   width: 115px; }
 
 .fa-2x {

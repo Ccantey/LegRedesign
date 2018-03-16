@@ -54,7 +54,7 @@ Within the download you'll find the following directories and files, logically g
 ├── html/
 │   ├── docs/
 │   │   ├── banner.html
-│   │   ├── assets.html
+│   │   ├── components.html
 │   │   ├── grid.html
 │   │   ├── lcc.html
 │   │   └── test.html

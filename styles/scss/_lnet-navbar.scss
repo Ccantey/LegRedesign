@@ -182,12 +182,16 @@ dd > a:hover{
 }
 
 a:hover{  
+
     .navbar-nav li &{
         background-color: transparent;
         text-decoration: underline;
     }
     li &{
         background-color: #dedede;
+    }
+    p & {
+      background-color: #dedede;
     }
 }
 

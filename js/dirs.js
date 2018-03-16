@@ -1,4 +1,4 @@
-const testFolder = '/img/banners/';
+const testFolder = '../img/banners/';
 const fs = require('fs');
 
 fs.unlink('banners.txt', (err) => {
