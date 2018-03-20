@@ -42,6 +42,55 @@ a{
     }
 }
 
+.navbar-senate,
+.navbar-joint,
+.navbar-house{
+    padding: .3rem 1rem;
+}
+
+//this is what makes Sass awesome
+// this example uses 3 Sass features:
+// 1. theming elements based on parent using &
+// 2. variables ($joint, $house, $senate)
+// 3. mixins: lighten 10%
+// another cool case of SASS in _lnet-datepicker (calendar max-width)
+.dropdown-menu.show{
+    border-radius: 0;
+    padding: 0;
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    .navbar-senate &{
+        background-color: lighten($senate, 10%);
+    }
+    .navbar-joint &{
+        background-color: lighten($joint, 5%);
+    }
+
+    .navbar-house &{
+        background-color: lighten($house, 10%);
+    }
+}
+
+.dropdown-item.disabled,
+.dropdown-item.disabled:hover{
+    color: #505555;
+    .navbar-joint &{
+        color:#8f8f8f;
+    }
+}
+
+.dropdown-item{
+    .navbar-joint &{
+        color:#cdcdcd;
+    }
+}
+
+.dropdown-item:hover{
+    .navbar-joint &{
+        color:#000;
+    }
+}
+
 .card{
     z-index: 200;
 }
@@ -162,7 +211,19 @@ a{
     padding: .2rem 1rem;
 }
 
+dt {
+    font-weight: 500;
+}
 
+dd {
+    margin-bottom: .2rem;
+}
+
+#Billnumber,
+#senatebillnumber,
+#statutenumber{
+    width:115px;
+}
 
 .fa-2x{
     font-size: 1.333333rem !important;
