@@ -294,7 +294,9 @@ a:hover{
       }
     }
   }
-
+  //using absolute positioning during transition. 
+  //If you need relative positioning (ex: more/fewer links)
+  //add the position-relative class to the collapse class
   .collapsing {
     position: absolute;
     width:100%;
