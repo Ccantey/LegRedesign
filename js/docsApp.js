@@ -105,15 +105,15 @@ $(document).ready(function () {
 //toggle themes in docs
       $('#themeToggle input[type=radio]').on('change', function(e){
 
-        $('#subNav').removeClass(function(index, className){
+        $('#sub-nav').removeClass(function(index, className){
           return (className.match (/(^|\s)bg-\S+/g) || []).join(' ');
         })
-        $('#subNav').removeClass(function(index, className){
+        $('#sub-nav').removeClass(function(index, className){
           return (className.match (/(^|\s)navbar-\S+/g) || []).join(' ');
         })
-        $('#subNav').addClass('bg-'+this.value)
-        $('#subNav').addClass('navbar-'+this.value)
-        $('#subNav').addClass('navbar-expand-lg')
+        $('#sub-nav').addClass('bg-'+this.value)
+        $('#sub-nav').addClass('navbar-'+this.value)
+        $('#sub-nav').addClass('navbar-expand-lg')
 
         $('#bannerImage').removeClass(function(index, className){
           return (className.match (/(^|\s)img-\S+/g) || []).join(' ');
