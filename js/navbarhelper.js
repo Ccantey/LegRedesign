@@ -5,18 +5,40 @@ $(document).ready(function () {
      
   $('[data-toggle="popover"]').popover()
 
-  $('.navbar-dark .nav-item').click(function(event){
+/*
+//fiddling with navigation collapse crap
+  $('.nav-item').hover(function(event){
+    $(".collapse").collapse('hide');
+    $('.nav-item').removeClass('active');
+    if ($(this).not('active')){
+        temp=$(this).children().attr('aria-controls');
+        console.log(temp)
+      
 
-    if ($(this).hasClass('active')){
-        
-    } else {
-        // $(".collapse").collapse('hide');
-        $('.nav-item').removeClass('active');
+        $('#'+temp).collapse('show');
         $(this).addClass('active')
+    } else {        
     }       
   });
+  
+  $('#'+temp).hover(function(){
+    $('#'+temp).collapse('show');
+  }, function(){
+    $('#'+temp).collapse('hide');
+  })
+*/
 
-  // hide dropdown off focus
+ $('.navbar-dark .nav-item').click(function(event){
+
+        if ($(this).hasClass('active')){
+            
+        } else {
+            $(".collapse").collapse('hide');
+            $('.nav-item').removeClass('active');
+            $(this).addClass('active')
+        }       
+      });
+
   // $(document).click(function (event) {
   //   var clickover = $(event.target);
   //   // console.log(clickover.parents());
@@ -27,6 +49,9 @@ $(document).ready(function () {
   //       $(".collapse").collapse('hide');
   //   }
   // });
+
+
+
 
   $('.moreAccordion').on('shown.bs.collapse', function () {
     var textOption = $(this).attr('data-child');
