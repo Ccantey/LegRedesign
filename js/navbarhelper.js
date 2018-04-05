@@ -5,40 +5,18 @@ $(document).ready(function () {
      
   $('[data-toggle="popover"]').popover()
 
-/*
-//fiddling with navigation collapse crap
-  $('.nav-item').hover(function(event){
-    $(".collapse").collapse('hide');
-    $('.nav-item').removeClass('active');
-    if ($(this).not('active')){
-        temp=$(this).children().attr('aria-controls');
-        console.log(temp)
-      
+  $('.navbar-dark .nav-item').click(function(event){
 
-        $('#'+temp).collapse('show');
+    if ($(this).hasClass('active')){
+        
+    } else {
+        // $(".collapse").collapse('hide');
+        $('.nav-item').removeClass('active');
         $(this).addClass('active')
-    } else {        
     }       
   });
-  
-  $('#'+temp).hover(function(){
-    $('#'+temp).collapse('show');
-  }, function(){
-    $('#'+temp).collapse('hide');
-  })
-*/
 
- $('.navbar-dark .nav-item').click(function(event){
-
-        if ($(this).hasClass('active')){
-            
-        } else {
-            $(".collapse").collapse('hide');
-            $('.nav-item').removeClass('active');
-            $(this).addClass('active')
-        }       
-      });
-
+  // hide dropdown off focus
   // $(document).click(function (event) {
   //   var clickover = $(event.target);
   //   // console.log(clickover.parents());
@@ -49,9 +27,6 @@ $(document).ready(function () {
   //       $(".collapse").collapse('hide');
   //   }
   // });
-
-
-
 
   $('.moreAccordion').on('shown.bs.collapse', function () {
     var textOption = $(this).attr('data-child');
