@@ -289,7 +289,7 @@ a:hover{
     top:3rem;
     left:0
   }
-  //need the dropdown content 13rem to avoid gaps
+  //need the dropdown content 14rem to avoid gaps
   .collapse {
     &.show {
       & .bg-dark{
@@ -297,12 +297,14 @@ a:hover{
       }
     }
   }
-  //need the dropdown content 13rem during transition to avoid jumps
+  //need the dropdown content 14rem during transition to avoid jumps
   .collapsing {
+    // @include transition($transition-none); //remove transition entirely
     & .bg-dark{      
-      height: 13rem;      
+      height: 14rem;      
     }
   }
+
 
 } //end media-breakpoint-up
 
