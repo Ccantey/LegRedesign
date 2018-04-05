@@ -5,16 +5,24 @@ $(document).ready(function () {
      
   $('[data-toggle="popover"]').popover()
 
-  $('.navbar-dark .nav-item').click(function(event){
-
-    if ($(this).hasClass('active')){
-        
+  // toggle nav-item active state
+  $('.navbar-nav-collapse').on('show.bs.collapse', function () {
+    $('.nav-item').removeClass('active');
+    var li = $(this).prev();
+    
+    if (li.not('active')){
+      li.addClass('active');
     } else {
-        // $(".collapse").collapse('hide');
-        $('.nav-item').removeClass('active');
-        $(this).addClass('active')
-    }       
+    }  
   });
+
+  // when navbar-nav-collapse closes
+  $('.nav-item').on('click', function(){
+    if ($(this).hasClass('active')){
+      $('.nav-item').removeClass('active');
+      $('.nav-item a').blur();
+    }
+  })
 
   // hide dropdown off focus
   // $(document).click(function (event) {
