@@ -215,6 +215,8 @@ $theme-colors: map-merge((
 // $transition-base:             all .2s ease-in-out !default;
 // $transition-fade:             opacity .15s linear !default;
 // $transition-collapse:         height .35s ease !default;
+$transition-none:           none !default;
+$transition-mobile:         height .25s ease !default;
 
 
 // // Fonts

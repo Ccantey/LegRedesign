@@ -306,7 +306,20 @@ a:hover{
 
 } //end media-breakpoint-up
 
+@include media-breakpoint-down(md){
+  .navbar-nav-collapse{
+    & .bg-dark{
+      background-color: lighten($dark,3%) !important;
+    }
+  }
 
+  .navbar-collapse {
+    & .collapsing{      
+      @include transition($transition-mobile);      
+    }
+  }
+
+} //end media-breakpoint-down
 
 
 

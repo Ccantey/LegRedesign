@@ -9404,6 +9404,12 @@ p a:hover {
 
   .collapsing .bg-dark {
     height: 13rem; } }
+@media (max-width: 991px) {
+  .navbar-nav-collapse .bg-dark {
+    background-color: #3b4248 !important; }
+
+  .navbar-collapse .collapsing {
+    transition: height 0.25s ease; } }
 .container-fluid {
   padding: 0; }
 
