@@ -286,12 +286,14 @@ a:hover{
   .navbar-nav-collapse{
     position: absolute;
     width:100%;
+    top:3rem;
+    left:0
   }
   //need the dropdown content 13rem to avoid gaps
   .collapse {
     &.show {
       & .bg-dark{
-        height:13rem;
+        height:14rem;
       }
     }
   }
