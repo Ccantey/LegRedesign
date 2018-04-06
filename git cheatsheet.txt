@@ -1,0 +1,85 @@
+## ADD ALL FILES (stage for commit)
+git add *
+
+## COMMIT
+git commit -a -m "some message"
+
+## VIEW LOG OF ALL COMMITS
+git log
+
+## VIEW THE WORKING TREE STATUS (differences since last commit)
+git status
+
+## CREATE A BRANCH and CHECK IT OUT
+git checkout -b <branch name>
+## SAME AS git branch <branch name> git checkout <branch name>
+
+## DELETE A BRANCH
+git branch -d <branch name>
+
+## DELETE A BRANCH FROM REMOTE
+git push origin -d <branch name>
+
+## PUSH BRANCH TO REMOTE
+git push -u origin <branch>
+
+## PUSH ALL BRANCHES TO REMOTE
+git push -u origin --all
+
+## PULL ALL BRANCHES FROM REMOTE
+git pull origin --all
+
+## WHATS THE DIFFERENCE BETWEEN git pull and git fetch?
+In the simplest terms, git pull does a git fetch followed by a git merge
+
+## WHAT IS ORIGIN?
+Your remote repository (gitlab).
+My origin is actually on github, I created 2 new remotes, gitlab and LCC (our organizational page)
+So when I push I push to all 3 remotes:
+git push origin --all && git push gitlab --all && git push LCC --all
+
+## CHECK REMOTE
+git remote show origin
+
+## MERGE BRANCH WITH ORIGIN MASTER (we will use merge requests in the gitlab UI)
+#Check out, review, and merge locally
+	#Step 1. Fetch and check out the branch for this merge request
+	git fetch origin
+	git checkout -b <branch name> origin/<branch name>
+	#Step 2. Review the changes locally
+
+	#Step 3. Merge the branch and fix any conflicts that come up
+	git checkout master
+	git merge --no-ff <branch name>
+
+	#Step 4. Push the result of the merge to GitLab
+	git push origin master
+
+## REVERT TO A PREVIOUS COMMIT (I will use "0d1d7fc32" as an example commit)
+## THIS CAN GET TRICKY WORKING WITH DETATCHED HEADS. DANGER AHEAD
+## YOU MAY WANT TO BACKUP YOUR WORKING DIRECTORY
+Cheatsheet: http://sethrobertson.github.io/GitFixUm/fixup.html
+
+## SEE https://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit
+
+## TEMPORARILY SWITCH TO DIFFERENT COMMIT
+# This will detach your HEAD, that is, leave you with no branch checked out:
+git checkout 0d1d7fc32 (whatever commit you want, taken from git log)
+
+## SWITCH TO A PREVIOUS COMMIT USING A BRANCH (best practice?)
+git checkout -b <branch name> 0d1d7fc32
+
+## HARD DELETE UNPUBLISHED COMMITS
+# This will destroy any local modifications.
+# Don't do it if you have uncommitted work you want to keep.
+git reset --hard 0d1d7fc32
+
+## WORKING WITH A DETATCHED HEAD
+https://stackoverflow.com/questions/34519665/how-to-move-head-back-to-a-previous-location-detached-head/34519716#34519716
+
+## MERGE CONFLICTS
+Merge conflicts may occur if competing changes are made to the same line of a file or when a file is deleted that another person is attempting to edit
+
+They will be denoted in conflicted file with <<<<<< master ========= >>>>>>>>> branch
+
+https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/
