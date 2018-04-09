@@ -11,14 +11,18 @@ git log
 git status
 
 ## CREATE A BRANCH and CHECK IT OUT
-git checkout -b <branch name>
-## SAME AS git branch <branch name> git checkout <branch name>
+git checkout -b [branch]
+## Shorthand for git branch [branch] git checkout [branch]
+
+## VIEW ALL BRANCHES IN LOCAL REPOSITORY
+## git branch with no arguments
+git branch 
 
 ## DELETE A BRANCH
-git branch -d <branch name>
+git branch -d [branch]
 
 ## DELETE A BRANCH FROM REMOTE
-git push origin -d <branch name>
+git push origin -d [branch]
 
 ## PUSH BRANCH TO REMOTE
 git push -u origin <branch>
@@ -50,12 +54,12 @@ git remote show origin
 #Check out, review, and merge locally
 	#Step 1. Fetch and check out the branch for this merge request
 	git fetch origin
-	git checkout -b <branch name> origin/<branch name>
+	git checkout -b [branch] origin/[branch]
 	#Step 2. Review the changes locally
 
 	#Step 3. Merge the branch and fix any conflicts that come up
 	git checkout master
-	git merge --no-ff <branch name>
+	git merge --no-ff [branch]
 
 	#Step 4. Push the result of the merge to GitLab
 	git push origin master
@@ -72,7 +76,7 @@ Cheatsheet: http://sethrobertson.github.io/GitFixUm/fixup.html
 git checkout 0d1d7fc32 (whatever commit you want, taken from git log)
 
 ## SWITCH TO A PREVIOUS COMMIT USING A BRANCH (best practice?)
-git checkout -b <branch name> 0d1d7fc32
+git checkout -b [branch] 0d1d7fc32
 
 ## HARD DELETE UNPUBLISHED COMMITS
 # This will destroy any local modifications.
