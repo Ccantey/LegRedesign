@@ -26,8 +26,13 @@ git push -u origin <branch>
 ## PUSH ALL BRANCHES TO REMOTE
 git push -u origin --all
 
-## PULL ALL BRANCHES FROM REMOTE
-git pull origin --all
+## PULL ALL BRANCHES FROM REMOTE (that currently exist on your local repository)
+git pull --all
+
+## PULL SOMEONE ELSE'S BRANCH FROM REMOTE
+## must checkout locally
+## --track is shorthand for git checkout -b [branch] [remotename]/[branch]
+git checkout --track origin/chriss_branch
 
 ## WHATS THE DIFFERENCE BETWEEN git pull and git fetch?
 In the simplest terms, git pull does a git fetch followed by a git merge
