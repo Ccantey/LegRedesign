@@ -36,11 +36,11 @@ $(document).ready(function () {
   //   }
   // });
 
-  $('.moreAccordion').on('shown.bs.collapse', function () {
+  $('.js-more-accordian').on('shown.bs.collapse', function () {
     var textOption = $(this).attr('data-child');
     $(textOption).html('Fewer Links');
   });
-  $('.moreAccordion').on('hidden.bs.collapse', function () {
+  $('.js-more-accordian').on('hidden.bs.collapse', function () {
     var textOption = $(this).attr('data-child');
     $(textOption).html('More Links');
   });
