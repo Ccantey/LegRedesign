@@ -35,8 +35,14 @@ git pull --all
 
 ## PULL SOMEONE ELSE'S BRANCH FROM REMOTE
 ## must checkout locally
-## --track is shorthand for git checkout -b [branch] [remotename]/[branch]
-git checkout --track origin/chriss_branch
+git checkout origin/[branch]
+
+-or-
+
+# will NOT work in modern git if you have multiple remotes.
+git fetch
+git checkout [branch]
+
 
 ## WHATS THE DIFFERENCE BETWEEN git pull and git fetch?
 In the simplest terms, git pull does a git fetch followed by a git merge

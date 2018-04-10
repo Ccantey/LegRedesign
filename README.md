@@ -117,4 +117,4 @@ and/or [`js/`](https://github.com/LegislativeCoordinatingCommissionGIS/2018_desi
 
 The [GitLab issue tracker](hhttp://gitrh01.revisor.mn.gov/legislature/2018_design/issues) or [GitHub](https://github.com/LegislativeCoordinatingCommissionGIS/2018_design/issues)  is the preferred channel for bugs, feature requests, and submitting pull requests
 
-All HTML and CSS should conform <i>(generally)</i> to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
+All HTML and CSS should conform <i>(generally)</i> to the [Code Guide](http://codeguide.co/), maintained by [Mark Otto](https://github.com/mdo).

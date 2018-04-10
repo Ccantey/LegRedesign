@@ -1,4 +1,12 @@
 var temp;
+
+function closeBanner(){
+  var _opened = $(".navbar-nav-collapse").hasClass("collapse show");
+  if (_opened === true) {
+    $(".navbar-nav-collapse").collapse('hide');
+  }
+}
+
 $(document).ready(function () {
      
   $('[data-toggle="tooltip"]').tooltip()
@@ -18,29 +26,23 @@ $(document).ready(function () {
 
   // when navbar-nav-collapse closes
   $('.nav-item').on('click', function(){
+    closeBanner()
     if ($(this).hasClass('active')){
       $('.nav-item').removeClass('active');
       $('.nav-item a').blur();
     }
   })
 
-  // hide dropdown off focus
-  // $(document).click(function (event) {
-  //   var clickover = $(event.target);
-  //   // console.log(clickover.parents());
-  //   var _opened = $(".collapse").hasClass("collapse show");
-  //   $(".collapse").collapse('hide');
-  //   if (_opened === true && !clickover.hasClass("dropdown-toggle")) {
-  //       console.log('true')
-  //       $(".collapse").collapse('hide');
-  //   }
-  // });
+  // hide navbar-nav-collapse when user clicks away from navigation menu
+  $(document).click(function (event) {
+    closeBanner()
+  });
 
-  $('.moreAccordion').on('shown.bs.collapse', function () {
+  $('.js-more-accordian').on('shown.bs.collapse', function () {
     var textOption = $(this).attr('data-child');
     $(textOption).html('Fewer Links');
   });
-  $('.moreAccordion').on('hidden.bs.collapse', function () {
+  $('.js-more-accordian').on('hidden.bs.collapse', function () {
     var textOption = $(this).attr('data-child');
     $(textOption).html('More Links');
   });
