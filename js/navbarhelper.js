@@ -4,6 +4,7 @@ function closeBanner(){
   var _opened = $(".navbar-nav-collapse").hasClass("collapse show");
   if (_opened === true) {
     $(".navbar-nav-collapse").collapse('hide');
+    $('.nav-item').removeClass('active');
   }
 }
 
@@ -24,8 +25,9 @@ $(document).ready(function () {
     }  
   });
 
-  // when navbar-nav-collapse closes
-  $('.nav-item').on('click', function(){
+  // when navbar-nav-collapse closes, remove active state, and blur
+  $('.nav-item, .nav-item a').on('click', function(){
+    //close banner if user selects sub-nav nav-item
     closeBanner()
     if ($(this).hasClass('active')){
       $('.nav-item').removeClass('active');
