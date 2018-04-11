@@ -1,3 +1,6 @@
+## Create git repository on new project (hidden folder)
+git init
+
 ## ADD ALL FILES (stage for commit)
 git add *
 
@@ -25,7 +28,7 @@ git branch -d [branch]
 git push origin -d [branch]
 
 ## PUSH BRANCH TO REMOTE
-git push -u origin <branch>
+git push -u origin [branch]
 
 ## PUSH ALL BRANCHES TO REMOTE
 git push -u origin --all
@@ -70,16 +73,17 @@ git remote show origin
 	#Step 4. Push the result of the merge to GitLab
 	git push origin master
 
-## REVERT TO A PREVIOUS COMMIT (I will use "0d1d7fc32" as an example commit)
+## REVERT TO A PREVIOUS COMMIT (I will use "0d1d7fc32" as an example commit. Find commit from git log)
 ## THIS CAN GET TRICKY WORKING WITH DETATCHED HEADS. DANGER AHEAD
 ## YOU MAY WANT TO BACKUP YOUR WORKING DIRECTORY
+
 Cheatsheet: http://sethrobertson.github.io/GitFixUm/fixup.html
 
 ## SEE https://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit
 
 ## TEMPORARILY SWITCH TO DIFFERENT COMMIT
 # This will detach your HEAD, that is, leave you with no branch checked out:
-git checkout 0d1d7fc32 (whatever commit you want, taken from git log)
+git checkout 0d1d7fc32 
 
 ## SWITCH TO A PREVIOUS COMMIT USING A BRANCH (best practice?)
 git checkout -b [branch] 0d1d7fc32
