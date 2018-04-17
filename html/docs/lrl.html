@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+<link rel="shortcut icon" type="image/ico" href="../../img/housefavicon.ico" />
+
+  <!-- ==================================================
+INSTRUCTIONS:
+
+If you're using vanilla CSS, please uncomment
+stylesheet #1 and #2.
+
+If you're using compiled SASS, please uncomment
+stylesheet #3.
+================================================== -->
+  <!-- Stylesheet #1: Bootstrap CSS -->
+  <!-- removed, because we are going to be accessing it via app.css -->
+  <!--     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+  <link href="../../js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet"><!-- Stylesheet #2: compiled SASS -->
+  <link href="../../styles/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+  </script>
+  <script src="../../js/getParameterByName.js">
+  </script>
+  <script src="../../js/calendar.js">
+  </script>
+  <script src="../../js/navbarhelper.js">
+  </script>
+  <script src="../../js/bootstrapWindowHelper.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- Stylesheet #3: If you're using compiled SASS -->
+  <!-- <link rel="stylesheet" href="styles/css/app.css"> -->
+  <title>MN House of Representatives</title>
+</head>
+<body class="house">
+    <div class="container-fluid">
+      <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+          <button aria-controls="top-nav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span>
+          </button>
+         
+        <div class="collapse navbar-collapse" id="top-nav">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House <span class="sr-only">(current)</span></a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="houseExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header  "><a href="">Minnesota House of Representatives</a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+                    <div class="col-6 col-sm-3 mt-1">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white pb-1">House Members and Staff</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3 mt-1">
+                      <dl>
+                        <dt class="text-white pb-1">Committees</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3 mt-1">
+                      <dl>
+                        <dt class="text-white pb-1">Offices</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>         
+                        <dd><a href="http://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd> 
+                        <dd><a href="http://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3 mt-1">
+                      <dl>
+                        <dt class="text-white pb-1">Other Information</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="senateExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header pb-1"><a href="">Minnesota Senate</a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+                    <div class="col-6 col-sm-3">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white pb-1">Senators and Staff</dt>
+                        <dd class="text-white"><a href="http://www.senate.mn/members/index.php?ls=#header">Senators</a></d>
+                        <dd class="text-muted"><a href="http://www.senate.mn/members/index.php?ls=#leader">Leadership</a></dd>
+                        <dd class="text-muted"><a href="http://www.senate.mn/employees/employee_list.php?ls=">Staff</a></dd>
+                        <dd class="text-muted"><a href="http://www.senate.mn/jobs/index.php?office_id=1005&amp;div_id=1020#header">Employment</a></dd>
+                        <!-- <dd class="text-muted">Employment</dd> -->
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <dl>
+                        <dt class="text-white pb-1">Committees</dt>
+                        <dd><a href="http://www.senate.mn/committees">Committee List</a></dd>
+                        <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                        <dd><a href="http://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                        <dd><a href="http://www.senate.mn/schedule/schedule.php?ls=&amp;cmte_id=&amp;cmte_type=&amp;type=upcoming">Upcoming Meetings</a></dd>
+                        <dd><a href="http://www.senate.mn/committees/cmte_meeting_schedule.php?ls=">Standing Committee Schedule</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <dl>
+                        <dt class="text-white pb-1">Offices</dt>
+                        <dd><a href="http://www.senate.mn/departments/office_bio.php?office_id=1005&amp;ls=">Secretary of the Senate</a></dd>
+                        <dd><a href="http://www.senate.mn/departments/office_bio.php?office_id=1007&amp;ls=">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>                      
+                        <dd><a href="http://www.senate.mn/caucus/index.php?ls=#header">Caucuses - DFL/GOP</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <dl>
+                        <dt class="text-white pb-1">Other Information</dt>
+                        <dd><a href="http://www.senate.mn/rules/index.php?ls=#rulesofthesenate">Senate Rules</a></dd>
+                        <dd><a href="http://www.senate.mn/rules/index.php#jointrules">Joint Rules</a></dd>
+                        <dd><a href="http://www.senate.mn/departments/secretary/info/interns/index.php#header">Educational Programs</a></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="jointExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header pb-1"><a href="">Joint Departments, Offices, and Commissions</a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+                    <!-- <div class="col"></div> -->
+                    <div class="col">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white pb-1">Joint Legislative Offices</dt>
+                        <dd><a href="https://www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd> 
+                        <dd><a href="http://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white pb-1">Commissions</dt>
+                        <dd><a href="http://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd> 
+                        <dd><a href="http://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+                        
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+
+                        <dd class="mt-4"><a href="http://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>                    
+                        <dd><a href="http://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                        <dd><a href="http://www.legacy.mn.gov/">Legacy Amendment</a></dd>      
+                        <dd><a href="http://www.commissions.leg.state.mn.us/">More...</a></dd>
+                      </dl></div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="schedulesExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header pb-1"><a href="">Schedules, Calendars, and Legislative Business </a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+
+                    <div class="col">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white pb-1">House</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white pb-1">Senate</dt>
+                        <dd><a href="http://www.senate.leg.state.mn.us/schedule/schedule.php?ls=">Senate Schedules</a></dd>
+                        <dd><a href="http://www.senate.mn/orders/index.php#header">Order of Business</a></dd>
+                        <dd><a href="http://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                        <dd><a href="http://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white pb-1">Joint</dt>
+                        <dd><a href="http://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a aria-controls="legislatorsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#legislatorsExternalContent">Legislators</a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="legislatorsExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header pb-1"><a href="">Legislators</a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+                    <div class="col">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white pb-1">House</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/members/housemembers.asp">House Members</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/votes/memvotes.asp">Floor Votes by Member</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white pb-1">Senate</dt>
+                        <dd><a href="http://www.senate.mn/members/index.php?ls=#header">Senators</a></dd>
+                        <dd><a href="http://www.senate.mn/members/member_pronounce.php?ls=#header">Pronunciation Guide</a></dd>
+                        <dd><a href="http://www.senate.mn/members/index.php?ls=#leader">Leadership</a></dd>
+                        <dd><a href="http://www.senate.mn/members/member_labels_page.php?ls=">Address Labels</a></dd>
+                        <dd><a href="http://www.senate.leg.state.mn.us/caucus/index.php?ls=#header">Caucuses - DFL/GOP</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white pb-1">Joint</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/leginfo/elecdir10.pdf">Election Directory</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/leg/districtfinder.aspx">Who Represents Me?</a></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="committeesExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header pb-1"><a href="">Legislative Committees</a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+                    <div class="col">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white pb-1">House</dt>
+                        <dd>
+                          <a href="http://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                        </dd>
+                        <dd>
+                          <a href="http://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                        </dd>
+                        <dd>
+                          <a href="http://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                        </dd>
+                        <dd>
+                          <a href="http://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                        </dd>
+                        <dd>
+                          <a href="http://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                        </dd>                  
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white pb-1">Senate</dt>
+                        <dd>
+                          <a href="http://www.senate.mn/committees">Committee List</a>
+                        </dd>
+                        <dd>
+                          <a href="http://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                        </dd>
+                        <dd>
+                          <a href="http://www.senate.mn/schedule/schedule.php?ls=&amp;cmte_id=&amp;cmte_type=&amp;type=upcoming">Upcoming Meetings</a>
+                        </dd>
+                        <dd>
+                          <a href="http://www.senate.mn/committees/cmte_meeting_schedule.php?ls=">Standing Committee Schedule</a>
+                        </dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white pb-1">Joint</dt>
+                        <dd>
+                          <a href="http://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                        </dd>
+                        <dd>
+                          <a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                        </dd>
+                        <dd>
+                          <a href="http://www.house.leg.state.mn.us/bills/confcommactivity.asp">Bills In Conference Committee</a>
+                        </dd>
+                        <dd>
+                          <a href="https://www.revisor.mn.gov/bin/sbs.php">Side by Side Comparisons</a>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="billsExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header pb-1"><a href="">Bills</a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+                    <div class="col">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white pb-1">House</dt>
+                        <dd class="mb-2">
+                          <form class="form-inline" id="hfsearchform" name="billform" action="https://www.house.leg.state.mn.us/bills/billnum.asp" method="get">
+                              <!-- <input class="leg_DefaultText" id="Billnumber" name="Billnumber" value="Search HF" type="text" style="width: 100px;" maxlength="7" /> -->
+                              <input class="form-control form-control-sm" id="Billnumber" name="Billnumber" value="Search HF" type="text">
+                              <button class="btn btn-primary btn-sm ml-1" type="submit"><i class="fa fa-search"></i></button>           
+                              <!-- <input class="leg_ButtonSearch" value="Submit" type="submit" /> -->
+                          </form>
+                        </dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                        <dd class="text-white">Summaries: <a href="http://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="http://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white pb-1">Senate</dt>
+                        <dd class="mb-2">
+                          <form class="form-inline"  id="sfsearchform" name="billform" action="https://www.senate.leg.state.mn.us/bills/billinf.php" method="get">
+                            <!-- <label for="senatebillnumber" class="leg_Offscreen">Senate Bill number</label> -->
+                            <!-- <input class="leg_DefaultText" id="senatebillnumber" name="billnum" value="Search SF" type="text" style="width: 100px;" maxlength="7" />
+                            <input class="leg_ButtonSearch" value="Submit" type="submit" /> -->
+
+                            <input class="form-control form-control-sm" id="senatebillnumber" name="billnum" value="Search SF" type="text">
+                              <button class="btn btn-primary btn-sm ml-1" type="submit"><i class="fa fa-search"></i></button> 
+                          </form>
+                        </dd>
+                        <dd><a href="http://www.senate.mn/orders/intros/index.php#header">Bill Introductions</a></dd>
+                        <dd class="text-white">Summaries: <a href="http://www.senate.leg.state.mn.us/departments/scr/billsumm/index.php?summary_type=bill#header">Bill</a> | 
+                                  <a href="http://www.senate.leg.state.mn.us/departments/scr/billsumm/index.php?ls=&amp;sumtype=act#header">Act</a></dd>
+                        <dd><a href="http://www.senate.leg.state.mn.us/departments/fiscalpol/tracking/index.php?ls=#header">Fiscal Tracking Sheets</a></dd>
+                        <dd><a href="http://www.senate.mn/departments/secretary/info/publications/popularbills.pdf">Hot List</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white pb-1">Joint</dt>
+                        <dd><a href="http://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/bin/sbs.php">Side by Side Comparisons</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/bills/confcommactivity.asp">Bills In Conference Committee</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/laws/current/">Current Session Laws</a></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="lawExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header pb-1"><a href="">Statutes, Laws, and Rules</a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+                    <div class="col-6 col-sm-3">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white">Statutes</dt>
+                        <dd class="mb-2">
+                          <form class="form-inline" id="statutesearchform" name="statutesearchform" action="https://www.revisor.mn.gov/statutes/" method="get">
+                            <!-- <label for="statutenumber" class="leg_Offscreen">Statute number</label> -->
+                            <!-- <input class="leg_DefaultText" id="statutenumber" name="id" value="Lookup Statute" type="text" style="width: 100px;" maxlength="10" />
+                            <input class="leg_ButtonSearch" value="Submit" type="submit" /> -->
+
+                            <input class="form-control form-control-sm" id="statutenumber" name="id" value="Lookup Statute" type="text">
+                              <button class="btn btn-primary btn-sm ml-1" type="submit"><i class="fa fa-search"></i></button>
+                          </form>
+                        </dd>
+                        <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/statutes/">Current Statutes</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/statutes/?view=index">Statutes by Topic (Index)</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/statutes/?view=archive">Statutes Archive</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <dl>
+                        <dt class="text-white">Session Laws</dt>
+                        <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/laws/current/">Current Session Laws</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/topics/?type=laws">Session Laws by Topic (Index)</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/laws/">Session Laws Archive</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/laws/law_action.php">Session Laws Changed (Table 1)</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <dl>
+                        <dt class="text-white">Administrative Rules</dt>
+                        <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/topics/?type=rule">Rules by Topic (Index)</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/rules/?view=archive">Rules Archive</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/rules/rule_search.php">Minnesota Rule Status</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/state_register/">State Register</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <dl>
+                        <dt class="text-white">Other Legal Materials</dt>
+                        <dd><a href="https://www.revisor.mn.gov/constitution/">Minnesota Constitution</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/court_rules/">Court Rules</a></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="multimediaExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header pb-1"><a href="">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+                    <div class="col">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white">House</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/htv/mnhouse.asx">Live Video</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white">Senate</dt>
+                        <dd>
+                          <a href="http://www.senate.leg.state.mn.us/senate_video.php?ls=&media_type=flv" class="leg_HiddenMobile">Live Video</a> 
+                          <!-- <a href="http://stream1.video.state.mn.us:8080/m3ugen/broadcast/Senatemobile.3gp" class="leg_HiddenNonmobile">Live Video</a> -->
+                        </dd>
+                        <dd><a href="http://www.senate.mn/media/media_coming_up.php?ls=">Webcast Schedule</a></dd>
+                        <dd><a href="http://www.senate.mn/media/index.php?ls=&type=audio">Audio Archives</a></dd>
+                        <dd><a href="http://www.senate.mn/media/index.php?ls=&type=video">Video Archives</a></dd>
+                        <dd><a href="http://www.senate.mn/media/media_photos.php">Photos</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col">
+                      <dl>
+                        <dt class="text-white">Joint</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                        <dd><a href="http://www.lcc.leg.mn/meetings-all.htm">Commission Audio/Video</a></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+            </li>
+            <div class="collapse navbar-nav-collapse" id="publicationsExternalContent">
+              <div class="bg-dark">
+                <div class="container px-1 px-md-4 py-1">
+                  <div class="row">
+                  <div class="col nav-header pb-1"><a href="">Legislative Research, Reports & Information</a></div>
+                  </div>
+                  <hr class="my-1 bg-secondary">
+                  <div class="row">
+                    <div class="col-6 col-sm-3">
+                      <!-- <h4 class="text-white">Minnesota House of Representatives</h4> -->
+                      <dl>
+                        <dt class="text-white">Office Research &amp; Reports</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                        <dd><a href="http://www.auditor.leg.state.mn.us/ped/pedintro.htm">Legislative Auditor</a></dd>
+                        <dd><a href="https://www.revisor.mn.gov/office/publications.php">Revisor Publications</a></dd>
+                        <dd><a href="http://www.senate.leg.state.mn.us/publications">Senate Publications</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/lrl/">Library</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <dl>
+                        <dt class="text-white">News</dt>
+                        <dd><a href="http://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                        <dd><a href="http://www.senate.leg.state.mn.us/media/">Senate Media Services</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <dl>
+                        <dt class="text-white">Legislative History</dt>
+                        <dd><a href="http://www.leg.state.mn.us/leg/leghist/histstep.aspx">Minnesota Legislative History Guide</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                        <dd><a href="http://www.senate.leg.state.mn.us/journals/index.php#current">Senate Journal</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                      </dl>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <dl>
+                        <dt class="text-white">Notable Documents</dt>
+                        <dd><a href="http://www.senate.leg.state.mn.us/departments/scr/report/index.php#budgetsummaries">Fiscal Review</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/hrd/databook/datamain.aspx">MN Government in Brief</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                        <dd><a href="http://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                        <dd><a href="http://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+
+        <form class="float-right">
+          <input class="form-control form-control-sm" id="main_search" name="search" placeholder="Search..." type="text">
+        </form>
+        </div>
+      </nav><!-- Placement of extenral content (below nav, above nav, or within nav) will alter behaivior of collapse, ie: push external below nav, push nav with external, or nest external --><!-- END EXTERNAL NAV CONTENT  -->
+      <div class="leg_Banner img-joint">
+        <div class="titleContainer pl-3 px-2">
+          <div class="container">
+            <a class="leg_MainTitle text-white" href="/" id="leg_MainTitle" style="">Minnesota Legislative Reference Library</a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-md navbar-joint bg-joint">
+        <div class="container">
+          <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="">Books &amp; Reports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Magazines</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Newspapers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Historical</a>
+              </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Documentation</a>
+                    <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                        <a class="dropdown-item" href="docs/banner.html">The Banner</a>
+                        <a class="dropdown-item" href="docs/components.html">Components</a>
+                        <a class="dropdown-item" href="docs/grid.html">The Grid</a>
+                        <a class="dropdown-item" href="docs/test.html">Limited Content</a> 
+                        <a class="dropdown-item disabled" href="#">The Calendar</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Guides</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Links</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Legislative History</a>
+                    <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                        <a class="dropdown-item" href="docs/banner.html">The Banner</a>
+                        <a class="dropdown-item" href="docs/components.html">Components</a>
+                        <a class="dropdown-item" href="docs/grid.html">The Grid</a>
+                        <a class="dropdown-item" href="docs/test.html">Limited Content</a> 
+                        <a class="dropdown-item disabled" href="#">The Calendar</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Library Info</a>
+                    <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                        <a class="dropdown-item" href="docs/banner.html">The Banner</a>
+                        <a class="dropdown-item" href="docs/components.html">Components</a>
+                        <a class="dropdown-item" href="docs/grid.html">The Grid</a>
+                        <a class="dropdown-item" href="docs/test.html">Limited Content</a> 
+                        <a class="dropdown-item disabled" href="#">The Calendar</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav flex-row ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-lg fa-envelope"></i></a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    
+    
+    <!--content-->
+ 
+
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-white pl-0">
+                <li class="breadcrumb-item"><a href="#">Legislature</a></li>
+                <li class="breadcrumb-item"><a href="#">LRL Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+        <div class="row">
+          
+            <div class="col-sm-7 col-lg-8 ">
+                <p>Last edited July 2017</p>
+                <h2 class="portal_head_text">Minnesota Issues Resource Guides</h2>
+                <hr>
+                <h3 class="portal_head_text">Eminent Domain</h3>
+                <!-- <h1>
+                    <span class="lrl_issues_h1_rmi">Minnesota Issues Resource Guides</span><br/>
+                    Eminent Domain
+                </h1> -->
+                <p><em>This guide is compiled by staff at the Minnesota Legislative Reference Library on a topic of interest to state legislators. It introduces the topic and points to sources for further research. It is not intended to be exhaustive.</em>
+                </p>
+                <div class="row">
+                  <ul class="list-inline mx-5">
+                    <li class="list-inline-item"><a href="#history">Legislative History</a></li>
+                    <li class="list-inline-item text-joint">•</li>
+                    <li class="list-inline-item"><a href="#books">Books and Reports<a/></li>
+                      <li class="list-inline-item text-joint">•</li>
+                    <li class="list-inline-item"><a href="#articles">Articles</a></li>
+                    <li class="list-inline-item text-joint">•</li>
+                    <li class="list-inline-item"><a href="#internet">Internet Resources<a/></li>
+                    <li class="list-inline-item text-joint">•</li>
+                    <li class="list-inline-item"><a href="#library">Additional Resources</a></li>
+                  </ul>
+                </div>
+               <!--  <p class="center"><a href="#history">Legislative History</a>&nbsp; <span style="color: #990033">&bull;</span>&nbsp; <a href="#books">Books and Reports</a>&nbsp; <span style="color: #990033">&bull;</span>&nbsp; <a href="#articles">Articles</a>&nbsp; <span style="color: #990033">&bull;</span>&nbsp; <a href="#internet">Internet Resources</a>&nbsp; <span style="color: #990033">&bull;</span>&nbsp; <a href="#library">Additional Resources</a>
+                </p> -->
+                <p><a href="http://constitution.findlaw.com/amendment5/annotation14.html">Eminent domain</a> is the power of government to take private property for public use. The Takings Clause of the <a href="http://constitution.findlaw.com/amendment5.html">Fifth Amendment</a> of the U.S. Constitution says that private property may not be taken for public use without just compensation. Similar provisions exist in the Minnesota Constitution (<a href="http://www.house.leg.state.mn.us/cco/rules/mncon/Article1.htm">Article l, Section 13</a> and <a href="http://www.house.leg.state.mn.us/cco/rules/mncon/Article13.htm">Article 13, Section 4</a>).
+                </p>
+                <p>Traditionally eminent domain has been used to acquire land for such public uses as roads, public buildings, and parks. In recent years, the trend has been to use eminent domain for economic development purposes or as a tool for redeveloping blighted areas. In some instances, rather than acquiring land for a specific public works project, local governments have been taking land from one private owner and giving it to another private owner, reasoning that the new development will be economically beneficial to the residents of the community, even if it is a private development. The issue of whether such public benefits can be considered a public use under the federal Takings Clause was at the center of the <a href="http://caselaw.lp.findlaw.com/scripts/getcase.pl?court=US&amp;vol=000&amp;invol=04-108"> <i>Kelo v. City of New London</i></a> U.S. Supreme Court decision in June 2005. The court ruled that the city of New London&#39;s economic development plan qualified as a public use within the meaning of the Takings Clause.
+                </p>
+                <p>Concern over this ruling - and especially the interpretation of the phrase &quot;public use&quot; - led to calls for clarification of Minnesota&#39;s existing laws. The 2006 Minnesota Legislature responded by passing <a href="https://www.revisor.mn.gov/laws/?id=214&amp;year=2006&amp;type=0"><i>Laws of Minnesota 2006, chapter 214</i></a>. The law states that &quot;eminent domain may only be used for a public use or public purpose&quot;, and further clarifies that the &quot;public benefits of economic development, including an increase in tax base, tax revenues, employment, or general economic health, do not by themselves constitute a public use or public purpose&quot;. Other issues addressed are condemnation for blight mitigation or contamination remediation, local government public hearing requirements, and compensation procedures.
+                </p>
+                <h3 class="portal_head_text"><a id="history"></a>Legislative History
+                </h3>
+                <ul>
+                    <li><a href="https://www.revisor.mn.gov/laws/?id=214&amp;year=2006&amp;type=0"><i>Laws of Minnesota 2006, chapter 214</i></a>, amended Minnesota&#39;s existing eminent domain laws and clarified that &quot;eminent domain may only be used for a public use or public purpose&quot;.</li>
+                    <li>Many of Minnesota&#39;s eminent domain laws are located in <a href="https://www.revisor.mn.gov/statutes/?id=117"> Chapter 117</a> of the <i>Minnesota Statutes</i>.</li>
+                </ul>
+
+                <h3 class="portal_head_text"><a id="books"></a>Significant Books and Reports
+                </h3>
+                <div class="bibliography">
+                  <p>Berliner, Dana. <a href="http://castlecoalition.org/pdf/report/ED_report.pdf"><i>Public Power, Private Gain: A Five-Year, State-By-State Report Examining the Abuse of Eminent Domain</i></a>. Washington, D.C.: Castle Coalition, 2003. (KF5599.B47 2003)
+                  </p>
+                  <p>Dyson, Deborah. <a href="http://www.house.leg.state.mn.us/hrd/pubs/ss/clssedjust.pdf"><i>Eminent Domain: Just Compensation</i></a>. St. Paul: Research Dept., Minnesota House of Representatives, 2006. (HN79.M6 S56 2006)
+                  </p>
+                  <p>Dyson, Deborah. <a href="http://www.house.leg.state.mn.us/hrd/pubs/ss/clssemntdom.pdf"><i>Eminent Domain: Public Use</i></a>. St. Paul: Research Dept., Minnesota House of Representatives, 2006. (HN79.M6 S56 2006)
+                  </p>
+                  <p>Dyson, Deborah. <a href="http://www.house.leg.state.mn.us/hrd/pubs/ss/clsstaking.pdf"><i>Eminent Domain: Regulatory Takings.</i></a> St. Paul: Research Dept., Minnesota House of Representatives, 2006. (HN79.M6 S56 2006)
+                  </p>
+                  <p><a href="http://www.gao.gov/new.items/d0728.pdf"><i>Eminent Domain: Information About its Uses and Effect on Property Owners and Communities is Limited</i></a>. Washington, DC: U.S. Government Accountability Office, 2006.
+                  </p>
+                  <p>Fragoso, Alejandro&nbsp;Davila. <em><a href="https://thinkprogress.org/for-profit-pipelines-are-growing-and-so-are-eminent-domain-battles-2b8beee7af3c/">For-Profit Pipelines Are Growing And So Are Eminent Domain&nbsp;Battles</a></em>. Washington, D.C.: Think Progress, 2017.
+                  </p>
+                  <p>Kerekes, Carrie B. and Dean Stansel. <em><a href="https://www.mercatus.org/system/files/Kerekes-Eminent-Domain.pdf"><u>Takings and Tax Revenue: Fiscal Impacts of Eminent Domain</u></a></em>. Arlington, VA: Mercatus Center, October 2014.
+                  </p>
+                  <p>Reinhart, Christopher. <a href="http://www.cga.ct.gov/2004/rpt/2004-R-0394.htm"><i>New London Eminent Domain Case</i></a>. Hartford, CT: Connecticut General Assembly, Office of Legislative Research, 2004. (Summary of the 2004 decision of the Connecticut Supreme Court. Includes a timeline of events.)
+                  </p>
+                </div>
+
+
+                <h3 class="portal_head_text"><a id="articles"></a>Significant Articles - Minnesota
+                </h3>
+                <p><em>(articles in reverse chronological order)</em>
+                </p>
+                <p>Reeder, Don. &quot;Price of Eminent Domain Reform.&quot; <i>Minnesota Cities</i>, September/October 2010, p. 31.
+                </p>
+            </div> <!--left col-->
+            <!--right col-->
+            <div class="col-sm-5 col-lg-4  center"> <!-- right col -->          
+            
+            <div class="card calendar mb-3">
+              <h4 class="card-title text-joint text-center bg-light p-2">Issues Guide</h4>
+              <h6 class="font-weight-bold pl-3 portal_head_text">Agriculture and Natural Resources</h6>
+              <div class="card-body">
+                <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/concon.asp">Consolidated Conservation (Con-Con) Lands</a></li>
+                    <li><a href="/lrl/guides/feedlots.asp">Feedlots</a></li>
+                    <li><a href="/lrl/guides/indian.asp">American Indian Fishing and Hunting Rights</a></li>
+                </ul>
+                <hr class="border-secondary">
+              
+
+              <h6 class="font-weight-bold pl-3 portal_head_text">Children, Youth, and Families</h6>
+              
+                <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/childsupport.asp">Child Support Guidelines</a></li>
+                    <li><a href="/lrl/guides/legalage.asp">Legal Age in Minnesota</a></li>
+                    <li><a href="/lrl/guides/mmchpa.asp">Minnesota Minority Child Heritage Protection Act</a></li>
+                </ul>
+                <hr class="border-secondary">
+
+                <h6 class="font-weight-bold pl-3 portal_head_text">Crime</h6>
+                
+                 <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/msop.asp">Minnesota Sex Offender Program</a></li>
+                </ul>
+                <hr class="border-secondary">
+
+                <h6 class="font-weight-bold pl-3 portal_head_text">Demographics</h6>
+                
+                 <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/immigration.asp">Immigrants in Minnesota</a></li>
+                </ul>
+                <hr class="border-secondary">
+
+                <h6 class="font-weight-bold pl-3 portal_head_text">Education</h6>
+                
+                 <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/academic.asp">Academic Standards</a></li>
+                    <li><a href="/lrl/guides/charter.asp">Charter Schools</a></li>
+                    <li><a href="/lrl/guides/voucher.asp">Educational Vouchers</a></li>
+                </ul>
+                <hr class="border-secondary">
+
+                <h6 class="font-weight-bold pl-3 portal_head_text">Legislature</h6>
+                
+                 <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/ethics.asp">Legislative Ethics</a></li>
+                    <li><a href="/lrl/guides/ratings.asp">Legislator Voting Records and Ratings</a></li>
+                    <li><a href="https://www.leg.state.mn.us/leg/history/histstep">Minnesota Legislative History - Step by Step</a></li>
+                    <li>Redistricting: <a href="/lrl/guides/redistr.asp">1990</a>, <a href="/lrl/guides/redist00.asp">2000</a>, <a href="/lrl/guides/redist2010.asp">2010</a></li>
+                    <li><a href="/lrl/guides/legislatorinfo.asp">Researching Legislators</a></li>
+                    <li><a href="/lrl/guides/uni.asp">Unicameral Legislatures</a></li>
+
+                </ul>
+                <hr class="border-secondary">
+
+                <h6 class="font-weight-bold pl-3 portal_head_text">Mining</h6>
+                
+                 <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/coppernickel.asp">Copper-Nickel Studies and Non-ferrous Mining</a></li>
+                    <li><a href="/lrl/guides/fracsands.asp">Silica (Frac) Sand Mining</a></li>
+                </ul>
+                <hr class="border-secondary">
+
+                <h6 class="font-weight-bold pl-3 portal_head_text">Miscellaneous</h6>
+                
+                 <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/eminentdomain.asp">Eminent Domain</a></li>
+                    <li><a href="/lrl/guides/firearmcarry.asp">Firearm Carry Law</a></li>
+                    <li><a href="/lrl/guides/gambling.asp">Gambling</a></li>
+                    <li><a href="/lrl/guides/nuclearwaste.asp">Nuclear Waste Storage in Minnesota</a></li>
+                    <li><a href="/lrl/guides/Privacy.asp">Privacy</a></li>
+                    <li><a href="/lrl/guides/samesexmarriage.asp">Same-Sex Marriage in Minnesota</a></li>
+
+                </ul>
+                <hr class="border-secondary">
+
+                <h6 class="font-weight-bold pl-3 portal_head_text">Sports</h6>
+                
+                 <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/baseball.asp">Baseball Stadiums in Minnesota</a></li>
+                    <li><a href="/lrl/guides/target.asp">Basketball in Minnesota and the Target Center Arena</a></li>
+                    <li><a href="/lrl/guides/sports.asp">Financing Professional Sports Facilities</a></li>
+                    <li><a href="/lrl/guides/football.asp">Football Stadiums in Minnesota and the Vikings</a></li>
+                    <li><a href="/lrl/guides/ducks.asp">Mighty Ducks Program</a></li>
+                    <li><a href="/lrl/guides/hockey.asp">NHL Hockey in Minnesota</a></li>
+                </ul>
+                <hr class="border-secondary">
+
+                <h6 class="font-weight-bold pl-3 portal_head_text">State Government Budget and Programs</h6>
+                
+                 <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/core.asp">CORE: Minnesota Commission on Reform and Efficiency</a></li>
+                    <li><a href="/lrl/guides/contracts.asp">Professional Technical Contracts (P/T Contracts)</a></li>
+                    <li><a href="https://www.leg.state.mn.us/lrl/mngov/sunset">Sunset Advisory Commission</a></li>
+                    <li><a href="/lrl/guides/budget.asp">State Budget Process</a></li>
+                    <li><a href="/lrl/guides/shutdown.asp">State Government Shutdowns</a></li>
+                    <li><a href="/lrl/guides/unallotment.asp">Unallotment</a></li>
+                </ul>
+                <hr class="border-secondary">
+
+                <h6 class="font-weight-bold pl-3 portal_head_text">Transportation</h6>
+                
+                 <ul class="list-unstyled">
+                    <li><a href="/lrl/guides/dual.asp">Dual Track Airport Planning Process</a></li>
+                    <li><a href="/lrl/guides/rail.asp">Light Rail and Commuter Transit</a></li>
+                    <li><a href="/lrl/guides/bridges.asp">Minneapolis Interstate 35W Bridge Collapse</a></li>
+                    <li><a href="/lrl/guides/nwa.asp">Northwest Airlines (Delta) and the State of Minnesota</a></li>
+                </ul>
+                
+              </div>
+
+
+              </div>
+            </div>
+          </div><!-- right col-->
+        </div> <!--row-->
+
+    </div><!--container-->
+    <!-- end content-->
+
+
+    
+    <!--FOOTER-->
+    <footer class="footer bg-light">
+        <div class="container" style="">
+            <div class="row pt-3 px-4 text-uppercase">            
+                <div class="ol-sm">
+                    <h2 class="title-widget text-left">About the Legislature</h2>
+                    <ul  class="list-unstyled clear-margins">
+                        <li>
+                            <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="http://www.leg.state.mn.us/leg/howbill.aspx">Guide to the Legislative Process</a>
+                        </li>
+                        <li>
+                            <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                        </li>
+                        <li>
+                            <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                        </li>
+                        <li>
+                            <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?subject=14">Visiting the Capitol</a>
+                        </li>
+                        <li>
+                            <a href="http://www.gis.leg.mn/html/maps.html">Maps</a>
+                        </li>
+                        <li>
+                            <a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a>
+                        </li>
+                        <li>
+                            <a href="http://www.leg.state.mn.us/leg/accessibility.aspx">Accessibility</a>
+                        </li>
+                    </ul>
+             
+                </div>
+                <div class="col-sm-6">
+                    <div class="container">
+                        <h2 class="title-widget text-center">Contact Us</h2>
+                        <div class="row">
+                            <div class="col">
+                                <ul  class="list-unstyled clear-margins">
+                                    <li class="font-weight-bold">For all comments concerning legislation or issues:</li>
+                                    <li  class="mt-2"><a href="http://www.house.leg.state.mn.us/members/hmem.asp">Contact your House Member</a></li>
+                                    <li><a href="http://www.senate.leg.state.mn.us/members/index.php">Contact your Senator</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul  class="list-unstyled clear-margins">
+                                    <li class="font-weight-bold">For general information:</li>
+                                    <li  class="mt-2">Contact a legislative librarian:</li>
+                                    <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">email</a>.</li>
+                              
+                                    <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?id=98">View services for users with a hearing or speech disability</a></li>
+                               
+                                    <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>            
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="col-sm">
+            
+                    <h2 class="title-widget">Get Connected</h2>
+                    <ul class="list-unstyled clear-margins">
+                        <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                        <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">E-mail Updates &amp; RSS Feeds</a></li>
+                        <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                        <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
+                        <li><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                    </ul>
+            
+                </div>
+                      
+            </div>
+          
+        </div>
+        
+   
+    </footer>
+
+          <div class="row">
+            <div class="col-12 bg-dark">
+              <p class="text-center text-light">Minnesota Legislative Reference Library, 645 State Office Building, Saint Paul, MN  55155</p>
+            </div>
+          </div>
+    </div> <!-- container -->
+      <script src="../../js/jquery-ui-1.12.1.custom/jquery-ui.min.js">
+      </script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+      </script> 
+      <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js">
+      </script> 
+</body>
+</html>
