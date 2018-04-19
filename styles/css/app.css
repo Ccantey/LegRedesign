@@ -9132,7 +9132,6 @@ a.ui-datepicker-next-hover.ui-corner-all {
   color: #fff; }
 
 .title-widget {
-  color: #898989;
   font-size: 20px;
   font-weight: 300;
   line-height: 1;
@@ -9140,11 +9139,10 @@ a.ui-datepicker-next-hover.ui-corner-all {
   text-transform: uppercase;
   margin-top: 0;
   margin-right: 0;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
   margin-left: 0;
-  padding-left: 28px;
   text-align: left;
-  padding-left: 10px;
+  padding-left: 0;
   font-size: 1.2em; }
 
 .subtitle-widget {
@@ -9389,12 +9387,6 @@ p a:hover {
   text-decoration: none;
   text-transform: uppercase; }
 
-.notransition {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important; }
-
 @media (min-width: 992px) {
   .bg-dark a.nav-link.dropdown-toggle {
     text-align: center; }
@@ -9552,9 +9544,5 @@ dd {
 
 .fa-2x {
   font-size: 1.333333rem !important; }
-
-.bibliography {
-  padding-left: 1.5em;
-  text-indent: -1.5em; }
 
 /*# sourceMappingURL=app.css.map */
