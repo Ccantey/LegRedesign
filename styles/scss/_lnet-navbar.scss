@@ -270,6 +270,12 @@ a:hover{
   text-transform: uppercase;
 }
 
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
 
 // md is where top navbar collapses
 @include media-breakpoint-up(lg) {

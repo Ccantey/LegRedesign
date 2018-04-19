@@ -1,11 +1,39 @@
 var temp;
 
 function closeBanner(){
-  var _opened = $(".navbar-nav-collapse").hasClass("collapse show");
-  if (_opened === true) {
+  console.log('close banner called');
+  $('.navbar-nav-collapse').removeClass('notransition');
+  var _opened = $(".navbar-nav-collapse").hasClass("show");
+  // if (_opened === true) {
+
     $(".navbar-nav-collapse").collapse('hide');
     $('.nav-item').removeClass('active');
+    $('.nav-item a').blur();
+  // }
+}
+
+function changeBanner(event){
+  if (event.hasClass('active')){
+    console.log('is active, should close smooth');
+    $('.navbar-nav-collapse').removeClass('notransition');
+    closeBanner()
   }
+  if ($('.navbar-nav-collapse').hasClass('show')){
+    console.log('has show - no transition - no open');
+    $('.navbar-nav-collapse').addClass('notransition');
+  } else {
+    console.log('no show - open')
+    $('.navbar-nav-collapse').removeClass('notransition');
+  }
+  // $(".navbar-nav-collapse").collapse({
+  //   toggle:false
+  // });
+  // var _opened = $(".navbar-nav-collapse").hasClass("show");
+  // if (_opened === true) {
+
+  // } else {
+
+  // }
 }
 
 $(document).ready(function () {
@@ -20,24 +48,17 @@ $(document).ready(function () {
     var li = $(this).prev();
     
     if (li.not('active')){
+      changeBanner($(this))
       li.addClass('active');
-    } else {
-    }  
+    } 
   });
 
-  // when navbar-nav-collapse closes, remove active state, and blur
-  $('.nav-item, .nav-item a').on('click', function(){
-    //close banner if user selects sub-nav nav-item
-    closeBanner()
-    if ($(this).hasClass('active')){
-      $('.nav-item').removeClass('active');
-      $('.nav-item a').blur();
-    }
-  })
-
   // hide navbar-nav-collapse when user clicks away from navigation menu
-  $(document).click(function (event) {
-    closeBanner()
+  $(document).click(function (e) {
+    var target = $(e.target);
+    if (!target.hasClass('nav-link')){
+      closeBanner();
+    }
   });
 
   $('.js-more-accordian').on('shown.bs.collapse', function () {

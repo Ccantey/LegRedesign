@@ -1,5 +1,6 @@
 SOB_1.jpg
 SOB_2.jpg
+SOB_winter.jpg
 bill.jpg
 cap_bluesky_fall.jpg
 cap_bluesky_runner.jpg
