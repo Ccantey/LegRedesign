@@ -9387,6 +9387,12 @@ p a:hover {
   text-decoration: none;
   text-transform: uppercase; }
 
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important; }
+
 @media (min-width: 992px) {
   .bg-dark a.nav-link.dropdown-toggle {
     text-align: center; }
@@ -9544,5 +9550,9 @@ dd {
 
 .fa-2x {
   font-size: 1.333333rem !important; }
+
+.bibliography {
+  padding-left: 1.5em;
+  text-indent: -1.5em; }
 
 /*# sourceMappingURL=app.css.map */
