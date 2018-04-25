@@ -344,22 +344,22 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
-
-h2, .h2 {
   font-size: 2rem; }
 
-h3, .h3 {
-  font-size: 1.75rem; }
-
-h4, .h4 {
+h2, .h2 {
   font-size: 1.5rem; }
 
+h3, .h3 {
+  font-size: 1.17rem; }
+
+h4, .h4 {
+  font-size: 1rem; }
+
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 0.83rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.67rem; }
 
 .lead {
   font-size: 1.25rem;
@@ -8965,6 +8965,55 @@ a.text-joint:focus, a.text-joint:hover {
   overflow: visible;
   clip: auto; }
 
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 13px;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: underline; }
+  .navbar a {
+    text-decoration: none; }
+  .card a {
+    text-decoration: none; }
+  .footer a {
+    text-decoration: none; }
+  dd a {
+    text-decoration: none; }
+  .leg-portal-header a {
+    text-decoration: none; }
+  li a {
+    text-decoration: underline; }
+
+.leg-portal-header a:hover {
+  text-decoration: underline; }
+
+.leg-portal-header {
+  color: #495057; }
+  .leg-portal-header a {
+    color: #495057; }
+
+.leg-title-container {
+  background: rgba(0, 0, 0, 0.5);
+  color: white; }
+
+.leg-title-text {
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: georgia, serif;
+  text-shadow: 1px 1px 1px #000;
+  letter-spacing: 3px; }
+
+dt {
+  font-weight: 500; }
+
+dd {
+  margin-bottom: .2rem; }
+
+.fa-2x {
+  font-size: 1.333333rem !important; }
+
 .ui-widget {
   font-family: 'Fira Sans', sans-serif; }
 
@@ -9417,31 +9466,6 @@ p a:hover {
 .container-fluid {
   padding: 0; }
 
-body {
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 13px;
-  overflow-x: hidden; }
-
-a {
-  text-decoration: underline; }
-  .navbar a {
-    text-decoration: none; }
-  .card a {
-    text-decoration: none; }
-  .footer a {
-    text-decoration: none; }
-  dd a {
-    text-decoration: none; }
-  .portal_head_text a {
-    text-decoration: none; }
-  li a {
-    text-decoration: underline; }
-
-.portal_head_text {
-  color: #495057; }
-  .portal_head_text a {
-    color: #495057; }
-
 .navbar-senate,
 .navbar-joint,
 .navbar-house {
@@ -9504,18 +9528,6 @@ a {
   background-position: 50% 50%;
   background-size: cover; }
 
-.titleContainer {
-  background: rgba(0, 0, 0, 0.5);
-  color: white; }
-
-.leg_MainTitle {
-  font-size: 2em;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: georgia, serif;
-  text-shadow: 1px 1px 1px #000;
-  letter-spacing: 3px; }
-
 #main_search {
   width: 160px;
   background-position: 10px 6px;
@@ -9537,19 +9549,10 @@ a {
 .calendar li {
   padding: .2rem 1rem; }
 
-dt {
-  font-weight: 500; }
-
-dd {
-  margin-bottom: .2rem; }
-
 #Billnumber,
 #senatebillnumber,
 #statutenumber {
   width: 115px; }
-
-.fa-2x {
-  font-size: 1.333333rem !important; }
 
 .bibliography {
   padding-left: 1.5em;
