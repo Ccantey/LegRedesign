@@ -1,45 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro); //'Source Sans Pro'
-// @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab');
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
 .container-fluid{
     padding:0;
-}
-body {
-    font-family: 'Fira Sans', sans-serif;
-    // background: white;
-    font-size: 13px;
-     overflow-x: hidden;
-}
-
-// Request to keep underlines - just can't have them everywhere
-a{
-    text-decoration: underline;
-    .navbar &{
-        text-decoration: none;
-    }
-    .card &{
-        text-decoration: none;
-    }
-    .footer &{
-        text-decoration: none;
-    }
-    dd &{
-        text-decoration: none;
-    }
-    .portal_head_text &{
-        text-decoration: none;
-    }
-    li &{
-        text-decoration: underline;
-    }
-}
-
-.portal_head_text {
-    color: $gray-700;    
-    a{
-        color: $gray-700;
-    }
 }
 
 .navbar-senate,
@@ -150,26 +110,6 @@ a{
     background-size: cover;
 }
 
-.titleContainer{
-    // max-width: 40rem;
-    background: rgba(0,0,0, 0.5);
-
-    color: white;
-}
-
-.leg_MainTitle {
-    font-size: 2em;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: georgia, serif;
-    // font-weight: normal;
-    // color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    // vertical-align: bottom;
-    letter-spacing: 3px;
-}
-
-
 #main_search {
     width: 160px;
     // box-sizing: border-box;
@@ -211,22 +151,10 @@ a{
     padding: .2rem 1rem;
 }
 
-dt {
-    font-weight: 500;
-}
-
-dd {
-    margin-bottom: .2rem;
-}
-
 #Billnumber,
 #senatebillnumber,
 #statutenumber{
     width:115px;
-}
-
-.fa-2x{
-    font-size: 1.333333rem !important;
 }
 
 .bibliography{

@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro); //'Source Sans Pro'
+// @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+// Request to keep underlines - just can't have them everywhere
+a{
+    text-decoration: underline;
+    .navbar &{
+        text-decoration: none;
+    }
+    .card &{
+        text-decoration: none;
+    }
+    .footer &{
+        text-decoration: none;
+    }
+    dd &{
+        text-decoration: none;
+    }
+    .leg-portal-header &{
+        text-decoration: none;
+    }
+    li &{
+        text-decoration: underline;
+    }
+}
+
+a:hover{
+	.leg-portal-header &{
+		text-decoration: underline;
+	}
+}
+
+.leg-portal-header {
+    color: $gray-700;    
+    a{
+        color: $gray-700;
+    }
+}
+
+.leg-title-container{
+    // max-width: 40rem;
+    background: rgba(0,0,0, 0.5);
+    color: white;
+}
+
+.leg-title-text {
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: georgia, serif;
+    // font-weight: normal;
+    // color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    // vertical-align: bottom;
+    letter-spacing: 3px;
+}
+
+dt {
+    font-weight: 500;
+}
+
+dd {
+    margin-bottom: .2rem;
+}
+
+.fa-2x{
+    font-size: 1.333333rem !important;
+}
