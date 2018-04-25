@@ -2,36 +2,6 @@
     padding:0;
 }
 
-// Request to keep underlines - just can't have them everywhere
-a{
-    text-decoration: underline;
-    .navbar &{
-        text-decoration: none;
-    }
-    .card &{
-        text-decoration: none;
-    }
-    .footer &{
-        text-decoration: none;
-    }
-    dd &{
-        text-decoration: none;
-    }
-    .portal-head-text &{
-        text-decoration: none;
-    }
-    li &{
-        text-decoration: underline;
-    }
-}
-
-.portal-head-text {
-    color: $gray-700;    
-    a{
-        color: $gray-700;
-    }
-}
-
 .navbar-senate,
 .navbar-joint,
 .navbar-house{
@@ -139,26 +109,6 @@ a{
     background-position: 50% 50%;
     background-size: cover;
 }
-
-.titleContainer{
-    // max-width: 40rem;
-    background: rgba(0,0,0, 0.5);
-
-    color: white;
-}
-
-.leg_MainTitle {
-    font-size: 2em;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: georgia, serif;
-    // font-weight: normal;
-    // color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    // vertical-align: bottom;
-    letter-spacing: 3px;
-}
-
 
 #main_search {
     width: 160px;

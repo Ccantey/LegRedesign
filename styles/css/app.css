@@ -8970,6 +8970,38 @@ body {
   font-size: 13px;
   overflow-x: hidden; }
 
+a {
+  text-decoration: underline; }
+  .navbar a {
+    text-decoration: none; }
+  .card a {
+    text-decoration: none; }
+  .footer a {
+    text-decoration: none; }
+  dd a {
+    text-decoration: none; }
+  .portal-head-text a {
+    text-decoration: none; }
+  li a {
+    text-decoration: underline; }
+
+.portal-head-text {
+  color: #495057; }
+  .portal-head-text a {
+    color: #495057; }
+
+.leg-title-container {
+  background: rgba(0, 0, 0, 0.5);
+  color: white; }
+
+.leg-title-text {
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: georgia, serif;
+  text-shadow: 1px 1px 1px #000;
+  letter-spacing: 3px; }
+
 .ui-widget {
   font-family: 'Fira Sans', sans-serif; }
 
@@ -9422,26 +9454,6 @@ p a:hover {
 .container-fluid {
   padding: 0; }
 
-a {
-  text-decoration: underline; }
-  .navbar a {
-    text-decoration: none; }
-  .card a {
-    text-decoration: none; }
-  .footer a {
-    text-decoration: none; }
-  dd a {
-    text-decoration: none; }
-  .portal-head-text a {
-    text-decoration: none; }
-  li a {
-    text-decoration: underline; }
-
-.portal-head-text {
-  color: #495057; }
-  .portal-head-text a {
-    color: #495057; }
-
 .navbar-senate,
 .navbar-joint,
 .navbar-house {
@@ -9503,18 +9515,6 @@ a {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover; }
-
-.titleContainer {
-  background: rgba(0, 0, 0, 0.5);
-  color: white; }
-
-.leg_MainTitle {
-  font-size: 2em;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: georgia, serif;
-  text-shadow: 1px 1px 1px #000;
-  letter-spacing: 3px; }
 
 #main_search {
   width: 160px;
