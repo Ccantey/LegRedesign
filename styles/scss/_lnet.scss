@@ -1,15 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro); //'Source Sans Pro'
-// @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab');
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
 .container-fluid{
     padding:0;
-}
-body {
-    font-family: 'Fira Sans', sans-serif;
-    // background: white;
-    font-size: 13px;
-    overflow-x: hidden;
 }
 
 // Request to keep underlines - just can't have them everywhere
@@ -27,7 +17,7 @@ a{
     dd &{
         text-decoration: none;
     }
-    .portal_head_text &{
+    .portal-head-text &{
         text-decoration: none;
     }
     li &{
@@ -35,7 +25,7 @@ a{
     }
 }
 
-.portal_head_text {
+.portal-head-text {
     color: $gray-700;    
     a{
         color: $gray-700;

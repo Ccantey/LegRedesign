@@ -344,22 +344,22 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
-
-h2, .h2 {
   font-size: 2rem; }
 
-h3, .h3 {
-  font-size: 1.75rem; }
-
-h4, .h4 {
+h2, .h2 {
   font-size: 1.5rem; }
 
+h3, .h3 {
+  font-size: 1.17rem; }
+
+h4, .h4 {
+  font-size: 1rem; }
+
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 0.83rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.67rem; }
 
 .lead {
   font-size: 1.25rem;
@@ -8965,6 +8965,11 @@ a.text-joint:focus, a.text-joint:hover {
   overflow: visible;
   clip: auto; }
 
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 13px;
+  overflow-x: hidden; }
+
 .ui-widget {
   font-family: 'Fira Sans', sans-serif; }
 
@@ -9417,11 +9422,6 @@ p a:hover {
 .container-fluid {
   padding: 0; }
 
-body {
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 13px;
-  overflow-x: hidden; }
-
 a {
   text-decoration: underline; }
   .navbar a {
@@ -9432,14 +9432,14 @@ a {
     text-decoration: none; }
   dd a {
     text-decoration: none; }
-  .portal_head_text a {
+  .portal-head-text a {
     text-decoration: none; }
   li a {
     text-decoration: underline; }
 
-.portal_head_text {
+.portal-head-text {
   color: #495057; }
-  .portal_head_text a {
+  .portal-head-text a {
     color: #495057; }
 
 .navbar-senate,
