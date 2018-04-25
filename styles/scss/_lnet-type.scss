@@ -23,7 +23,7 @@ a{
     dd &{
         text-decoration: none;
     }
-    .portal-head-text &{
+    .leg-portal-header &{
         text-decoration: none;
     }
     li &{
@@ -31,7 +31,13 @@ a{
     }
 }
 
-.portal-head-text {
+a:hover{
+	.leg-portal-header &{
+		text-decoration: underline;
+	}
+}
+
+.leg-portal-header {
     color: $gray-700;    
     a{
         color: $gray-700;
@@ -54,4 +60,16 @@ a{
     text-shadow: 1px 1px 1px #000;
     // vertical-align: bottom;
     letter-spacing: 3px;
+}
+
+dt {
+    font-weight: 500;
+}
+
+dd {
+    margin-bottom: .2rem;
+}
+
+.fa-2x{
+    font-size: 1.333333rem !important;
 }
