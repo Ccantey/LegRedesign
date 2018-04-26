@@ -5,8 +5,7 @@
 /* --------------------------------------------------------
    Reset and dependencies
    -------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url(../../node_modules/roboto-fontface/css/roboto/roboto-fontface.css);
 @media print {
   *,
   *::before,
@@ -84,7 +83,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -344,13 +343,13 @@ h1, h2, h3, h4, h5, h6,
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2rem; }
+  font-size: 1.682rem; }
 
 h2, .h2 {
   font-size: 1.5rem; }
 
 h3, .h3 {
-  font-size: 1.17rem; }
+  font-size: 1.077rem; }
 
 h4, .h4 {
   font-size: 1rem; }
@@ -3718,7 +3717,7 @@ button.list-group-item-joint {
   .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
     color: #fff; }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.8); }
+  color: rgba(255, 255, 255, 0.75); }
   .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75); }
   .navbar-dark .navbar-nav .nav-link.disabled {
@@ -3729,12 +3728,12 @@ button.list-group-item-joint {
 .navbar-dark .navbar-nav .nav-link.active {
   color: #fff; }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.75);
   border-color: rgba(255, 255, 255, 0.1); }
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 .navbar-dark .navbar-text {
-  color: rgba(255, 255, 255, 0.8); }
+  color: rgba(255, 255, 255, 0.75); }
   .navbar-dark .navbar-text a {
     color: #fff; }
     .navbar-dark .navbar-text a:focus, .navbar-dark .navbar-text a:hover {
@@ -4103,7 +4102,7 @@ tbody.collapse.show {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4184,7 +4183,7 @@ tbody.collapse.show {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -8965,55 +8964,6 @@ a.text-joint:focus, a.text-joint:hover {
   overflow: visible;
   clip: auto; }
 
-body {
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 13px;
-  overflow-x: hidden; }
-
-a {
-  text-decoration: underline; }
-  .navbar a {
-    text-decoration: none; }
-  .card a {
-    text-decoration: none; }
-  .footer a {
-    text-decoration: none; }
-  dd a {
-    text-decoration: none; }
-  .leg-portal-header a {
-    text-decoration: none; }
-  li a {
-    text-decoration: underline; }
-
-.leg-portal-header a:hover {
-  text-decoration: underline; }
-
-.leg-portal-header {
-  color: #495057; }
-  .leg-portal-header a {
-    color: #495057; }
-
-.leg-title-container {
-  background: rgba(0, 0, 0, 0.5);
-  color: white; }
-
-.leg-title-text {
-  font-size: 2em;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: georgia, serif;
-  text-shadow: 1px 1px 1px #000;
-  letter-spacing: 3px; }
-
-dt {
-  font-weight: 500; }
-
-dd {
-  margin-bottom: .2rem; }
-
-.fa-2x {
-  font-size: 1.333333rem !important; }
-
 .ui-widget {
   font-family: 'Fira Sans', sans-serif; }
 
@@ -9281,6 +9231,54 @@ Only Needed in Multi-Colored Variation
 .design a {
   color: #fff; }
 
+body {
+  font-size: 13px;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: underline; }
+  .navbar a {
+    text-decoration: none; }
+  .card a {
+    text-decoration: none; }
+  .footer a {
+    text-decoration: none; }
+  dd a {
+    text-decoration: none; }
+  .leg-portal-header a {
+    text-decoration: none; }
+  li a {
+    text-decoration: underline; }
+
+.leg-portal-header a:hover {
+  text-decoration: underline; }
+
+.leg-portal-header {
+  color: #495057; }
+  .leg-portal-header a {
+    color: #495057; }
+
+.leg-title-container {
+  background: rgba(0, 0, 0, 0.5);
+  color: white; }
+
+.leg-title-text {
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: georgia, serif;
+  text-shadow: 1px 1px 1px #000;
+  letter-spacing: 3px; }
+
+dt {
+  font-weight: 500; }
+
+dd {
+  margin-bottom: .2rem; }
+
+.fa-2x {
+  font-size: 1.333333rem !important; }
+
 .navbar-joint .navbar-brand {
   color: #fff; }
   .navbar-joint .navbar-brand:focus, .navbar-joint .navbar-brand:hover {
@@ -9302,7 +9300,7 @@ Only Needed in Multi-Colored Variation
   font-size: 1rem;
   padding: 0.1rem 0.25rem; }
 .navbar-joint .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 .navbar-joint .navbar-text {
   color: rgba(255, 255, 255, 0.85); }
   .navbar-joint .navbar-text a {
@@ -9331,7 +9329,7 @@ Only Needed in Multi-Colored Variation
   font-size: 1rem;
   padding: 0.1rem 0.25rem; }
 .navbar-senate .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 .navbar-senate .navbar-text {
   color: rgba(255, 255, 255, 0.75); }
   .navbar-senate .navbar-text a {
@@ -9360,7 +9358,7 @@ Only Needed in Multi-Colored Variation
   font-size: 1rem;
   padding: 0.1rem 0.25rem; }
 .navbar-house .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 .navbar-house .navbar-text {
   color: rgba(255, 255, 255, 0.75); }
   .navbar-house .navbar-text a {
