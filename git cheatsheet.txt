@@ -59,6 +59,12 @@ git push origin --all && git push gitlab --all && git push LCC --all
 ## CHECK REMOTE
 git remote show origin
 
+## VIEW ALL BRANCHES
+## -a shows all local and remote branches
+git branch -a
+## -r shows all remote branches
+git branch -r
+
 ## MERGE BRANCH WITH ORIGIN MASTER (we will use merge requests in the gitlab UI)
 #Check out, review, and merge locally
 	#Step 1. Fetch and check out the branch for this merge request
