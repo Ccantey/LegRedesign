@@ -4,3 +4,7 @@ styles/scss/.DS_Store
 styles/css/app.min.css
 packages.config
 styles/scss/_variables.min.css
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/compilerconfig.json
+/compilerconfig.json.defaults
