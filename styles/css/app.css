@@ -9395,6 +9395,11 @@ dd {
 .navbar-joint .dropdown-item:hover {
   color: #000; }
 
+.navbar-joint .nav-link,
+.navbar-senate .nav-link,
+.navbar-house .nav-link {
+  padding: 0.3rem 1rem; }
+
 @media (max-width: 767px) {
   .navbar-nav.flex-row {
     justify-content: center; }

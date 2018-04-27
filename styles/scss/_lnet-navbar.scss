@@ -211,6 +211,13 @@
     }
 }
 
+//padding for sub-nav
+.navbar-joint .nav-link,
+.navbar-senate .nav-link,
+.navbar-house .nav-link{
+  padding: 0.3rem 1rem;
+}
+
   //handy bs-sass mixin
 @include media-breakpoint-down(sm) {
   .navbar-nav.flex-row {
