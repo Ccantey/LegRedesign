@@ -349,10 +349,10 @@ h2, .h2 {
   font-size: 1.5rem; }
 
 h3, .h3 {
-  font-size: 1.077rem; }
+  font-size: 1.25rem; }
 
 h4, .h4 {
-  font-size: 1rem; }
+  font-size: 1.12rem; }
 
 h5, .h5 {
   font-size: 0.83rem; }
@@ -8986,7 +8986,7 @@ a.text-joint:focus, a.text-joint:hover {
   margin: 0; }
 
 .ui-datepicker-header {
-  color: #e0e0e0;
+  color: #fff;
   font-weight: normal;
   border: none; }
 
@@ -9232,7 +9232,7 @@ Only Needed in Multi-Colored Variation
   color: #fff; }
 
 body {
-  font-size: 13px;
+  font-size: 14px;
   overflow-x: hidden; }
 
 a {
