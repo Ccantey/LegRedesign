@@ -352,10 +352,10 @@ h3, .h3 {
   font-size: 1.25rem; }
 
 h4, .h4 {
-  font-size: 1.12rem; }
+  font-size: 1rem; }
 
 h5, .h5 {
-  font-size: 0.83rem; }
+  font-size: 0.85rem; }
 
 h6, .h6 {
   font-size: 0.67rem; }
@@ -9131,8 +9131,6 @@ a.ui-datepicker-next-hover.ui-corner-all {
   color: #fff; }
 
 .title-widget {
-  font-size: 20px;
-  font-weight: 300;
   line-height: 1;
   position: relative;
   text-transform: uppercase;
@@ -9141,8 +9139,7 @@ a.ui-datepicker-next-hover.ui-corner-all {
   margin-bottom: 8px;
   margin-left: 0;
   text-align: left;
-  padding-left: 0;
-  font-size: 1.2em; }
+  padding-left: 0; }
 
 .subtitle-widget {
   color: #898989; }
@@ -9177,59 +9174,8 @@ a.ui-datepicker-next-hover.ui-corner-all {
   margin: 0 0 15px;
   text-transform: uppercase; }
 
-#social:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1); }
-
-#social {
-  -webkit-transform: scale(0.8);
-  /* Browser Variations: */
-  -moz-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s; }
-
-/* 
-Only Needed in Multi-Colored Variation 
-*/
-.social-fb:hover {
-  color: #3B5998; }
-
-.social-tw:hover {
-  color: #4099FF; }
-
-.social-gp:hover {
-  color: #d34836; }
-
-.social-em:hover {
-  color: #f39c12; }
-
-.nomargin {
-  margin: 0px;
-  padding: 0px; }
-
-.footer-bottom {
-  background-color: #15224f;
-  min-height: 30px;
-  width: 100%; }
-
-.copyright {
-  color: #fff;
-  line-height: 30px;
-  min-height: 30px;
-  padding: 7px 0; }
-
-.design {
-  color: #fff;
-  line-height: 30px;
-  min-height: 30px;
-  padding: 7px 0;
-  text-align: right; }
-
-.design a {
-  color: #fff; }
+.footer li {
+  font-size: 0.85rem; }
 
 body {
   font-size: 14px;
