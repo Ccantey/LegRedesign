@@ -9284,7 +9284,8 @@ dd {
   .navbar-joint .navbar-brand:focus, .navbar-joint .navbar-brand:hover {
     color: #fff; }
 .navbar-joint .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.85); }
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85rem; }
   .navbar-joint .navbar-nav .nav-link:focus, .navbar-joint .navbar-nav .nav-link:hover {
     color: white; }
   .navbar-joint .navbar-nav .nav-link.disabled {
@@ -9313,7 +9314,8 @@ dd {
   .navbar-senate .navbar-brand:focus, .navbar-senate .navbar-brand:hover {
     color: #fff; }
 .navbar-senate .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.85rem; }
   .navbar-senate .navbar-nav .nav-link:focus, .navbar-senate .navbar-nav .nav-link:hover {
     color: white; }
   .navbar-senate .navbar-nav .nav-link.disabled {
@@ -9342,7 +9344,8 @@ dd {
   .navbar-house .navbar-brand:focus, .navbar-house .navbar-brand:hover {
     color: #fff; }
 .navbar-house .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.75); }
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.85rem; }
   .navbar-house .navbar-nav .nav-link:focus, .navbar-house .navbar-nav .nav-link:hover {
     color: white; }
   .navbar-house .navbar-nav .nav-link.disabled {
@@ -9375,7 +9378,7 @@ dd {
   border-radius: 0;
   padding: 0;
   margin: 0.25rem 0;
-  font-size: 0.9rem; }
+  font-size: 0.85rem; }
   .navbar-senate .dropdown-menu.show {
     background-color: #516fd0; }
   .navbar-joint .dropdown-menu.show {
@@ -9399,6 +9402,43 @@ dd {
 .navbar-senate .nav-link,
 .navbar-house .nav-link {
   padding: 0.3rem 1rem; }
+
+dt, dd {
+  font-size: 0.85rem; }
+
+.img-joint {
+  height: 13rem;
+  background-image: url(../../img/banners/cap_quadrangle.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  background-size: cover; }
+
+.img-senate {
+  height: 13rem;
+  background-image: url(../../img/banners/cap_rotundaR.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+
+.img-house {
+  height: 13rem;
+  background-image: url(../../img/banners/cap_full_quadrangle.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+
+#main_search {
+  width: 160px;
+  background-position: 10px 6px;
+  background-repeat: no-repeat;
+  padding: 4px 6px 4px 5px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out; }
+
+#Billnumber,
+#senatebillnumber,
+#statutenumber {
+  width: 115px; }
 
 @media (max-width: 767px) {
   .navbar-nav.flex-row {
@@ -9469,35 +9509,6 @@ p a:hover {
 .container-fluid {
   padding: 0; }
 
-.navbar-senate,
-.navbar-joint,
-.navbar-house {
-  padding: .3rem 1rem; }
-
-.dropdown-menu.show {
-  border-radius: 0;
-  padding: 0;
-  margin: 0.25rem 0;
-  font-size: 0.9rem; }
-  .navbar-senate .dropdown-menu.show {
-    background-color: #516fd0; }
-  .navbar-joint .dropdown-menu.show {
-    background-color: #b3003c; }
-  .navbar-house .dropdown-menu.show {
-    background-color: #888844; }
-
-.dropdown-item.disabled, .dropdown-item.disabled:hover {
-  color: #505555; }
-  .navbar-joint .dropdown-item.disabled,
-  .navbar-joint .dropdown-item.disabled:hover {
-    color: #8f8f8f; }
-
-.navbar-joint .dropdown-item {
-  color: #cdcdcd; }
-
-.navbar-joint .dropdown-item:hover {
-  color: #000; }
-
 .card {
   z-index: 200; }
 
@@ -9509,35 +9520,6 @@ p a:hover {
 
 .card-body {
   padding: .25rem; }
-
-.img-joint {
-  height: 13rem;
-  background-image: url(../../img/banners/cap_quadrangle.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 60%;
-  background-size: cover; }
-
-.img-senate {
-  height: 13rem;
-  background-image: url(../../img/banners/cap_rotundaR.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover; }
-
-.img-house {
-  height: 13rem;
-  background-image: url(../../img/banners/cap_full_quadrangle.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover; }
-
-#main_search {
-  width: 160px;
-  background-position: 10px 6px;
-  background-repeat: no-repeat;
-  padding: 4px 6px 4px 5px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out; }
 
 .card-body .form-inline .form-control {
   width: 100%; }
@@ -9551,11 +9533,6 @@ p a:hover {
 
 .calendar li {
   padding: .2rem 1rem; }
-
-#Billnumber,
-#senatebillnumber,
-#statutenumber {
-  width: 115px; }
 
 .bibliography {
   padding-left: 1.5em;

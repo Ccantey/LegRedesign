@@ -11,7 +11,7 @@
   .navbar-nav {
     .nav-link {
       color: $navbar-joint-color;
-
+      font-size: 0.85rem;
       @include hover-focus {
         color: $navbar-joint-hover-color;
       }
@@ -53,8 +53,6 @@
   }
 }
 
-
-
 .navbar-senate {
   .navbar-brand {
     color: $navbar-senate-active-color;
@@ -67,7 +65,7 @@
   .navbar-nav {
     .nav-link {
       color: $navbar-senate-color;
-
+      font-size: 0.85rem;
       @include hover-focus {
         color: $navbar-senate-hover-color;
       }
@@ -121,7 +119,7 @@
   .navbar-nav {
     .nav-link {
       color: $navbar-house-color;
-
+      font-size: 0.85rem;
       @include hover-focus {
         color: $navbar-house-hover-color;
       }
@@ -178,7 +176,7 @@
     border-radius: 0;
     padding: 0;
     margin: 0.25rem 0;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     .navbar-senate &{
         background-color: lighten($senate, 10%);
     }
@@ -216,6 +214,53 @@
 .navbar-senate .nav-link,
 .navbar-house .nav-link{
   padding: 0.3rem 1rem;
+}
+
+dt,dd {
+    font-size: 0.85rem;
+}
+
+.img-joint{
+    height: 13rem;
+    background-image: url(../../img/banners/cap_quadrangle.jpg);  //excellent for joint 50% 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+}
+
+.img-senate{
+    height: 13rem;
+    background-image: url(../../img/banners/cap_rotundaR.jpg); //good for senate 50% 10%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.img-house{
+    height: 13rem;
+    background-image: url(../../img/banners/cap_full_quadrangle.jpg);  //excellent for joint 50% 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#main_search {
+    width: 160px;
+    background-position: 10px 6px; 
+    background-repeat: no-repeat;
+    padding: 4px 6px 4px 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    }
+
+#main_search:focus {
+    // width: 200px; //expand on focus
+}
+
+#Billnumber,
+#senatebillnumber,
+#statutenumber{
+    width:115px;
 }
 
   //handy bs-sass mixin
