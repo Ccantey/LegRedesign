@@ -39,7 +39,7 @@ Set up dependencies and get to work:
         - Install roboto-fontface: `npm install roboto-fontface`
     - If adding new images to img/banners/: `node js/dirs.js`
 - Clone the repo: `git clone https://github.com/LegislativeCoordinatingCommissionGIS/2018_design.git`
-- Watch and compile Sass: `sass -watch styles/scss:styles/css`
+- Watch and compile Sass: `sass --watch styles/scss:styles/css`
     - Sass watches for .scss changes in `styles/scss` folder and compiles to .css in `styles/css` folder
 
 Read the [Sass](https://sass-lang.com/install) and [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/download/) documentation for information on the framework and more.
