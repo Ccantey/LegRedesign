@@ -352,10 +352,10 @@ h3, .h3 {
   font-size: 1.25rem; }
 
 h4, .h4 {
-  font-size: 1.12rem; }
+  font-size: 1rem; }
 
 h5, .h5 {
-  font-size: 0.83rem; }
+  font-size: 0.85rem; }
 
 h6, .h6 {
   font-size: 0.67rem; }
@@ -9426,10 +9426,7 @@ p a:hover {
   text-transform: uppercase; }
 
 .notransition {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important; }
+  transition: none; }
 
 @media (min-width: 992px) {
   .bg-dark a.nav-link.dropdown-toggle {

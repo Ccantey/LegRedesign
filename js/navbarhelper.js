@@ -1,8 +1,8 @@
 
 function closeBanner(){
   console.log('close banner called');
-  $('.navbar-nav-collapse').removeClass('notransition');
-  $(".navbar-nav-collapse").collapse('hide');
+  // $('.navbar-nav-collapse').removeClass('notransition');
+  $(".navbar-nav-collapse").collapse('hide').removeClass('notransition');;
   $('.nav-item').removeClass('active');
 }
 
@@ -23,6 +23,7 @@ $(document).ready(function () {
     $('.navbar-nav-collapse').removeClass('notransition');
   });
 
+  //switch active class and change banner if already open
   $('.navbar-nav-collapse').on('show.bs.collapse', function () {
     $('.nav-item').removeClass('active');
     var li = $(this).prev();    
