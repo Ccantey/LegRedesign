@@ -318,15 +318,11 @@ a:hover{
   color:lighten($link-color, 35%);
   font-weight:500;
   text-decoration: none;
-  // font-family: georgia, serif;
   text-transform: uppercase;
 }
 
 .notransition {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important;
+  @include transition($transition-none);
 }
 
 // md is where top navbar collapses
