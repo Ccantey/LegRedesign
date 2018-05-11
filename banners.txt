@@ -1,6 +1,4 @@
 SOB_1.jpg
-SOB_2.jpg
-SOB_winter.jpg
 bill.jpg
 cap_bluesky_fall.jpg
 cap_bluesky_runner.jpg
@@ -29,6 +27,7 @@ cap_summer_closeup.jpg
 cap_summer_oblique.jpg
 cap_summer_oblique_distance.jpg
 cap_summer_va.jpg
+cap_va.jpg
 cap_winter.jpg
 cap_xmas.jpg
 cap_yellow_leaves.jpg
@@ -43,3 +42,5 @@ senate_building.jpg
 senate_capitol_reflection.jpg
 senate_knute.jpg
 snowfall.jpg
+SOB_2.jpg
+SOB_winter.jpg
