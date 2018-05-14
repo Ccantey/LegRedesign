@@ -362,6 +362,18 @@ a:hover{
 
 } //end media-breakpoint-up
 
+@include media-breakpoint-only(lg){
+  //in the unlikely scenario where search and nav list crunch
+  //(a very particluar screen size). 
+  //need down-carrots centered
+  .bg-dark{
+    a.nav-link.dropdown-toggle{
+      text-align:center;
+      line-height: 1rem;
+    }
+  }
+}
+
 @include media-breakpoint-down(md){
   .navbar-nav-collapse{
     & .bg-dark{

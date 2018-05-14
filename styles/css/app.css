@@ -9443,6 +9443,10 @@ p a:hover {
 
   .collapsing .bg-dark {
     height: 14rem; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .bg-dark a.nav-link.dropdown-toggle {
+    text-align: center;
+    line-height: 1rem; } }
 @media (max-width: 991px) {
   .navbar-nav-collapse .bg-dark {
     background-color: #3b4248 !important; }
