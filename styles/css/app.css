@@ -9429,9 +9429,6 @@ p a:hover {
   transition: none; }
 
 @media (min-width: 992px) {
-  .bg-dark a.nav-link.dropdown-toggle {
-    text-align: center; }
-
   .navbar-nav-collapse {
     position: absolute;
     width: 100%;
