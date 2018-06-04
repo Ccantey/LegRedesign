@@ -26,7 +26,7 @@ $(document).ready(function () {
   var the_date = $('#datepicker').val();
   //console.log(the_date);
 
-  window.location.href = window.location.origin + "/calendarday?jday=" + the_date;
+  window.location.href = "https://www.leg.state.mn.us/calendarday?jday=" + the_date;
   });
 
 
