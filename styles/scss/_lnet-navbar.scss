@@ -199,13 +199,13 @@
 
 .dropdown-item{
     .navbar-joint &{
-        color:#cdcdcd;
+        color: darken(#fff, 10%);
     }
 }
 
 .dropdown-item:hover{
     .navbar-joint &{
-        color:#000;
+        color:#214661;
     }
 }
 
