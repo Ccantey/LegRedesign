@@ -199,13 +199,13 @@
 
 .dropdown-item{
     .navbar-joint &{
-        color:#cdcdcd;
+        color: darken(#fff, 10%);
     }
 }
 
 .dropdown-item:hover{
     .navbar-joint &{
-        color:#000;
+        color:#214661;
     }
 }
 
@@ -298,9 +298,12 @@ dd {
 
 a:hover{  
 
-    .navbar-nav li &{
-        background-color: transparent;
-        text-decoration: underline;
+    .nav-item &{
+      background-color: transparent;
+      text-decoration: underline;
+      &.btn-outline-darklight{
+          background-color: $gray-700;
+      }
     }
     .nav-header &{
       color: lighten($link-color, 25%);
@@ -312,6 +315,8 @@ a:hover{
     p & {
       background-color: #dedede;
     }
+
+
 }
 
 .nav-header a{
