@@ -280,6 +280,7 @@ dd > a{
 dd > a:hover{  
   // color:$link-color;
   color: lighten($link-color, 25%);
+  text-decoration: underline;
 }
 
 dt {
