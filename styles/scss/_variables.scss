@@ -568,22 +568,22 @@ $navbar-dark-color:                 rgba($white,.875) !default;
 // White links against a dark background
 
 
-$navbar-joint-color:                 rgba($white,.85);
+$navbar-joint-color:                 rgba($white,.875);
 $navbar-joint-hover-color:           rgba($white,1);
 $navbar-joint-active-color:          $white;
-$navbar-joint-disabled-color:        rgba($white,.25);
+$navbar-joint-disabled-color:        rgba($white,.45);
 $navbar-joint-toggler-icon-bg:       str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-joint-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23");
 $navbar-joint-toggler-border-color:  rgba($white,.4);
 
-$navbar-house-color:                 rgba($white,.75) !default;
+$navbar-house-color:                 rgba($white,.875) !default;
 $navbar-house-hover-color:           rgba($white,1) !default;
 $navbar-house-active-color:          $white !default;
 $navbar-house-disabled-color:        rgba($white,.25) !default;
 $navbar-house-toggler-icon-bg:       str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-house-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
 $navbar-house-toggler-border-color:  rgba($white,.4) !default;
 
-$navbar-senate-color:                 rgba($white,.75) !default;
-$navbar-senate-hover-color:           rgba($white,4) !default;
+$navbar-senate-color:                 rgba($white,.875) !default;
+$navbar-senate-hover-color:           rgba($white,1) !default;
 $navbar-senate-active-color:          $white !default;
 $navbar-senate-disabled-color:        rgba($white,.25) !default;
 $navbar-senate-toggler-icon-bg:       str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-senate-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
