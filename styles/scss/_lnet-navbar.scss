@@ -204,10 +204,10 @@
 
 .dropdown-item{
     .navbar-joint &{
-        color: darken(#fff, 10%);
+        color: $navbar-joint-color;
     }
     .navbar-senate &{
-      color: darken(#fff, 10%);
+      color: $navbar-senate-color;
     }
     .navbar-house &{
       color: $navbar-house-color;
@@ -224,6 +224,22 @@
     .navbar-senate &{
       color: $navbar-senate-hover-color;
     }
+}
+
+.tooltip-inner{
+  font-size: $font-size-base !important;
+  font-weight:  $font-weight-bold !important;
+  // have to use body class. tooltips, modals, etc, are appended to body;
+  .joint &{
+    color: $joint ;
+  }
+  .senate &{
+    color: $senate ;
+  }
+  .house &{
+    color: $house ;
+  }
+
 }
 
 //padding for sub-nav
@@ -403,8 +419,3 @@ a:hover{
   }
 
 } //end media-breakpoint-down
-
-
-
-
-

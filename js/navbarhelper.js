@@ -16,8 +16,10 @@ function changeBanner(event){
 
 $(document).ready(function () {
      
-  $('[data-toggle="tooltip"]').tooltip()     
-  $('[data-toggle="popover"]').popover()
+  $('[data-toggle="tooltip"]').tooltip({
+    delay: { "show": 100, "hide": 100 }
+  });
+  $('[data-toggle="popover"]').popover();
 
   $('.nav-link').click(function(e) {
     $('.nav-item').removeClass('active');
