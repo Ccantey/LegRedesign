@@ -178,35 +178,68 @@
     margin: 0.25rem 0;
     font-size: 0.85rem;
     .navbar-senate &{
-        background-color: lighten($senate, 10%);
+        background-color: lighten($senate, 7%);
     }
     .navbar-joint &{
         background-color: lighten($joint, 5%);
     }
 
     .navbar-house &{
-        background-color: lighten($house, 10%);
+        background-color: lighten($house, 7%);
     }
 }
 
 .dropdown-item.disabled,
 .dropdown-item.disabled:hover{
-    color: #505555;
     .navbar-joint &{
-        color:#8f8f8f;
+        color:$navbar-joint-disabled-color;
+    }
+    .navbar-house &{
+        color:$navbar-house-disabled-color;
+    }
+    .navbar-senate &{
+        color:$navbar-senate-disabled-color;
     }
 }
 
 .dropdown-item{
     .navbar-joint &{
-        color: darken(#fff, 10%);
+        color: $navbar-joint-color;
+    }
+    .navbar-senate &{
+      color: $navbar-senate-color;
+    }
+    .navbar-house &{
+      color: $navbar-house-color;
     }
 }
 
 .dropdown-item:hover{
     .navbar-joint &{
-        color:#214661;
+        color: $navbar-joint-hover-color;
     }
+    .navbar-house &{
+      color: $navbar-house-hover-color;
+    }
+    .navbar-senate &{
+      color: $navbar-senate-hover-color;
+    }
+}
+
+.tooltip-inner{
+  font-size: $font-size-base !important;
+  font-weight:  $font-weight-bold !important;
+  // have to use body class. tooltips, modals, etc, are appended to body;
+  .joint &{
+    color: $joint ;
+  }
+  .senate &{
+    color: $senate ;
+  }
+  .house &{
+    color: $house ;
+  }
+
 }
 
 //padding for sub-nav
@@ -386,8 +419,3 @@ a:hover{
   }
 
 } //end media-breakpoint-down
-
-
-
-
-
