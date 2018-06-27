@@ -6987,18 +6987,27 @@ a:hover.leg-subtitle-text {
     color: #495057; }
 
 .leg-title-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background: rgba(0, 0, 0, 0.5);
   color: white; }
 
+.leg-brand-text {
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: georgia, serif;
+  letter-spacing: .1rem; }
+
 .leg-title-text {
-  font-size: 2.3em;
+  font-size: 2em;
   text-decoration: none;
   font-family: georgia, serif;
   text-shadow: 1px 1px 1px #000;
-  letter-spacing: 3px; }
+  letter-spacing: .2rem; }
 
 .leg-subtitle-text {
-  font-size: 2em;
+  font-size: 1.4rem;
   text-decoration: none;
   font-family: georgia, serif;
   text-shadow: 1px 1px 1px #000;
@@ -7012,6 +7021,9 @@ dd {
 
 .fa-2x {
   font-size: 1.333333rem !important; }
+
+.leg-brand-container {
+  background-color: #262626; }
 
 .navbar-joint .navbar-brand {
   color: #fff; }
@@ -7243,14 +7255,14 @@ p a:hover {
   .navbar-nav-collapse {
     position: absolute;
     width: 100%;
-    top: 3rem;
+    top: 2.2rem;
     left: 0; }
 
   .collapse.show .bg-dark {
-    height: 14rem; }
+    height: 15rem; }
 
   .collapsing .bg-dark {
-    height: 14rem; } }
+    height: 15rem; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .bg-dark a.nav-link.dropdown-toggle {
     text-align: center;
@@ -7260,7 +7272,10 @@ p a:hover {
     background-color: #3b4248 !important; }
 
   .navbar-collapse .collapsing {
-    transition: height 0.25s ease; } }
+    transition: height 0.25s ease; }
+
+  .leg-brand-container {
+    text-align: center; } }
 .container-fluid {
   padding: 0; }
 

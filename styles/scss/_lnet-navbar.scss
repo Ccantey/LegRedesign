@@ -1,3 +1,7 @@
+.leg-brand-container{
+    background-color: #262626;
+}
+
 //create .navbar-lnet (copied from _navbar.scss). text color control. actual colors defined in _variables
 .navbar-joint {
   .navbar-brand {
@@ -371,14 +375,14 @@ a:hover{
   .navbar-nav-collapse{
     position: absolute;
     width:100%;
-    top:3rem;
+    top:2.2rem;
     left:0
   }
   //need the dropdown content 14rem to avoid gaps
   .collapse {
     &.show {
       & .bg-dark{
-        height:14rem;
+        height:15rem;
       }
     }
   }
@@ -386,7 +390,7 @@ a:hover{
   .collapsing {
     // @include transition($transition-none); //remove transition entirely
     & .bg-dark{      
-      height: 14rem;      
+      height: 15rem;      
     }
   }
 
@@ -417,5 +421,9 @@ a:hover{
       @include transition($transition-mobile);      
     }
   }
+  .leg-brand-container{
+
+    text-align: center;
+}
 
 } //end media-breakpoint-down
