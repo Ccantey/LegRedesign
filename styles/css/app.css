@@ -4,7 +4,7 @@
 /* --------------------------------------------------------
    Reset and dependencies
    -------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @media print {
   *,
@@ -6976,6 +6976,10 @@ a {
   text-decoration: underline; }
 .footer a:hover {
   text-decoration: underline; }
+a:hover.leg-title-text {
+  text-decoration: none; }
+a:hover.leg-subtitle-text {
+  text-decoration: none; }
 
 .leg-portal-header {
   color: #495057; }
@@ -6988,6 +6992,13 @@ a {
 
 .leg-title-text {
   font-size: 2.3em;
+  text-decoration: none;
+  font-family: georgia, serif;
+  text-shadow: 1px 1px 1px #000;
+  letter-spacing: 3px; }
+
+.leg-subtitle-text {
+  font-size: 2em;
   text-decoration: none;
   font-family: georgia, serif;
   text-shadow: 1px 1px 1px #000;
