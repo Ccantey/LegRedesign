@@ -306,6 +306,10 @@ dt,dd {
       padding:0 1rem;
     }
   }
+  .leg-brand-container{
+
+    text-align: center;
+}
 }
 
 dd > a{
@@ -422,9 +426,5 @@ a:hover{
       @include transition($transition-mobile);      
     }
   }
-  .leg-brand-container{
-
-    text-align: center;
-}
 
 } //end media-breakpoint-down

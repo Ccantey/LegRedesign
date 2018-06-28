@@ -27,9 +27,10 @@ $(document).ready(function () {
     $('.navbar-nav-collapse').removeClass('notransition');
   });
 
-  $(".js-search-btn").click(function(){
+  $(".js-search-btn").click(function(e){
+    e.preventDefault();
     $(".js-search").animate({width: 'toggle'});
-    return false
+    // return false
   });
 
   //switch active class and change banner if already open

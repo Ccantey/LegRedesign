@@ -7314,7 +7314,10 @@ dt, dd {
   .navbar-nav.flex-row {
     justify-content: center; }
     .navbar-nav.flex-row li {
-      padding: 0 1rem; } }
+      padding: 0 1rem; }
+
+  .leg-brand-container {
+    text-align: center; } }
 dd > a {
   color: #a1c5df; }
 
@@ -7379,10 +7382,7 @@ p a:hover {
     background-color: #3b4248 !important; }
 
   .navbar-collapse .collapsing {
-    transition: height 0.25s ease; }
-
-  .leg-brand-container {
-    text-align: center; } }
+    transition: height 0.25s ease; } }
 .container-fluid {
   padding: 0; }
 
