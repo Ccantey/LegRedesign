@@ -376,13 +376,14 @@ a:hover{
     position: absolute;
     width:100%;
     top:2.2rem;
-    left:0
+    left:0;
+    z-index: 1;
   }
   //need the dropdown content 14rem to avoid gaps
   .collapse {
     &.show {
-      & .bg-dark{
-        height:15rem;
+      & .bg-dark{        
+        height:13.3rem;
       }
     }
   }
@@ -390,7 +391,7 @@ a:hover{
   .collapsing {
     // @include transition($transition-none); //remove transition entirely
     & .bg-dark{      
-      height: 15rem;      
+      height: 13.3rem;      
     }
   }
 

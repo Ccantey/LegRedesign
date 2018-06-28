@@ -6953,6 +6953,9 @@ a.ui-datepicker-next-hover.ui-corner-all {
 .footer li {
   font-size: 0.85rem; }
 
+html {
+  font-family: 'Roboto', sans-serif; }
+
 body {
   font-size: 14px;
   overflow-x: hidden; }
@@ -7256,13 +7259,14 @@ p a:hover {
     position: absolute;
     width: 100%;
     top: 2.2rem;
-    left: 0; }
+    left: 0;
+    z-index: 1; }
 
   .collapse.show .bg-dark {
-    height: 15rem; }
+    height: 13.3rem; }
 
   .collapsing .bg-dark {
-    height: 15rem; } }
+    height: 13.3rem; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .bg-dark a.nav-link.dropdown-toggle {
     text-align: center;
