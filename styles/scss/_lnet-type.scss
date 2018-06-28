@@ -78,9 +78,17 @@ a:hover{
     // vertical-align: bottom;
     letter-spacing: .2rem;
 }
-
+.leg-title-text-2-lines {
+    font-size: 2em;
+    text-decoration: none;
+    font-family: georgia, serif;
+    text-shadow: 1px 1px 1px #000;
+    padding-bottom:4px;
+    letter-spacing: .2rem;
+    border-bottom: 1px solid $gray-200; 
+}
 .leg-subtitle-text {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-decoration: none;
     // text-transform: uppercase;
     font-family: georgia, serif;
