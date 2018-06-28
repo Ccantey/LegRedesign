@@ -1,7 +1,7 @@
 .leg-brand-container{
     // background-color: #262626;
 }
-.js-search:hover{
+.js-search-btn:hover{
   cursor:pointer;
 }
 
@@ -284,16 +284,11 @@ dt,dd {
     background-size: cover;
 }
 
-#main_search {
-    width: 160px;
-    background-position: 10px 6px; 
-    background-repeat: no-repeat;
-    padding: 4px 6px 4px 5px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    }
+.js-search {
 
-#main_search:focus {
+}
+
+.js-search-btn {
     // width: 200px; //expand on focus
 }
 

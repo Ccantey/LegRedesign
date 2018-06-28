@@ -7134,7 +7134,7 @@ dd {
 .fa-2x {
   font-size: 1.333333rem !important; }
 
-.js-search:hover {
+.js-search-btn:hover {
   cursor: pointer; }
 
 .navbar-joint .navbar-brand {
@@ -7304,14 +7304,6 @@ dt, dd {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover; }
-
-#main_search {
-  width: 160px;
-  background-position: 10px 6px;
-  background-repeat: no-repeat;
-  padding: 4px 6px 4px 5px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out; }
 
 #Billnumber,
 #senatebillnumber,
