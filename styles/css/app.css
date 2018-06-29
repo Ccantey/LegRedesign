@@ -7081,6 +7081,8 @@ a {
   text-decoration: underline; }
 a:hover.leg-title-text {
   text-decoration: none; }
+a:hover.leg-title-text-2-lines {
+  text-decoration: none; }
 a:hover.leg-subtitle-text {
   text-decoration: none; }
 
