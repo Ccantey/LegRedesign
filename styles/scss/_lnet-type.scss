@@ -70,24 +70,24 @@ a:hover{
     text-decoration: none;
     font-family: georgia, serif;
     // text-shadow: 1px 1px 1px #000;
-    letter-spacing: .1rem;
+    letter-spacing: .15rem;
 }
 
 .leg-title-text {
-    font-size: 2em;
+    font-size: 1.8em;
     text-decoration: none;
     font-family: georgia, serif;
     text-shadow: 1px 1px 1px #000;
     // vertical-align: bottom;
-    letter-spacing: .2rem;
+    letter-spacing: .15rem;
 }
 .leg-title-text-2-lines {
-    font-size: 2em;
+    font-size: 1.4em;
     text-decoration: none;
     font-family: georgia, serif;
     text-shadow: 1px 1px 1px #000;
     padding-bottom:4px;
-    letter-spacing: .2rem;
+    letter-spacing: .15rem;
     border-bottom: 1px solid $gray-200; 
 }
 .leg-subtitle-text {
@@ -99,7 +99,7 @@ a:hover{
     // color: #fff;
     text-shadow: 1px 1px 1px #000;
     // vertical-align: bottom;
-    letter-spacing: 3px;
+    letter-spacing: .15rem;
 }
 
 dt {
