@@ -1,5 +1,5 @@
 
-## ChangeLog - 06-28-2018
+## [ChangeLog - 06-28-2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/master...reboot)
 
 <b>Added</b>
 - Added menu text affordances
