@@ -15,7 +15,7 @@ function changeBanner(event){
 }
 
 $(document).ready(function () {
-     
+     $('.js-search').hide();
   $('[data-toggle="tooltip"]').tooltip({
     delay: { "show": 100, "hide": 100 }
   });
@@ -25,6 +25,12 @@ $(document).ready(function () {
     $('.nav-item').removeClass('active');
     $('.nav-item a').blur();
     $('.navbar-nav-collapse').removeClass('notransition');
+  });
+
+  $(".js-search-btn").click(function(e){
+    e.preventDefault();
+    $(".js-search").animate({width: 'toggle'});
+    // return false
   });
 
   //switch active class and change banner if already open

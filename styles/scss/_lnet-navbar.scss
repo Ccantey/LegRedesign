@@ -1,3 +1,10 @@
+.leg-brand-container{
+    // background-color: #262626;
+}
+.js-search-btn:hover{
+  cursor:pointer;
+}
+
 //create .navbar-lnet (copied from _navbar.scss). text color control. actual colors defined in _variables
 .navbar-joint {
   .navbar-brand {
@@ -277,16 +284,11 @@ dt,dd {
     background-size: cover;
 }
 
-#main_search {
-    width: 160px;
-    background-position: 10px 6px; 
-    background-repeat: no-repeat;
-    padding: 4px 6px 4px 5px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    }
+.js-search {
 
-#main_search:focus {
+}
+
+.js-search-btn {
     // width: 200px; //expand on focus
 }
 
@@ -304,6 +306,10 @@ dt,dd {
       padding:0 1rem;
     }
   }
+  .leg-brand-container{
+
+    text-align: center;
+}
 }
 
 dd > a{
@@ -371,14 +377,16 @@ a:hover{
   .navbar-nav-collapse{
     position: absolute;
     width:100%;
-    top:3rem;
-    left:0
+    top:2.2rem;
+    left:0;
+    z-index: 1;
   }
   //need the dropdown content 14rem to avoid gaps
   .collapse {
     &.show {
-      & .bg-dark{
-        height:14rem;
+      & .bg-dark{        
+        height:13.6rem;
+        padding-top: 6px;
       }
     }
   }
@@ -386,7 +394,8 @@ a:hover{
   .collapsing {
     // @include transition($transition-none); //remove transition entirely
     & .bg-dark{      
-      height: 14rem;      
+      height: 13.6rem;
+      padding-top: 6px;     
     }
   }
 

@@ -1,7 +1,6 @@
+html{font-family: 'Roboto', sans-serif}
 body {
-    // font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    // line-height: 1.6;
     overflow-x: hidden;
 }
 
@@ -29,13 +28,16 @@ a{
 }
 
 a:hover{
-	.leg-portal-header &{
-		text-decoration: underline;
-	}
+    .leg-portal-header &{
+        text-decoration: underline;
+    }
     .footer &{
         text-decoration: underline;
     }
     &.leg-title-text{
+        text-decoration: none;
+    }
+    &.leg-title-text-2-lines{
         text-decoration: none;
     }
     &.leg-subtitle-text{
@@ -51,6 +53,9 @@ a:hover{
 }
 
 .leg-title-container{
+    position:absolute;
+    bottom:0;
+    width:100%;
     // max-width: 40rem;
     background: rgba(0,0,0, 0.5);
     color: white;
@@ -60,20 +65,33 @@ a:hover{
     //main container
 }
 
-.leg-title-text {
-    font-size: 2.3em;
+.leg-brand-text{
+    font-size:1.2rem;
     text-decoration: none;
-    // text-transform: uppercase;
     font-family: georgia, serif;
-    // font-weight: normal;
-    // color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    // vertical-align: bottom;
-    letter-spacing: 3px;
+    // text-shadow: 1px 1px 1px #000;
+    letter-spacing: .15rem;
 }
 
+.leg-title-text {
+    font-size: 1.8em;
+    text-decoration: none;
+    font-family: georgia, serif;
+    text-shadow: 1px 1px 1px #000;
+    // vertical-align: bottom;
+    letter-spacing: .15rem;
+}
+.leg-title-text-2-lines {
+    font-size: 1.4em;
+    text-decoration: none;
+    font-family: georgia, serif;
+    text-shadow: 1px 1px 1px #000;
+    padding-bottom:4px;
+    letter-spacing: .15rem;
+    border-bottom: 1px solid $gray-200; 
+}
 .leg-subtitle-text {
-    font-size: 2em;
+    font-size: 1.2rem;
     text-decoration: none;
     // text-transform: uppercase;
     font-family: georgia, serif;
@@ -81,7 +99,7 @@ a:hover{
     // color: #fff;
     text-shadow: 1px 1px 1px #000;
     // vertical-align: bottom;
-    letter-spacing: 3px;
+    letter-spacing: .15rem;
 }
 
 dt {

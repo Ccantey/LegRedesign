@@ -7053,6 +7053,9 @@ a.ui-datepicker-next-hover.ui-corner-all {
 .footer li {
   font-size: 0.85rem; }
 
+html {
+  font-family: 'Roboto', sans-serif; }
+
 body {
   font-size: 14px;
   overflow-x: hidden; }
@@ -7078,6 +7081,8 @@ a {
   text-decoration: underline; }
 a:hover.leg-title-text {
   text-decoration: none; }
+a:hover.leg-title-text-2-lines {
+  text-decoration: none; }
 a:hover.leg-subtitle-text {
   text-decoration: none; }
 
@@ -7087,22 +7092,40 @@ a:hover.leg-subtitle-text {
     color: #495057; }
 
 .leg-title-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background: rgba(0, 0, 0, 0.5);
   color: white; }
 
+.leg-brand-text {
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: georgia, serif;
+  letter-spacing: .15rem; }
+
 .leg-title-text {
-  font-size: 2.3em;
+  font-size: 1.8em;
   text-decoration: none;
   font-family: georgia, serif;
   text-shadow: 1px 1px 1px #000;
-  letter-spacing: 3px; }
+  letter-spacing: .15rem; }
+
+.leg-title-text-2-lines {
+  font-size: 1.4em;
+  text-decoration: none;
+  font-family: georgia, serif;
+  text-shadow: 1px 1px 1px #000;
+  padding-bottom: 4px;
+  letter-spacing: .15rem;
+  border-bottom: 1px solid #dedede; }
 
 .leg-subtitle-text {
-  font-size: 2em;
+  font-size: 1.2rem;
   text-decoration: none;
   font-family: georgia, serif;
   text-shadow: 1px 1px 1px #000;
-  letter-spacing: 3px; }
+  letter-spacing: .15rem; }
 
 dt {
   font-weight: 500; }
@@ -7112,6 +7135,9 @@ dd {
 
 .fa-2x {
   font-size: 1.333333rem !important; }
+
+.js-search-btn:hover {
+  cursor: pointer; }
 
 .navbar-joint .navbar-brand {
   color: #fff; }
@@ -7281,14 +7307,6 @@ dt, dd {
   background-position: 50% 50%;
   background-size: cover; }
 
-#main_search {
-  width: 160px;
-  background-position: 10px 6px;
-  background-repeat: no-repeat;
-  padding: 4px 6px 4px 5px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out; }
-
 #Billnumber,
 #senatebillnumber,
 #statutenumber {
@@ -7298,7 +7316,10 @@ dt, dd {
   .navbar-nav.flex-row {
     justify-content: center; }
     .navbar-nav.flex-row li {
-      padding: 0 1rem; } }
+      padding: 0 1rem; }
+
+  .leg-brand-container {
+    text-align: center; } }
 dd > a {
   color: #a1c5df; }
 
@@ -7343,14 +7364,17 @@ p a:hover {
   .navbar-nav-collapse {
     position: absolute;
     width: 100%;
-    top: 3rem;
-    left: 0; }
+    top: 2.2rem;
+    left: 0;
+    z-index: 1; }
 
   .collapse.show .bg-dark {
-    height: 14rem; }
+    height: 13.6rem;
+    padding-top: 6px; }
 
   .collapsing .bg-dark {
-    height: 14rem; } }
+    height: 13.6rem;
+    padding-top: 6px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .bg-dark a.nav-link.dropdown-toggle {
     text-align: center;

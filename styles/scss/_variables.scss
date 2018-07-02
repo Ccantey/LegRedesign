@@ -4,7 +4,7 @@
 // // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 // // Every Sass variable in Bootstrap 4 includes the !default flag allowing you to override the variable’s default value in your own Sass without modifying Bootstrap’s source code. Copy and paste variables as needed, modify their values, and remove the !default
 
-// //
+
 // // Color system
 // //
 // // stylelint-disable
@@ -69,6 +69,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-200 !default;
 $dark:          $gray-800 !default;
+$darkgray:         $gray-900 !default;
 $senate:		#3353bb;
 $house: 		#666633;
 $joint:			#990033;
@@ -84,6 +85,7 @@ $theme-colors: map-merge((
   "light":      $light,
   "darklight":  $gray-600,
   "dark":       $dark,
+  "darkgray":    $darkgray,
   "senate":		$senate,
   "house":		$house,
   "joint":		$joint
