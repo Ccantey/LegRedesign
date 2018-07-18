@@ -7099,9 +7099,10 @@ a:hover.leg-subtitle-text {
   color: white; }
 
 .leg-brand-text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
   font-family: georgia, serif;
+  padding: .2rem 0;
   letter-spacing: .15rem; }
 
 .leg-title-text {
