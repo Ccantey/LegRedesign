@@ -7000,6 +7000,12 @@ a.ui-datepicker-next-hover.ui-corner-all {
 /************************************************************
 *************************Footer******************************
 *************************************************************/
+.leg-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 187px; }
+
 .footer {
   border-top: 1px solid black; }
 
@@ -7019,15 +7025,6 @@ a.ui-datepicker-next-hover.ui-corner-all {
 
 .subtitle-widget {
   color: #898989; }
-
-.title-widget::before {
-  /*background-color: #ea5644;
-  content: "";
-  height: 22px;
-  left: 0px;
-  position: absolute;
-  top: -2px;
-  width: 5px;*/ }
 
 .widget_nav_menu ul {
   list-style: outside none none;
@@ -7054,9 +7051,12 @@ a.ui-datepicker-next-hover.ui-corner-all {
   font-size: 0.85rem; }
 
 html {
+  position: relative;
+  min-height: 100%;
   font-family: 'Roboto', sans-serif; }
 
 body {
+  margin-bottom: 187px;
   font-size: 14px;
   overflow-x: hidden; }
 
