@@ -7128,6 +7128,9 @@ a:hover.leg-subtitle-text {
   text-shadow: 1px 1px 1px #000;
   letter-spacing: .15rem; }
 
+.leg-menu-text {
+  font-size: 1rem; }
+
 dt {
   font-weight: 500; }
 
