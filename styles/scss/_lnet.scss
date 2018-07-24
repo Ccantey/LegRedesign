@@ -16,8 +16,6 @@
     padding: .25rem;
 }
 
-
-
 .card-body .form-inline .form-control{
     width:100%;
   //   white-space: nowrap;
@@ -70,4 +68,9 @@
       border: 1px solid #343a40;
       border-radius: 0.25rem;
       margin: 0 0 10px 0;
+}
+
+.breadcrumb {
+    background-color: white;
+    padding: 0.75rem 0;
 }

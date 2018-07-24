@@ -7099,9 +7099,10 @@ a:hover.leg-subtitle-text {
   color: white; }
 
 .leg-brand-text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
   font-family: georgia, serif;
+  padding: .2rem 0;
   letter-spacing: .15rem; }
 
 .leg-title-text {
@@ -7126,6 +7127,9 @@ a:hover.leg-subtitle-text {
   font-family: georgia, serif;
   text-shadow: 1px 1px 1px #000;
   letter-spacing: .15rem; }
+
+.leg-menu-text {
+  font-size: 1rem; }
 
 dt {
   font-weight: 500; }
@@ -7442,5 +7446,9 @@ p a:hover {
   border: 1px solid #343a40;
   border-radius: 0.25rem;
   margin: 0 0 10px 0; }
+
+.breadcrumb {
+  background-color: white;
+  padding: 0.75rem 0; }
 
 /*# sourceMappingURL=app.css.map */
