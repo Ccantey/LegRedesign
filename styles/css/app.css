@@ -6997,6 +6997,48 @@ a.ui-datepicker-next-hover.ui-corner-all {
   color: #fff !important;
   cursor: pointer; }
 
+.card {
+  z-index: 200; }
+
+.card-body ul {
+  margin-bottom: 0; }
+
+.card-title {
+  color: #495057; }
+
+.card-body {
+  padding: .25rem; }
+
+.card-body .form-inline .form-control {
+  width: 100%; }
+
+.card-body li {
+  border-bottom: 1px solid #ddd;
+  padding: .2rem; }
+
+.card-body li:last-child {
+  border-bottom: none; }
+
+.leg-cal-card .card-header a {
+  color: white;
+  text-decoration: underline; }
+
+.leg-cal-live-video {
+  margin: 10px 10px 0 0;
+  float: right;
+  clear: right; }
+
+.leg-time-divider {
+  font-size: 1rem;
+  font-weight: bold;
+  height: 28px;
+  padding: 2px 0 0 8px;
+  position: relative;
+  width: 280px;
+  border: 1px solid #343a40;
+  border-radius: 0.25rem;
+  margin: 0 0 10px 0; }
+
 /************************************************************
 *************************Footer******************************
 *************************************************************/
