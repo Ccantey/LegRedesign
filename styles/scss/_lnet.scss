@@ -1,35 +1,5 @@
-
 .container-fluid{
     padding:0;
-}
-
-.card{
-    z-index: 200;
-}
-.card-body ul{
-
-    margin-bottom:0;
-}
-.card-title{
-    color:$gray-700;
-}
-.card-body{
-    padding: .25rem;
-}
-
-.card-body .form-inline .form-control{
-    width:100%;
-  //   white-space: nowrap;
-  // overflow: hidden;
-  //   text-overflow:ellipsis;
-}
-
-.card-body li{
-    border-bottom:1px solid #ddd;
-    padding: .2rem;
-}
-.card-body li:last-child{
-    border-bottom:none;
 }
 
 .calendar li{
