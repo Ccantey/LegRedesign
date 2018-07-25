@@ -233,21 +233,21 @@
     }
 }
 
-.tooltip-inner{
-  font-size: $font-size-base !important;
-  font-weight:  $font-weight-bold !important;
-  // have to use body class. tooltips, modals, etc, are appended to body;
-  .joint &{
-    color: $joint ;
-  }
-  .senate &{
-    color: $senate ;
-  }
-  .house &{
-    color: $house ;
-  }
+// .tooltip-inner{
+//   font-size: $font-size-base !important;
+//   font-weight:  $font-weight-bold !important;
+//   // have to use body class. tooltips, modals, etc, are appended to body;
+//   .joint &{
+//     color: $joint ;
+//   }
+//   .senate &{
+//     color: $senate ;
+//   }
+//   .house &{
+//     color: $house ;
+//   }
 
-}
+// }
 
 //padding for sub-nav
 .navbar-joint .nav-link,
@@ -303,7 +303,7 @@ dt,dd {
   .navbar-nav.flex-row {
     justify-content:center;
     li{
-      padding:0 1rem;
+      // padding:0 1rem;
     }
   }
   .leg-brand-container{

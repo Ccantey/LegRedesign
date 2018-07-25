@@ -4308,7 +4308,7 @@ tbody.collapse.show {
       margin-left: -3px;
       content: "";
       border-width: 5px 5px 0;
-      border-top-color: #dedede; }
+      border-top-color: #000; }
   .tooltip.bs-tooltip-right, .tooltip.bs-tooltip-auto[x-placement^="right"] {
     padding: 0 5px; }
     .tooltip.bs-tooltip-right .arrow, .tooltip.bs-tooltip-auto[x-placement^="right"] .arrow {
@@ -4317,7 +4317,7 @@ tbody.collapse.show {
       margin-top: -3px;
       content: "";
       border-width: 5px 5px 5px 0;
-      border-right-color: #dedede; }
+      border-right-color: #000; }
   .tooltip.bs-tooltip-bottom, .tooltip.bs-tooltip-auto[x-placement^="bottom"] {
     padding: 5px 0; }
     .tooltip.bs-tooltip-bottom .arrow, .tooltip.bs-tooltip-auto[x-placement^="bottom"] .arrow {
@@ -4326,7 +4326,7 @@ tbody.collapse.show {
       margin-left: -3px;
       content: "";
       border-width: 0 5px 5px;
-      border-bottom-color: #dedede; }
+      border-bottom-color: #000; }
   .tooltip.bs-tooltip-left, .tooltip.bs-tooltip-auto[x-placement^="left"] {
     padding: 0 5px; }
     .tooltip.bs-tooltip-left .arrow, .tooltip.bs-tooltip-auto[x-placement^="left"] .arrow {
@@ -4336,14 +4336,14 @@ tbody.collapse.show {
       margin-top: -3px;
       content: "";
       border-width: 5px 0 5px 5px;
-      border-left-color: #dedede; }
+      border-left-color: #000; }
 
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
   color: #fff;
   text-align: center;
-  background-color: #dedede;
+  background-color: #000;
   border-radius: 0.25rem; }
 
 .popover {
@@ -7314,16 +7314,6 @@ dd {
 .navbar-senate .dropdown-item:hover {
   color: white; }
 
-.tooltip-inner {
-  font-size: 1rem !important;
-  font-weight: 700 !important; }
-  .joint .tooltip-inner {
-    color: #990033; }
-  .senate .tooltip-inner {
-    color: #3353bb; }
-  .house .tooltip-inner {
-    color: #666633; }
-
 .navbar-joint .nav-link,
 .navbar-senate .nav-link,
 .navbar-house .nav-link {
@@ -7361,8 +7351,6 @@ dt, dd {
 @media (max-width: 767px) {
   .navbar-nav.flex-row {
     justify-content: center; }
-    .navbar-nav.flex-row li {
-      padding: 0 1rem; }
 
   .leg-brand-container {
     text-align: center; } }
