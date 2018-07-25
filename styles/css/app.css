@@ -7185,6 +7185,9 @@ dd {
 .js-search-btn:hover {
   cursor: pointer; }
 
+.leg-search-form {
+  height: 1rem; }
+
 .navbar-joint .navbar-brand {
   color: #fff; }
   .navbar-joint .navbar-brand:focus, .navbar-joint .navbar-brand:hover {
