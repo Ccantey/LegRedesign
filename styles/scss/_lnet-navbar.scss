@@ -5,6 +5,10 @@
   cursor:pointer;
 }
 
+.leg-search-form{
+  height:1rem;
+}
+
 //create .navbar-lnet (copied from _navbar.scss). text color control. actual colors defined in _variables
 .navbar-joint {
   .navbar-brand {
@@ -233,21 +237,21 @@
     }
 }
 
-.tooltip-inner{
-  font-size: $font-size-base !important;
-  font-weight:  $font-weight-bold !important;
-  // have to use body class. tooltips, modals, etc, are appended to body;
-  .joint &{
-    color: $joint ;
-  }
-  .senate &{
-    color: $senate ;
-  }
-  .house &{
-    color: $house ;
-  }
+// .tooltip-inner{
+//   font-size: $font-size-base !important;
+//   font-weight:  $font-weight-bold !important;
+//   // have to use body class. tooltips, modals, etc, are appended to body;
+//   .joint &{
+//     color: $joint ;
+//   }
+//   .senate &{
+//     color: $senate ;
+//   }
+//   .house &{
+//     color: $house ;
+//   }
 
-}
+// }
 
 //padding for sub-nav
 .navbar-joint .nav-link,
