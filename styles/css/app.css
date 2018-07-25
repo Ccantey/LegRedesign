@@ -7434,28 +7434,6 @@ p a:hover {
 .container-fluid {
   padding: 0; }
 
-.card {
-  z-index: 200; }
-
-.card-body ul {
-  margin-bottom: 0; }
-
-.card-title {
-  color: #495057; }
-
-.card-body {
-  padding: .25rem; }
-
-.card-body .form-inline .form-control {
-  width: 100%; }
-
-.card-body li {
-  border-bottom: 1px solid #ddd;
-  padding: .2rem; }
-
-.card-body li:last-child {
-  border-bottom: none; }
-
 .calendar li {
   padding: .2rem 1rem; }
 
