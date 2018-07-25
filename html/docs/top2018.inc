@@ -612,10 +612,10 @@
               
             </ul>
             <ul class="navbar-nav ml-auto mr-3 d-flex flex-row">
-              <li class="nav-item list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Email">
+              <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
                 <a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>
               </li>
-              <li class="nav-item list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+              <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Print">
                 <a class="nav-link" href="#"><i class="fas fa-lg fa-print"></i></a>
               </li>
             </ul>

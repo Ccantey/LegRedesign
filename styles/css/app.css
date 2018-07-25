@@ -7351,6 +7351,8 @@ dt, dd {
 @media (max-width: 767px) {
   .navbar-nav.flex-row {
     justify-content: center; }
+    .navbar-nav.flex-row li {
+      padding: 0 1rem; }
 
   .leg-brand-container {
     text-align: center; } }
