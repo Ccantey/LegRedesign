@@ -29,7 +29,7 @@
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
            <div class="container">
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota State Legislature</a>
-               <form class="form-inline float-right .d-none .d-md-block p-0">                
+               <form class="form-inline float-right p-0">                
                 <input class="form-control form-control-sm py-0 mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
                 <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
               </form>            

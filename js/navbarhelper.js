@@ -15,7 +15,7 @@ function changeBanner(event){
 }
 
 $(document).ready(function () {
-     // $('.js-search').hide();
+     $('.js-search').hide();
   $('[data-toggle="tooltip"]').tooltip({
     delay: { "show": 100, "hide": 100 }
   });
