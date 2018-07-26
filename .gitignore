@@ -1,7 +1,7 @@
 notes.txt
 topics.txt
 styles/scss/.DS_Store
-.sass-cache/*
+# .sass-cache/*
 styles/css/app.min.css
 packages.config
 styles/scss/_variables.min.css
