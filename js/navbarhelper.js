@@ -3,19 +3,21 @@ function closeBanner(){
   if ($('.navbar-nav-collapse').hasClass('show')){
     console.log('close banner called');
     // $('.navbar-nav-collapse').removeClass('notransition');
-    $(".navbar-nav-collapse").collapse('hide').removeClass('notransition');;
+    $(".navbar-nav-collapse").collapse('hide').removeClass('notransition');
     $('.nav-item').removeClass('active');
   }
 }
 
 function changeBanner(event){
   if ($('.navbar-nav-collapse').hasClass('show')){
-    $('.navbar-nav-collapse').addClass('notransition');
+    // console.log('has show')
+    $('.navbar-nav-collapse').addClass('notransition'); //remove transition
+    $(".navbar-nav-collapse").collapse('hide'); //hide the previous dropdown
   } 
 }
 
 $(document).ready(function () {
-     $('.js-search').hide();
+  $('.js-search').hide();
   $('[data-toggle="tooltip"]').tooltip({
     delay: { "show": 100, "hide": 100 }
   });
@@ -38,6 +40,7 @@ $(document).ready(function () {
     $('.nav-item').removeClass('active');
     var li = $(this).prev();    
     if (li.not('active')){
+      // console.log('banner open, need to toggle')
       changeBanner($(this))
       li.addClass('active');
     } 
