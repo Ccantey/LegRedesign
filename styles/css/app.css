@@ -7440,26 +7440,6 @@ p a:hover {
 .table-bordered td {
   border: 1px solid #a9a9a9; }
 
-.leg-cal-card .card-header a {
-  color: white;
-  text-decoration: underline; }
-
-.leg-cal-live-video {
-  margin: 10px 10px 0 0;
-  float: right;
-  clear: right; }
-
-.leg-time-divider {
-  font-size: 1rem;
-  font-weight: bold;
-  height: 28px;
-  padding: 2px 0 0 8px;
-  position: relative;
-  width: 280px;
-  border: 1px solid #343a40;
-  border-radius: 0.25rem;
-  margin: 0 0 10px 0; }
-
 .breadcrumb {
   background-color: white;
   padding: 0.75rem 0; }
