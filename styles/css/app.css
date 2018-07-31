@@ -7544,6 +7544,13 @@ a:hover.leg-title-text-2-lines {
   text-decoration: none; }
 a:hover.leg-subtitle-text {
   text-decoration: none; }
+li a:hover {
+  background-color: #dedede; }
+p a:hover {
+  background-color: #dedede; }
+
+[data-toggle='collapse']:hover {
+  cursor: pointer; }
 
 .leg-portal-header {
   color: #495057; }
@@ -7802,10 +7809,6 @@ dd {
 .nav-header a:hover {
   color: #7aadde;
   text-decoration: underline; }
-li a:hover {
-  background-color: #dedede; }
-p a:hover {
-  background-color: #dedede; }
 
 .nav-header a {
   color: #a2c6e8;

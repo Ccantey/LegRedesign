@@ -353,14 +353,6 @@ a:hover{
       color: lighten($link-color, 25%);
       text-decoration: underline;
     }
-    li &{
-        background-color: #dedede;
-    }
-    p & {
-      background-color: #dedede;
-    }
-
-
 }
 
 .nav-header a{

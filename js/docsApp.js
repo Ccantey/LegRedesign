@@ -45,7 +45,34 @@ function rotateImage(arrow){
 			break;
 	}   
 	currentImage = $(currentTheme).css('background-image').split('/').pop().split('")')[0];
+
+	
+	// var imageURL = window.location.href
+	// imageURL.split("#");
+	// console.log(imageURL)
+
 	$('#imageName').html(currentImage)
+	setURL(currentImage)
+}
+
+function setURL(image) {
+	var imageURL = window.location.href
+	var splitURL = imageURL.split('#image=')
+	console.log(splitURL.length);
+	window.location.href = splitURL[0] + "#image=" + image;
+}
+
+function getImageURL(){
+	currentTheme = $('#bannerImage').attr('class', function(index, className){
+		return (className.match (/(^|\s)img-\S+/g) || []).join(' ');
+	});
+	var imageURL = window.location.href
+	var splitURL = imageURL.split('#image=')
+	
+	if (splitURL.length > 1){
+		console.log(splitURL[1]);
+		$(currentTheme).css('background-image', "url(https://ww2.gis.leg.mn/iMaps/bootstrap4/img/banners/"+ splitURL[1] +")");
+	}
 }
 
 function adjustImageMousedown(direction){  
@@ -101,8 +128,10 @@ function getPosition(direction){
 	
 }
 
+
 $(document).ready(function () {
 //toggle themes in docs
+      getImageURL();
       $('#themeToggle input[type=radio]').on('change', function(e){
 
         $('#sub-nav').removeClass(function(index, className){
