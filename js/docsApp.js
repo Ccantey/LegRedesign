@@ -57,9 +57,9 @@ function rotateImage(arrow){
 
 function setURL(image) {
 	var imageURL = window.location.href
-	var splitURL = imageURL.split('#image=')
+	var splitURL = imageURL.split('?image=')
 	console.log(splitURL.length);
-	window.location.href = splitURL[0] + "#image=" + image;
+	window.location.href = splitURL[0] + "?image=" + image;
 }
 
 function getImageURL(){
@@ -67,7 +67,7 @@ function getImageURL(){
 		return (className.match (/(^|\s)img-\S+/g) || []).join(' ');
 	});
 	var imageURL = window.location.href
-	var splitURL = imageURL.split('#image=')
+	var splitURL = imageURL.split('?image=')
 	
 	if (splitURL.length > 1){
 		console.log(splitURL[1]);
