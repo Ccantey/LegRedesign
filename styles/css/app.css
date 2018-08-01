@@ -7341,7 +7341,7 @@ a.text-joint:hover, a.text-joint:focus {
   background: #f7f7f7;
   border: 1px solid #ffc107; }
 
-.ui-widget-content .ui-state-active {
+.ui-datepicker-calendar .ui-widget-content .ui-state-active {
   background: #f7f7f7;
   border: 1px solid #ffc107;
   position: relative; }
