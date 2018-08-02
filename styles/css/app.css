@@ -7558,6 +7558,13 @@ p a:hover {
 [data-toggle='collapse']:hover {
   cursor: pointer; }
 
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.25rem; }
+
+input + label {
+  margin-bottom: 0; }
+
 .leg-portal-header {
   color: #495057; }
   .leg-portal-header a {
