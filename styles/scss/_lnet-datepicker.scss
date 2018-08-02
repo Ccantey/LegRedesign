@@ -100,13 +100,11 @@
   border: 1px solid $yellow;
 }
 
-.ui-datepicker-calendar .ui-widget-content .ui-state-active { //today
-    background:#f7f7f7;
-    border: 1px solid $yellow;
-    position: relative;
-  }
-
-
+.ui-datepicker-calendar .ui-state-active { //today
+  background:#f7f7f7;
+  border: 1px solid $yellow;
+  position: relative;
+}
 
 .ui-datepicker-other-month {
   background-color: #333;
