@@ -30,6 +30,10 @@ a{
     li &{
         text-decoration: underline;
     }
+    .leg-subfooter &{
+        color:lighten($link-color, 35%);
+        text-decoration: none;
+    }
 }
 
 a:hover{
@@ -48,7 +52,19 @@ a:hover{
     &.leg-subtitle-text{
         text-decoration: none;
     }
+    li &{
+        background-color: #dedede;
+    }
+    p & {
+      background-color: #dedede;
+    }
+    .leg-subfooter &{
+        color: lighten($link-color, 25%);
+        text-decoration: underline;
+    }
 }
+
+[data-toggle='collapse']:hover {cursor:pointer;}
 
 .leg-portal-header {
     color: $gray-700;    

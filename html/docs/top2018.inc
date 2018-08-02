@@ -24,15 +24,35 @@
   <title>LCC</title>
   </head>
   <body class="joint"> <!-- closing tag in footer -->
+
+      <!--skip nav for accessibility-->
+      <a href="#leg_container_main" class="sr-only sr-only-focusable">Skip to main content</a>
+      <a href="#navbarNav" class="sr-only sr-only-focusable">Skip to library navigation</a>
+      <a href="#footer" class="sr-only sr-only-focusable">Skip to footer</a>
+
       <div class="container-fluid"> <!-- closing tag in footer -->
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
            <div class="container">
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota State Legislature</a>
-               <form class="form-inline float-right p-0">                
-                <input class="form-control form-control-sm py-0 mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
+
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">                
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
                 <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
-              </form>            
+              </form> 
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form"> 
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>  
+              </form>  -->  
+
+
+
            </div>           
        </div>                 
 
@@ -50,7 +70,7 @@
                       <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
                     </li> -->
 
-                    <li class="nav-item ml-2">
+                    <li class="nav-item ml-lg-2">
                       <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House <span class="sr-only">(current)</span></a>
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
@@ -551,76 +571,82 @@
                       </div>
                     </div>
                   </ul>
+                  <form class="form-inline ml-auto d-block d-md-none p-0">          
+                    <input class="form-control form-control-sm py-0 mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
+                    <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
+                  </form>
+
                 </div>
+
               </div>
             </div>
           </div>
         </nav>
-      <div class="leg-banner img-joint">
-        <div class="position-relative h-100">
-        <div class="leg-title-container pl-0">
-          <div class="container">
-            <!-- TWO TITLE LINES -->
-            <!-- <a class="leg-title-text-2-lines text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
-            <a class="leg-subtitle-text text-white" href="/" id="leg-title-text" style="">Geospatial Information</a> -->
+        <div class="leg-banner img-joint">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container">
+              <!-- TWO TITLE LINES -->
+              <!-- <a class="leg-title-text-2-lines text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
+              <a class="leg-subtitle-text text-white" href="/" id="leg-title-text" style="">Geospatial Information</a> -->
 
-            <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
+              <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
+            </div>
+          </div>
           </div>
         </div>
-        </div>
-      </div>
-      <nav class="navbar navbar-expand-md navbar-joint bg-joint">
-        <div class="container">
-          <div class="d-block ml-0">
-            <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-            <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav"> LCC Menu</span>
+        <nav class="navbar navbar-expand-md navbar-joint bg-joint">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav"> LCC Menu</span>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link pl-0" href="index.html">LCC Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="meetingsDropdown">Meetings</a>
+                  <div aria-labelledby="meetingsDropdown" class="dropdown-menu">
+                    <a class="dropdown-item" href="meetings.html">2017-18 Meetings</a>
+                    <a class="dropdown-item" href="meetings.html">2017-18 Meetings</a>
+                    <a class="dropdown-item" href="meetings.html">2017-18 Meetings</a>
+                    <a class="dropdown-item" href="meetings.html">2017-18 Meetings</a>   
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="members.html">Members</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="reportsDropdown">Reports</a>
+                  <div aria-labelledby="reportsDropdown" class="dropdown-menu">
+                    <a class="dropdown-item" href="https://www.lcc.leg.mn/reports/5StateSmBusRegComparativeStudy2012.pdf">5 State Comparative Study</a>
+                    <a class="dropdown-item"  href="https://www.lcc.leg.mn/ITcoordinationreport2009.pdf">IT Coordination Report (2009)</a>
+                    <a class="dropdown-item" href="https://www.lcc.leg.mn/ITcoordinationreport2008.pdf">IT Coordination Report (2008)</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="lccInfoDropdown">LCC Information</a>
+                  <div aria-labelledby="lccInfoDropdown" class="dropdown-menu">
+                    <a class="dropdown-item" href="employeepolicies.html">Employee Policies</a>
+                    <a class="dropdown-item"  href="">Employment Opportunities</a>
+                    <a class="dropdown-item" href="">Request for Proposals</a>
+                    <a class="dropdown-item" href="staff.html">Staff Directory</a>
+                  </div>
+                </li>
+                
+              </ul>
+              <ul class="navbar-nav ml-auto mr-3 d-flex flex-row">
+                <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
+                  <a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>
+                </li>
+                <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a class="nav-link" href="#"><i class="fas fa-lg fa-print"></i></a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link pl-0" href="index.html">LCC Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="meetingsDropdown">Meetings</a>
-                <div aria-labelledby="meetingsDropdown" class="dropdown-menu">
-                  <a class="dropdown-item" href="meetings.html">2017-18 Meetings</a>
-                  <a class="dropdown-item" href="meetings.html">2017-18 Meetings</a>
-                  <a class="dropdown-item" href="meetings.html">2017-18 Meetings</a>
-                  <a class="dropdown-item" href="meetings.html">2017-18 Meetings</a>   
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="members.html">Members</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="reportsDropdown">Reports</a>
-                <div aria-labelledby="reportsDropdown" class="dropdown-menu">
-                  <a class="dropdown-item" href="https://www.lcc.leg.mn/reports/5StateSmBusRegComparativeStudy2012.pdf">5 State Comparative Study</a>
-                  <a class="dropdown-item"  href="https://www.lcc.leg.mn/ITcoordinationreport2009.pdf">IT Coordination Report (2009)</a>
-                  <a class="dropdown-item" href="https://www.lcc.leg.mn/ITcoordinationreport2008.pdf">IT Coordination Report (2008)</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="lccInfoDropdown">LCC Information</a>
-                <div aria-labelledby="lccInfoDropdown" class="dropdown-menu">
-                  <a class="dropdown-item" href="employeepolicies.html">Employee Policies</a>
-                  <a class="dropdown-item"  href="">Employment Opportunities</a>
-                  <a class="dropdown-item" href="">Request for Proposals</a>
-                  <a class="dropdown-item" href="staff.html">Staff Directory</a>
-                </div>
-              </li>
-              
-            </ul>
-            <ul class="navbar-nav ml-auto mr-3 d-flex flex-row">
-              <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
-                <a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>
-              </li>
-              <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Print">
-                <a class="nav-link" href="#"><i class="fas fa-lg fa-print"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        </nav>
 
       <!--End of top navigation. Footer needs to close div.container-fluid-->
