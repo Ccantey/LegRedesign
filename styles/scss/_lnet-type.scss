@@ -30,6 +30,10 @@ a{
     li &{
         text-decoration: underline;
     }
+    .leg-subfooter &{
+        color:lighten($link-color, 35%);
+        text-decoration: none;
+    }
 }
 
 a:hover{
@@ -53,6 +57,10 @@ a:hover{
     }
     p & {
       background-color: #dedede;
+    }
+    .leg-subfooter &{
+        color: lighten($link-color, 25%);
+        text-decoration: underline;
     }
 }
 

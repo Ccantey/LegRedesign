@@ -35,7 +35,7 @@
                 <h4 class="title-widget text-left">General Contact</h4>
                 <ul  class="list-unstyled clear-margins">
                   <li  class="mt-2">Contact a legislative librarian:</li>
-                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">email</a>.</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
 
                   <li  class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>         
                   <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>            
@@ -47,7 +47,7 @@
                   <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
                   <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
                   <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
-                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">E-mail Updates &amp; RSS Feeds</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
                 </ul>
               </div>
             </div>
@@ -55,7 +55,7 @@
         </footer>
         <div class="row">
           <div class="col-12 bg-dark">
-            <div class="text-center text-light py-1">Minnesota House of Representatives · 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 · Webmaster@house.mn</div>
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives · 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 · <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
           </div>
         </div>
       </div>

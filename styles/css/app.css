@@ -7533,6 +7533,9 @@ a {
     text-decoration: none; }
   li a {
     text-decoration: underline; }
+  .leg-subfooter a {
+    color: #a2c6e8;
+    text-decoration: none; }
 
 .leg-portal-header a:hover {
   text-decoration: underline; }
@@ -7548,6 +7551,9 @@ li a:hover {
   background-color: #dedede; }
 p a:hover {
   background-color: #dedede; }
+.leg-subfooter a:hover {
+  color: #7aadde;
+  text-decoration: underline; }
 
 [data-toggle='collapse']:hover {
   cursor: pointer; }
