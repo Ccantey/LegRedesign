@@ -7554,6 +7554,9 @@ p a:hover {
 .leg-subfooter a:hover {
   color: #7aadde;
   text-decoration: underline; }
+.lcc-upcoming-meetings a:hover {
+  background-color: #dedede;
+  text-decoration: underline; }
 
 [data-toggle='collapse']:hover {
   cursor: pointer; }

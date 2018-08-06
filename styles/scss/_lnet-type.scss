@@ -62,6 +62,11 @@ a:hover{
         color: lighten($link-color, 25%);
         text-decoration: underline;
     }
+    .lcc-upcoming-meetings &{
+        background-color: #dedede;
+        text-decoration: underline;
+
+    }
 }
 
 [data-toggle='collapse']:hover {cursor:pointer;}
