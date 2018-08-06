@@ -59,19 +59,19 @@
         <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-1 d-block d-print-none">
           <div class="container">
-            <div class="row w-100 pl-2">
-              <div class="col-12 position-static p-0">
+            <div class="row w-100 pl-md-2">
+              <div class="col-12 position-static p-lg-0">
                <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
                 <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
 
                 <div class="collapse navbar-collapse py-0" id="top-nav">
-                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <ul class="navbar-nav mt-2 mt-lg-0 pl-3 pl-lg-0">
                    <!--  <li class="nav-item mr-3">
                       <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
                     </li> -->
 
                     <li class="nav-item ml-lg-2">
-                      <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</span></a>
+                      <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-md-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</span></a>
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
                       <div class="bg-dark">
