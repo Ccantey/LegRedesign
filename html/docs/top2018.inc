@@ -71,7 +71,7 @@
                     </li> -->
 
                     <li class="nav-item ml-lg-2">
-                      <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House <span class="sr-only">(current)</span></a>
+                      <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</span></a>
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
                       <div class="bg-dark">
@@ -605,7 +605,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link pl-0" href="index.html">LCC Home</a>
+                  <a class="nav-link pl-md-0" href="index.html">LCC Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="meetingsDropdown">Meetings</a>
