@@ -7743,12 +7743,14 @@ dd {
 .navbar-senate .dropdown-item.disabled, .navbar-senate .dropdown-item.disabled:hover {
   color: rgba(255, 255, 255, 0.25); }
 
-.navbar-joint .dropdown-item {
-  color: rgba(255, 255, 255, 0.875); }
-.navbar-senate .dropdown-item {
-  color: rgba(255, 255, 255, 0.875); }
-.navbar-house .dropdown-item {
-  color: rgba(255, 255, 255, 0.875); }
+.dropdown-item {
+  padding: 0.15rem 1.5rem; }
+  .navbar-joint .dropdown-item {
+    color: rgba(255, 255, 255, 0.875); }
+  .navbar-senate .dropdown-item {
+    color: rgba(255, 255, 255, 0.875); }
+  .navbar-house .dropdown-item {
+    color: rgba(255, 255, 255, 0.875); }
 
 .navbar-joint .dropdown-item:hover {
   color: white; }

@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <meta content="ie=edge" http-equiv="x-ua-compatible"><!-- ==================================================
   INSTRUCTIONS:
-  Use this Top.inc for all development
+
 
   ================================================== -->
 
@@ -33,7 +33,7 @@
       <div class="container-fluid"> <!-- closing tag in footer -->
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
-           <div class="container d-print-none">
+           <div class="container">
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota State Legislature</a>
 
 
@@ -57,21 +57,21 @@
        </div>                 
 
         <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-1 d-block d-print-none">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-1 d-block">
           <div class="container">
-            <div class="row w-100 pl-md-2">
+            <div class="row w-100 pl-2">
               <div class="col-12 position-static p-lg-0">
                <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
                 <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
 
                 <div class="collapse navbar-collapse py-0" id="top-nav">
-                  <ul class="navbar-nav mt-2 mt-lg-0 pl-3 pl-lg-0">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                    <!--  <li class="nav-item mr-3">
                       <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
                     </li> -->
 
                     <li class="nav-item ml-lg-2">
-                      <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-md-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</span></a>
+                      <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House <span class="sr-only">(current)</span></a>
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
                       <div class="bg-dark">
@@ -582,7 +582,7 @@
             </div>
           </div>
         </nav>
-        <div class="leg-banner img-joint d-print-none">
+        <div class="leg-banner img-joint">
           <div class="position-relative h-100">
           <div class="leg-title-container pl-0">
             <div class="container">
@@ -595,8 +595,7 @@
           </div>
           </div>
         </div>
-        <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</h1>
-        <nav class="navbar navbar-expand-md navbar-joint bg-joint d-print-none">
+        <nav class="navbar navbar-expand-md navbar-joint bg-joint">
           <div class="container">
             <div class="d-block ml-0">
               <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
@@ -605,7 +604,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link pl-md-0" href="index.html">LCC Home</a>
+                  <a class="nav-link pl-0" href="index.html">LCC Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="meetingsDropdown">Meetings</a>
@@ -640,10 +639,10 @@
               </ul>
               <ul class="navbar-nav ml-auto mr-3 d-flex flex-row">
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
-                  <a class="nav-link test" href="mailto:lcc@lcc.leg.mn"><i class="far fa-lg fa-envelope"></i></a>
+                  <a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>
                 </li>
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Print">
-                  <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                  <a class="nav-link" href="#"><i class="fas fa-lg fa-print"></i></a>
                 </li>
               </ul>
             </div>
