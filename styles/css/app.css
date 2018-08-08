@@ -7744,7 +7744,11 @@ dd {
   color: rgba(255, 255, 255, 0.25); }
 
 .dropdown-item {
-  padding: 0.15rem 1.5rem; }
+  padding: 0.1rem 1.5rem 0.25rem 1.5rem; }
+  .dropdown-item:first-child {
+    padding-top: 0.25rem; }
+  .dropdown-item:last-child {
+    padding-bottom: 0.35rem; }
   .navbar-joint .dropdown-item {
     color: rgba(255, 255, 255, 0.875); }
   .navbar-senate .dropdown-item {
