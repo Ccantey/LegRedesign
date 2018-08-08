@@ -7756,12 +7756,14 @@ dd {
   .navbar-house .dropdown-item {
     color: rgba(255, 255, 255, 0.875); }
 
-.navbar-joint .dropdown-item:hover {
-  color: white; }
-.navbar-house .dropdown-item:hover {
-  color: white; }
-.navbar-senate .dropdown-item:hover {
-  color: white; }
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: rgba(255, 255, 255, 0); }
+  .navbar-joint .dropdown-item:hover, .navbar-joint .dropdown-item:focus {
+    color: white; }
+  .navbar-house .dropdown-item:hover, .navbar-house .dropdown-item:focus {
+    color: white; }
+  .navbar-senate .dropdown-item:hover, .navbar-senate .dropdown-item:focus {
+    color: white; }
 
 .navbar-joint .nav-link,
 .navbar-senate .nav-link,

@@ -232,7 +232,8 @@
     }
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover, .dropdown-item:focus{
+    background-color: rgba(255, 255, 255, 0);
     .navbar-joint &{
         color: $navbar-joint-hover-color;
     }
