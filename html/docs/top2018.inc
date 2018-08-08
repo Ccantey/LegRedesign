@@ -60,7 +60,7 @@
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-1 d-block">
           <div class="container">
             <div class="row w-100 pl-2">
-              <div class="col-12 position-static p-0">
+              <div class="col-12 position-static p-lg-0">
                <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
                 <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
 
@@ -637,7 +637,7 @@
                 </li>
                 
               </ul>
-              <ul class="navbar-nav ml-auto mr-3 d-flex flex-row">
+              <ul class="navbar-nav ml-auto d-flex flex-row">
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
                   <a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>
                 </li>

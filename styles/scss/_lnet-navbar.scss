@@ -214,6 +214,13 @@
 }
 
 .dropdown-item{
+    padding: 0.1rem 1.5rem 0.25rem 1.5rem;
+    &:first-child{
+      padding-top:0.25rem;
+    }
+    &:last-child{
+      padding-bottom:0.35rem;
+    }
     .navbar-joint &{
         color: $navbar-joint-color;
     }
@@ -225,7 +232,8 @@
     }
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover, .dropdown-item:focus{
+    background-color: rgba(255, 255, 255, 0);
     .navbar-joint &{
         color: $navbar-joint-hover-color;
     }

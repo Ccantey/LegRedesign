@@ -7554,9 +7554,19 @@ p a:hover {
 .leg-subfooter a:hover {
   color: #7aadde;
   text-decoration: underline; }
+.lcc-upcoming-meetings a:hover {
+  background-color: #dedede;
+  text-decoration: underline; }
 
 [data-toggle='collapse']:hover {
   cursor: pointer; }
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.25rem; }
+
+input + label {
+  margin-bottom: 0; }
 
 .leg-portal-header {
   color: #495057; }
@@ -7585,7 +7595,7 @@ p a:hover {
   letter-spacing: .15rem; }
 
 .leg-title-text-2-lines {
-  font-size: 1.4em;
+  font-size: 1.65em;
   text-decoration: none;
   font-family: georgia, serif;
   text-shadow: 1px 1px 1px #000;
@@ -7733,19 +7743,27 @@ dd {
 .navbar-senate .dropdown-item.disabled, .navbar-senate .dropdown-item.disabled:hover {
   color: rgba(255, 255, 255, 0.25); }
 
-.navbar-joint .dropdown-item {
-  color: rgba(255, 255, 255, 0.875); }
-.navbar-senate .dropdown-item {
-  color: rgba(255, 255, 255, 0.875); }
-.navbar-house .dropdown-item {
-  color: rgba(255, 255, 255, 0.875); }
+.dropdown-item {
+  padding: 0.1rem 1.5rem 0.25rem 1.5rem; }
+  .dropdown-item:first-child {
+    padding-top: 0.25rem; }
+  .dropdown-item:last-child {
+    padding-bottom: 0.35rem; }
+  .navbar-joint .dropdown-item {
+    color: rgba(255, 255, 255, 0.875); }
+  .navbar-senate .dropdown-item {
+    color: rgba(255, 255, 255, 0.875); }
+  .navbar-house .dropdown-item {
+    color: rgba(255, 255, 255, 0.875); }
 
-.navbar-joint .dropdown-item:hover {
-  color: white; }
-.navbar-house .dropdown-item:hover {
-  color: white; }
-.navbar-senate .dropdown-item:hover {
-  color: white; }
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: rgba(255, 255, 255, 0); }
+  .navbar-joint .dropdown-item:hover, .navbar-joint .dropdown-item:focus {
+    color: white; }
+  .navbar-house .dropdown-item:hover, .navbar-house .dropdown-item:focus {
+    color: white; }
+  .navbar-senate .dropdown-item:hover, .navbar-senate .dropdown-item:focus {
+    color: white; }
 
 .navbar-joint .nav-link,
 .navbar-senate .nav-link,

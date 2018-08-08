@@ -62,9 +62,21 @@ a:hover{
         color: lighten($link-color, 25%);
         text-decoration: underline;
     }
+    .lcc-upcoming-meetings &{
+        background-color: #dedede;
+        text-decoration: underline;
+
+    }
 }
 
 [data-toggle='collapse']:hover {cursor:pointer;}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.25rem;
+}
+
+input + label {margin-bottom: 0;}
 
 .leg-portal-header {
     color: $gray-700;    
@@ -103,7 +115,7 @@ a:hover{
     letter-spacing: .15rem;
 }
 .leg-title-text-2-lines {
-    font-size: 1.4em;
+    font-size: 1.65em;
     text-decoration: none;
     font-family: georgia, serif;
     text-shadow: 1px 1px 1px #000;

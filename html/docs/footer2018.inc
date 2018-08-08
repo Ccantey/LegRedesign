@@ -1,4 +1,4 @@
-      <div class="leg-footer">
+      <div class="leg-footer d-print-none">
         <footer class="footer bg-light">
           <div class="container" style="">
             <div class="row pt-3 px-4">            
@@ -55,7 +55,7 @@
         </footer>
         <div class="row">
           <div class="col-12 bg-dark">
-            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives · 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 · <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota House of Representatives &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:Webmaster@house.mn">Webmaster@house.mn</a></div>
           </div>
         </div>
       </div>
