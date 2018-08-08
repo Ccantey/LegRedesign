@@ -637,7 +637,7 @@
                 </li>
                 
               </ul>
-              <ul class="navbar-nav ml-auto mr-3 d-flex flex-row">
+              <ul class="navbar-nav ml-auto d-flex flex-row">
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
                   <a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>
                 </li>
