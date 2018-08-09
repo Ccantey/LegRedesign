@@ -2,6 +2,7 @@ SOB_1.jpg
 bill.jpg
 cap_Dome_chandelier.jpg
 cap_blueRotunda.jpg
+cap_bluesky.jpg
 cap_bluesky_fall.jpg
 cap_bluesky_runner.jpg
 cap_bluesky_shady.jpg
