@@ -491,8 +491,7 @@
                               <dl>
                                 <dt class="text-white">Senate</dt>
                                 <dd>
-                                  <a href="http://www.senate.leg.state.mn.us/senate_video.php?ls=&media_type=flv" class="leg_HiddenMobile">Live Video</a> 
-                                  <!-- <a href="http://stream1.video.state.mn.us:8080/m3ugen/broadcast/Senatemobile.3gp" class="leg_HiddenNonmobile">Live Video</a> -->
+                                  <a href="http://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> 
                                 </dd>
                                 <dd><a href="http://www.senate.mn/media/media_coming_up.php?ls=">Webcast Schedule</a></dd>
                                 <dd><a href="http://www.senate.mn/media/index.php?ls=&type=audio">Audio Archives</a></dd>
