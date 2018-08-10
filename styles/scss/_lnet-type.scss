@@ -61,7 +61,7 @@ a:hover{
     .footer &{
         background-color: transparent;
     }
-    .bg-dark &{
+    .bg-dark &, .bg-darkgray &{
         background-color: transparent;
     }
     .leg-subfooter &{
@@ -73,12 +73,10 @@ a:hover{
         background-color: #dedede;
         text-decoration: underline;
     }
-    &.leg-title-text{
+    .leg-title-container &{
         background-color: transparent;
     }
-    &.leg-brand-text{
-        background-color: transparent;
-    }
+    
 }
 
 [data-toggle='collapse']:hover {cursor:pointer;}
