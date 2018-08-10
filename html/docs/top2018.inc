@@ -34,7 +34,7 @@
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
            <div class="container">
-               <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota State Legislature</a>
+               <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota Legislature</a>
 
 
                <form class="form-inline float-right ml-auto d-none d-md-block p-0">

@@ -5,75 +5,75 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <meta content="ie=edge" http-equiv="x-ua-compatible"><!-- ==================================================
-INSTRUCTIONS:
+  INSTRUCTIONS:
 
-If you're using vanilla CSS, please uncomment
-stylesheet #1 and #2.
 
-If you're using compiled SASS, please uncomment
-stylesheet #3.
-================================================== -->
-  <!-- Stylesheet #1: Bootstrap CSS -->
-  <!-- removed, because we are going to be accessing it via app.css -->
-  <!--     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-  <link href="../../js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet"><!-- Stylesheet #2: compiled SASS -->
-  <link href="../../styles/css/app.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+  ================================================== -->
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js">
-  </script>
-  <script src="../../js/getParameterByName.js">
-  </script>
-  <script src="../../js/calendar.js">
-  </script>
-  <script src="../../js/navbarhelper.js">
-  </script>
-  <script src="../../js/bootstrapWindowHelper.js"></script>
-  <script src="../../js/docsApp.js"></script>
+  <link href="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+  <!-- LNET compiled SASS -->
+  <link href="https://ww2.gis.leg.mn/iMaps/bootstrap4/styles/css/app.css" rel="stylesheet">
+  <!-- jQuery needs to load before Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/getParameterByName.js"></script>
+  <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/calendar.js"></script>
+  <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/navbarhelper.js"></script>
+  <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/bootstrapWindowHelper.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <!-- run node dirs.js to populate images -->
+  <script src="../../js/docsApp.js"></script>
 
-  <!-- Stylesheet #3: If you're using compiled SASS -->
-  <!-- <link rel="stylesheet" href="styles/css/app.css"> -->
-  <title>Docs | Banner</title>
-</head>
-  <body class="joint">
-      <div class="container-fluid">
+  <title>LCC</title>
+  </head>
+  <body class="joint"> <!-- closing tag in footer -->
 
-       <div class="leg-brand-container bg-darkgray pl-0">
+      <!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0">
            <div class="container">
-              <!--  <div class="form-inline float-right">
-                   <input class="form-control form-control-sm mt-1" id="main-search" name="search" placeholder="Search..." type="text">
-               </div> -->
+               <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota Legislature</a>
 
-               <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota State Legislature</a>
-               <form class="form-inline float-right p-0">
-                
-                <input class="form-control form-control-sm py-0 mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+               <label class="sr-only" for="main-search">Search Legislature</label>                
+                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
                 <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
-              </form>
-               
-           </div>
-           
-       </div>
-                 
+              </form> 
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form"> 
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>  
+              </form>  -->  
+
+
+
+           </div>           
+       </div>                 
 
         <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-1 d-block">
           <div class="container">
-            <div class="row w-100 pl-2">
-              <div class="col-12 position-static p-0">
-                <button aria-controls="top-nav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span> Menu
-                </button>
-                <!-- <span class="d-lg-none pl-1 text-white" data-toggle="collapse" data-target="#top-nav"> Menu</span> -->
+            <div class="row w-100 pl-md-2">
+              <div class="col-12 position-static p-lg-0">
+               <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
 
                 <div class="collapse navbar-collapse py-0" id="top-nav">
-                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <ul class="navbar-nav mt-2 mt-lg-0 pl-3 pl-lg-0">
                    <!--  <li class="nav-item mr-3">
                       <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
                     </li> -->
 
-                    <li class="nav-item ml-2">
-                      <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House <span class="sr-only">(current)</span></a>
+                    <li class="nav-item ml-lg-2">
+                      <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
                       <div class="bg-dark">
@@ -493,8 +493,7 @@ stylesheet #3.
                               <dl>
                                 <dt class="text-white">Senate</dt>
                                 <dd>
-                                  <a href="http://www.senate.leg.state.mn.us/senate_video.php?ls=&media_type=flv" class="leg_HiddenMobile">Live Video</a> 
-                                  <!-- <a href="http://stream1.video.state.mn.us:8080/m3ugen/broadcast/Senatemobile.3gp" class="leg_HiddenNonmobile">Live Video</a> -->
+                                  <a href="http://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> 
                                 </dd>
                                 <dd><a href="http://www.senate.mn/media/media_coming_up.php?ls=">Webcast Schedule</a></dd>
                                 <dd><a href="http://www.senate.mn/media/index.php?ls=&type=audio">Audio Archives</a></dd>
@@ -573,24 +572,31 @@ stylesheet #3.
                       </div>
                     </div>
                   </ul>
+                  <form class="form-inline ml-auto d-block d-md-none p-0">
+                    <label class="sr-only" for="main-search">Search Legislature</label>     
+                    <input class="form-control form-control-sm py-0 mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
+                    <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
+                  </form>
+
                 </div>
+
               </div>
             </div>
           </div>
-        </nav><!-- Placement of extenral content (below nav, above nav, or within nav) will alter behaivior of collapse, ie: push external below nav, push nav with external, or nest external -->
+        </nav>
+        <div id="bannerImage" class="leg-banner img-joint">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container">
+              <!-- TWO TITLE LINES -->
+              <!-- <a class="leg-title-text-2-lines text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
+              <a class="leg-subtitle-text text-white" href="/" id="leg-title-text" style="">Geospatial Information</a> -->
 
-      <div id="bannerImage" class="leg-banner img-joint">
-        <div class="position-relative h-100">
-        <div class="leg-title-container pl-0">
-          <div class="container">
-            
-            <!-- <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a> -->
-            <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
-            <!-- <a class="leg-subtitle-text text-white" href="/" id="leg-title-text" style="">Geospatial Information</a> -->
+              <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
+            </div>
+          </div>
           </div>
         </div>
-        </div>
-      </div>
       <nav id ="sub-nav" class="navbar navbar-expand-md navbar-joint bg-joint">
         <div class="container">
           <div class="d-block ml-0">
