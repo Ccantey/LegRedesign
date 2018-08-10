@@ -26,9 +26,9 @@
   <body class="joint"> <!-- closing tag in footer -->
 
       <!--skip nav for accessibility-->
-      <a href="#leg_container_main" class="sr-only sr-only-focusable">Skip to main content</a>
-      <a href="#navbarNav" class="sr-only sr-only-focusable">Skip to library navigation</a>
-      <a href="#footer" class="sr-only sr-only-focusable">Skip to footer</a>
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
 
       <div class="container-fluid"> <!-- closing tag in footer -->
 
@@ -37,7 +37,8 @@
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota State Legislature</a>
 
 
-               <form class="form-inline float-right ml-auto d-none d-md-block p-0">                
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+               <label class="sr-only" for="main-search">Search Legislature</label>                
                 <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
                 <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
               </form> 
@@ -491,8 +492,7 @@
                               <dl>
                                 <dt class="text-white">Senate</dt>
                                 <dd>
-                                  <a href="http://www.senate.leg.state.mn.us/senate_video.php?ls=&media_type=flv" class="leg_HiddenMobile">Live Video</a> 
-                                  <!-- <a href="http://stream1.video.state.mn.us:8080/m3ugen/broadcast/Senatemobile.3gp" class="leg_HiddenNonmobile">Live Video</a> -->
+                                  <a href="http://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> 
                                 </dd>
                                 <dd><a href="http://www.senate.mn/media/media_coming_up.php?ls=">Webcast Schedule</a></dd>
                                 <dd><a href="http://www.senate.mn/media/index.php?ls=&type=audio">Audio Archives</a></dd>
@@ -571,7 +571,8 @@
                       </div>
                     </div>
                   </ul>
-                  <form class="form-inline ml-auto d-block d-md-none p-0">          
+                  <form class="form-inline ml-auto d-block d-md-none p-0">
+                    <label class="sr-only" for="main-search">Search Legislature</label>     
                     <input class="form-control form-control-sm py-0 mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
                     <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
                   </form>
@@ -595,7 +596,7 @@
           </div>
           </div>
         </div>
-        <nav class="navbar navbar-expand-md navbar-joint bg-joint">
+        <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint">
           <div class="container">
             <div class="d-block ml-0">
               <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>

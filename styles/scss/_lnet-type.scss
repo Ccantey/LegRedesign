@@ -9,6 +9,11 @@ body {
     overflow-x: hidden;
 }
 
+#legContainerMain{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 // Request to keep underlines - just can't have them everywhere
 a{
     text-decoration: underline;
@@ -37,6 +42,7 @@ a{
 }
 
 a:hover{
+    background-color: #dedede;
     .leg-portal-header &{
         text-decoration: underline;
     }
@@ -52,20 +58,20 @@ a:hover{
     &.leg-subtitle-text{
         text-decoration: none;
     }
-    li &{
-        background-color: #dedede;
+    .footer &{
+        background-color: transparent;
     }
-    p & {
-      background-color: #dedede;
+    dd &{
+        background-color: transparent;
     }
     .leg-subfooter &{
         color: lighten($link-color, 25%);
         text-decoration: underline;
+        background-color: transparent;
     }
     .lcc-upcoming-meetings &{
         background-color: #dedede;
         text-decoration: underline;
-
     }
 }
 

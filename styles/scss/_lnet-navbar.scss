@@ -342,12 +342,6 @@ dd {
     margin-bottom: .2rem;
 }
 
-#Billnumber,
-#senatebillnumber,
-#statutenumber{
-    width:115px;
-}
-
 a:hover{  
 
     .nav-item &{
@@ -368,6 +362,20 @@ a:hover{
   font-weight:500;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.skip-navigation {
+  @include sr-only;
+  @include sr-only-focusable;
+}
+
+.skip-navigation:active, .skip-navigation:focus {
+  position:absolute;
+  top: 5rem;
+  padding: .5rem;
+  margin-left:2.5rem;
+  background-color: $dark;
+  color:$navbar-dark-color;
 }
 
 .notransition {

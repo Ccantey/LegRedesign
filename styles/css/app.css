@@ -7519,6 +7519,10 @@ body {
   font-size: 14px;
   overflow-x: hidden; }
 
+#legContainerMain {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
 a {
   text-decoration: underline; }
   .navbar a {
@@ -7537,26 +7541,29 @@ a {
     color: #a2c6e8;
     text-decoration: none; }
 
-.leg-portal-header a:hover {
-  text-decoration: underline; }
-.footer a:hover {
-  text-decoration: underline; }
-a:hover.leg-title-text {
-  text-decoration: none; }
-a:hover.leg-title-text-2-lines {
-  text-decoration: none; }
-a:hover.leg-subtitle-text {
-  text-decoration: none; }
-li a:hover {
+a:hover {
   background-color: #dedede; }
-p a:hover {
-  background-color: #dedede; }
-.leg-subfooter a:hover {
-  color: #7aadde;
-  text-decoration: underline; }
-.lcc-upcoming-meetings a:hover {
-  background-color: #dedede;
-  text-decoration: underline; }
+  .leg-portal-header a:hover {
+    text-decoration: underline; }
+  .footer a:hover {
+    text-decoration: underline; }
+  a:hover.leg-title-text {
+    text-decoration: none; }
+  a:hover.leg-title-text-2-lines {
+    text-decoration: none; }
+  a:hover.leg-subtitle-text {
+    text-decoration: none; }
+  .footer a:hover {
+    background-color: transparent; }
+  dd a:hover {
+    background-color: transparent; }
+  .leg-subfooter a:hover {
+    color: #7aadde;
+    text-decoration: underline;
+    background-color: transparent; }
+  .lcc-upcoming-meetings a:hover {
+    background-color: #dedede;
+    text-decoration: underline; }
 
 [data-toggle='collapse']:hover {
   cursor: pointer; }
@@ -7820,11 +7827,6 @@ dt {
 dd {
   margin-bottom: .2rem; }
 
-#Billnumber,
-#senatebillnumber,
-#statutenumber {
-  width: 115px; }
-
 .nav-item a:hover {
   background-color: transparent;
   text-decoration: underline; }
@@ -7839,6 +7841,31 @@ dd {
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase; }
+
+.skip-navigation {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0; }
+  .skip-navigation:active, .skip-navigation:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal; }
+
+.skip-navigation:active, .skip-navigation:focus {
+  position: absolute;
+  top: 5rem;
+  padding: .5rem;
+  margin-left: 2.5rem;
+  background-color: #343a40;
+  color: rgba(255, 255, 255, 0.875); }
 
 .notransition {
   transition: none; }
