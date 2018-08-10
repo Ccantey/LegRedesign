@@ -33,7 +33,7 @@
       <div class="container-fluid"> <!-- closing tag in footer -->
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
-           <div class="container">
+           <div class="container  d-print-none">
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota Legislature</a>
 
 
@@ -58,7 +58,7 @@
        </div>                 
 
         <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-1 d-block">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-1 d-block d-print-none">
           <div class="container">
             <div class="row w-100 pl-md-2">
               <div class="col-12 position-static p-lg-0">
@@ -583,7 +583,7 @@
             </div>
           </div>
         </nav>
-        <div class="leg-banner img-joint">
+        <div class="leg-banner img-joint d-print-none">
           <div class="position-relative h-100">
           <div class="leg-title-container pl-0">
             <div class="container">
@@ -596,7 +596,8 @@
           </div>
           </div>
         </div>
-        <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint">
+        <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</h1>
+        <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
           <div class="container">
             <div class="d-block ml-0">
               <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
@@ -640,10 +641,10 @@
               </ul>
               <ul class="navbar-nav ml-auto d-flex flex-row">
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
-                  <a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>
+                  <a class="nav-link test" href="mailto:lcc@lcc.leg.mn"><i class="far fa-lg fa-envelope"></i></a>
                 </li>
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Print">
-                  <a class="nav-link" href="#"><i class="fas fa-lg fa-print"></i></a>
+                  <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
                 </li>
               </ul>
             </div>
