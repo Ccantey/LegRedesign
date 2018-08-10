@@ -7551,7 +7551,7 @@ a:hover {
     text-decoration: none; }
   .footer a:hover {
     background-color: transparent; }
-  dd a:hover {
+  .bg-dark a:hover {
     background-color: transparent; }
   .leg-subfooter a:hover {
     color: #7aadde;
@@ -7561,6 +7561,8 @@ a:hover {
     background-color: #dedede;
     text-decoration: underline; }
   a:hover.leg-title-text {
+    background-color: transparent; }
+  a:hover.leg-brand-text {
     background-color: transparent; }
 
 [data-toggle='collapse']:hover {
