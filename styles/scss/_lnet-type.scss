@@ -73,6 +73,9 @@ a:hover{
         background-color: #dedede;
         text-decoration: underline;
     }
+    &.leg-title-text{
+        background-color: transparent;
+    }
 }
 
 [data-toggle='collapse']:hover {cursor:pointer;}

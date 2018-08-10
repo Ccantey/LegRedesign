@@ -7560,6 +7560,8 @@ a:hover {
   .lcc-upcoming-meetings a:hover {
     background-color: #dedede;
     text-decoration: underline; }
+  a:hover.leg-title-text {
+    background-color: transparent; }
 
 [data-toggle='collapse']:hover {
   cursor: pointer; }

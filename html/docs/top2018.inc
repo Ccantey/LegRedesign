@@ -591,7 +591,7 @@
               <!-- <a class="leg-title-text-2-lines text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
               <a class="leg-subtitle-text text-white" href="/" id="leg-title-text" style="">Geospatial Information</a> -->
 
-              <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
+              <a class="leg-title-text text-white" href="index.html" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
             </div>
           </div>
           </div>
