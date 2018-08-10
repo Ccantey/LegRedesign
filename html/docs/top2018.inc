@@ -37,7 +37,8 @@
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota State Legislature</a>
 
 
-               <form class="form-inline float-right ml-auto d-none d-md-block p-0">                
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+               <label class="sr-only" for="main-search">Search Legislature</label>                
                 <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
                 <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
               </form> 
@@ -570,7 +571,8 @@
                       </div>
                     </div>
                   </ul>
-                  <form class="form-inline ml-auto d-block d-md-none p-0">          
+                  <form class="form-inline ml-auto d-block d-md-none p-0">
+                    <label class="sr-only" for="main-search">Search Legislature</label>     
                     <input class="form-control form-control-sm py-0 mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
                     <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
                   </form>
