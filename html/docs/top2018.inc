@@ -26,9 +26,9 @@
   <body class="joint"> <!-- closing tag in footer -->
 
       <!--skip nav for accessibility-->
-      <a href="#leg_container_main" class="sr-only sr-only-focusable">Skip to main content</a>
-      <a href="#navbarNav" class="sr-only sr-only-focusable">Skip to library navigation</a>
-      <a href="#footer" class="sr-only sr-only-focusable">Skip to footer</a>
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
 
       <div class="container-fluid"> <!-- closing tag in footer -->
 
@@ -596,7 +596,7 @@
           </div>
           </div>
         </div>
-        <nav class="navbar navbar-expand-md navbar-joint bg-joint">
+        <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint">
           <div class="container">
             <div class="d-block ml-0">
               <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>

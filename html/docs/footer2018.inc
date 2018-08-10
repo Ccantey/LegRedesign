@@ -1,4 +1,4 @@
-      <div class="leg-footer d-print-none">
+      <div id="legFooter" class="leg-footer d-print-none">
         <footer class="footer bg-light">
           <div class="container" style="">
             <div class="row pt-3 px-4">            

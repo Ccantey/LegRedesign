@@ -7519,6 +7519,10 @@ body {
   font-size: 14px;
   overflow-x: hidden; }
 
+#legContainerMain {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
 a {
   text-decoration: underline; }
   .navbar a {
@@ -7823,11 +7827,6 @@ dt {
 dd {
   margin-bottom: .2rem; }
 
-#Billnumber,
-#senatebillnumber,
-#statutenumber {
-  width: 115px; }
-
 .nav-item a:hover {
   background-color: transparent;
   text-decoration: underline; }
@@ -7842,6 +7841,31 @@ dd {
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase; }
+
+.skip-navigation {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0; }
+  .skip-navigation:active, .skip-navigation:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal; }
+
+.skip-navigation:active, .skip-navigation:focus {
+  position: absolute;
+  top: 5rem;
+  padding: .5rem;
+  margin-left: 2.5rem;
+  background-color: #343a40;
+  color: rgba(255, 255, 255, 0.875); }
 
 .notransition {
   transition: none; }
