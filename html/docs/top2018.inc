@@ -415,12 +415,7 @@
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white">Statutes</dt>
-                                <dd class="mb-2">
-                                  <form class="form-inline" id="statutesearchform" name="statutesearchform" action="https://www.revisor.mn.gov/statutes/" method="get">
-                                    <input class="form-control form-control-sm" id="statutenumber" name="id" value="Lookup Statute" type="text">
-                                    <button class="btn btn-primary btn-sm ml-1" type="submit"><i class="fa fa-search"></i></button>
-                                  </form>
-                                </dd>
+                                
                                 <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
                                 </dd>
                                 <dd><a href="https://www.revisor.mn.gov/statutes/">Current Statutes</a>
