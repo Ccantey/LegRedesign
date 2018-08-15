@@ -1,5 +1,26 @@
+## [ChangeLog - 08/15/2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1d035bd6)
 
-## [ChangeLog - 06-28-2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/master...reboot)
+<b>Added</b>
+- banner images
+- top, body, footer includes files. (no longer updating other html)
+- variables changed with bootstrap update
+- _lnet-card.scss
+- preliminary print page styling
+classes:
+- leg-footer (sticky footer)
+- leg-search-form
+- skip-navigation
+
+
+<b>Changed</b>
+- Bootstrap 4.0.1 beta to 4.1.3
+
+<b> Removed</b>
+
+This is an abbreviated list of changes. See [full comparison](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1d035bd6)
+
+
+## [ChangeLog - 06/28/2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/master...reboot)
 
 <b>Added</b>
 - Added menu text affordances
