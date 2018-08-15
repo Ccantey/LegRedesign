@@ -7627,6 +7627,9 @@ dd {
 .fa-2x {
   font-size: 1.333333rem !important; }
 
+.leg-brand-container form {
+  margin-top: -0.08rem; }
+
 .js-search-btn:hover {
   cursor: pointer; }
 
@@ -7779,21 +7782,21 @@ dt, dd {
   font-size: 0.85rem; }
 
 .img-joint {
-  height: 13rem;
+  height: 12rem;
   background-image: url(../../img/banners/cap_quadrangle.jpg);
   background-repeat: no-repeat;
   background-position: 50% 60%;
   background-size: cover; }
 
 .img-senate {
-  height: 13rem;
+  height: 12rem;
   background-image: url(../../img/banners/cap_rotundaR.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover; }
 
 .img-house {
-  height: 13rem;
+  height: 12rem;
   background-image: url(../../img/banners/cap_full_quadrangle.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -7880,12 +7883,12 @@ dd {
     z-index: 1; }
 
   .collapse.show .bg-dark {
-    height: 13.6rem;
-    padding-top: 6px; }
+    height: 12.6rem;
+    padding-top: 0.2rem; }
 
   .collapsing .bg-dark {
-    height: 13.6rem;
-    padding-top: 6px; } }
+    height: 12.6rem;
+    padding-top: 0.2rem; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .bg-dark a.nav-link.dropdown-toggle {
     text-align: center;

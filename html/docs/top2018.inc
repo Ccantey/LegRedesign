@@ -76,7 +76,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header  "><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
                           </div>
@@ -137,7 +137,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="http://www.senate.mn/">Minnesota Senate</a></div>
                           </div>
@@ -196,7 +196,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
                           </div>
@@ -239,7 +239,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
                           </div>
@@ -284,7 +284,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
                           </div>
@@ -355,7 +355,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
                           </div>
@@ -405,7 +405,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.revisor.mn.gov/pubs/">Statutes, Laws, and Rules</a></div>
                           </div>
@@ -466,7 +466,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
                           </div>
@@ -512,7 +512,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
                           </div>
