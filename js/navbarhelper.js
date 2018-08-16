@@ -50,6 +50,9 @@ $(document).ready(function () {
   $(document).click(function (e) {
     var target = $(e.target);
     if (!target.hasClass('nav-link')){
+      if($('.navbar-nav-collapse').hasClass('notransition')){
+        $(".navbar-nav-collapse").removeClass('notransition')
+      }
       closeBanner();
     } 
   });
