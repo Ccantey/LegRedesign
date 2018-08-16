@@ -33,7 +33,7 @@
       <div class="container-fluid"> <!-- closing tag in footer -->
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
-           <div class="container">
+           <div class="container  d-print-none">
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota Legislature</a>
 
 
@@ -58,7 +58,7 @@
        </div>                 
 
         <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-1 d-block">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-1 d-block d-print-none">
           <div class="container">
             <div class="row w-100 pl-md-2">
               <div class="col-12 position-static p-lg-0">
@@ -76,7 +76,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header  "><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
                           </div>
@@ -137,7 +137,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="http://www.senate.mn/">Minnesota Senate</a></div>
                           </div>
@@ -196,7 +196,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
                           </div>
@@ -239,7 +239,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
                           </div>
@@ -284,7 +284,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
                           </div>
@@ -355,7 +355,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
                           </div>
@@ -405,7 +405,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.revisor.mn.gov/pubs/">Statutes, Laws, and Rules</a></div>
                           </div>
@@ -415,12 +415,7 @@
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white">Statutes</dt>
-                                <dd class="mb-2">
-                                  <form class="form-inline" id="statutesearchform" name="statutesearchform" action="https://www.revisor.mn.gov/statutes/" method="get">
-                                    <input class="form-control form-control-sm" id="statutenumber" name="id" value="Lookup Statute" type="text">
-                                    <button class="btn btn-primary btn-sm ml-1" type="submit"><i class="fa fa-search"></i></button>
-                                  </form>
-                                </dd>
+                                
                                 <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword Search</a>
                                 </dd>
                                 <dd><a href="https://www.revisor.mn.gov/statutes/">Current Statutes</a>
@@ -471,7 +466,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
                           </div>
@@ -517,7 +512,7 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3 py-1">
+                        <div class="container px-1 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
                           </div>
@@ -583,7 +578,7 @@
             </div>
           </div>
         </nav>
-        <div class="leg-banner img-joint">
+        <div class="leg-banner img-joint d-print-none">
           <div class="position-relative h-100">
           <div class="leg-title-container pl-0">
             <div class="container">
@@ -591,12 +586,13 @@
               <!-- <a class="leg-title-text-2-lines text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
               <a class="leg-subtitle-text text-white" href="/" id="leg-title-text" style="">Geospatial Information</a> -->
 
-              <a class="leg-title-text text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
+              <a class="leg-title-text text-white" href="index.html" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
             </div>
           </div>
           </div>
         </div>
-        <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint">
+        <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</h1>
+        <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
           <div class="container">
             <div class="d-block ml-0">
               <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
@@ -640,10 +636,10 @@
               </ul>
               <ul class="navbar-nav ml-auto d-flex flex-row">
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
-                  <a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>
+                  <a class="nav-link test" href="mailto:lcc@lcc.leg.mn"><i class="far fa-lg fa-envelope"></i></a>
                 </li>
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Print">
-                  <a class="nav-link" href="#"><i class="fas fa-lg fa-print"></i></a>
+                  <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
                 </li>
               </ul>
             </div>

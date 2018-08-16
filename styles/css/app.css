@@ -7528,11 +7528,10 @@ a.ui-datepicker-next-hover.ui-corner-all {
   width: 100%; }
 
 .card-body li {
-  border-bottom: 1px solid #ddd;
   padding: .2rem; }
 
-.card-body li:last-child {
-  border-bottom: none; }
+.card-info li {
+  padding: 0.1rem; }
 
 .leg-cal-card .card-header a {
   color: white;
@@ -7617,10 +7616,6 @@ body {
   font-size: 14px;
   overflow-x: hidden; }
 
-#legContainerMain {
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
-
 a {
   text-decoration: underline; }
   .navbar a {
@@ -7640,11 +7635,8 @@ a {
     text-decoration: none; }
 
 a:hover {
-  background-color: #dedede; }
-  .leg-portal-header a:hover {
-    text-decoration: underline; }
-  .footer a:hover {
-    text-decoration: underline; }
+  background-color: #f5deb3;
+  text-decoration: underline; }
   a:hover.leg-title-text {
     text-decoration: none; }
   a:hover.leg-title-text-2-lines {
@@ -7653,15 +7645,15 @@ a:hover {
     text-decoration: none; }
   .footer a:hover {
     background-color: transparent; }
-  dd a:hover {
+  .bg-dark a:hover, .bg-darkgray a:hover {
     background-color: transparent; }
   .leg-subfooter a:hover {
     color: #7aadde;
-    text-decoration: underline;
     background-color: transparent; }
   .lcc-upcoming-meetings a:hover {
-    background-color: #dedede;
-    text-decoration: underline; }
+    background-color: #dedede; }
+  .leg-title-container a:hover {
+    background-color: transparent; }
 
 [data-toggle='collapse']:hover {
   cursor: pointer; }
@@ -7726,6 +7718,9 @@ dd {
 
 .fa-2x {
   font-size: 1.333333rem !important; }
+
+.leg-brand-container form {
+  margin-top: -0.08rem; }
 
 .js-search-btn:hover {
   cursor: pointer; }
@@ -7879,21 +7874,21 @@ dt, dd {
   font-size: 0.85rem; }
 
 .img-joint {
-  height: 13rem;
+  height: 12rem;
   background-image: url(../../img/banners/cap_quadrangle.jpg);
   background-repeat: no-repeat;
   background-position: 50% 60%;
   background-size: cover; }
 
 .img-senate {
-  height: 13rem;
+  height: 12rem;
   background-image: url(../../img/banners/cap_rotundaR.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover; }
 
 .img-house {
-  height: 13rem;
+  height: 12rem;
   background-image: url(../../img/banners/cap_full_quadrangle.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -7980,12 +7975,12 @@ dd {
     z-index: 1; }
 
   .collapse.show .bg-dark {
-    height: 13.6rem;
-    padding-top: 6px; }
+    height: 12.6rem;
+    padding-top: 0.2rem; }
 
   .collapsing .bg-dark {
-    height: 13.6rem;
-    padding-top: 6px; } }
+    height: 12.6rem;
+    padding-top: 0.2rem; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .bg-dark a.nav-link.dropdown-toggle {
     text-align: center;
@@ -8002,9 +7997,6 @@ dd {
 
 .container-fluid {
   padding: 0; }
-
-.calendar li {
-  padding: .2rem 1rem; }
 
 .bibliography {
   padding-left: 1.5em;

@@ -20,17 +20,18 @@
 }
 
 .card-body li{
-    border-bottom:1px solid #ddd;
     padding: .2rem;
 }
-.card-body li:last-child{
-    border-bottom:none;
+
+.card-info li{
+    padding: 0.1rem;
 }
 
 .leg-cal-card .card-header a {
      color: white;
      text-decoration: underline;
  }
+
  .leg-cal-live-video {
       margin: 10px 10px 0 0;
       float: right;

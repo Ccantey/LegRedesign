@@ -1,5 +1,7 @@
 .leg-brand-container{
-    // background-color: #262626;
+    & form{
+      margin-top: -0.08rem;
+    }
 }
 .js-search-btn:hover{
   cursor:pointer;
@@ -273,7 +275,7 @@ dt,dd {
 }
 
 .img-joint{
-    height: 13rem;
+    height: 12rem;
     background-image: url(../../img/banners/cap_quadrangle.jpg);  //excellent for joint 50% 50%;
     background-repeat: no-repeat;
     background-position: 50% 60%;
@@ -281,7 +283,7 @@ dt,dd {
 }
 
 .img-senate{
-    height: 13rem;
+    height: 12rem;
     background-image: url(../../img/banners/cap_rotundaR.jpg); //good for senate 50% 10%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -289,7 +291,7 @@ dt,dd {
 }
 
 .img-house{
-    height: 13rem;
+    height: 12rem;
     background-image: url(../../img/banners/cap_full_quadrangle.jpg);  //excellent for joint 50% 50%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -397,8 +399,8 @@ a:hover{
   .collapse {
     &.show {
       & .bg-dark{        
-        height:13.6rem;
-        padding-top: 6px;
+        height:12.6rem;
+        padding-top: 0.2rem;
       }
     }
   }
@@ -406,8 +408,8 @@ a:hover{
   .collapsing {
     // @include transition($transition-none); //remove transition entirely
     & .bg-dark{      
-      height: 13.6rem;
-      padding-top: 6px;     
+      height: 12.6rem;
+      padding-top: 0.2rem;     
     }
   }
 

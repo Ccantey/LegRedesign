@@ -45,6 +45,7 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$wheat:   #f5deb3 !default;
 
 $colors: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
@@ -59,6 +60,7 @@ $colors: map-merge((
   "green":      $green,
   "teal":       $teal,
   "cyan":       $cyan,
+  "wheat":      $wheat,
   "white":      $white,
   "gray":       $gray-600,
   "gray-dark":  $gray-800
@@ -72,7 +74,8 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-200 !default;
 $dark:          $gray-800 !default;
-$darkgray:         $gray-900 !default;
+$attn:          $wheat !default;
+$darkgray:      $gray-900 !default;
 $senate:    #3353bb;
 $house:     #666633;
 $joint:     #990033;
@@ -89,7 +92,8 @@ $theme-colors: map-merge((
   "light":      $light,
   "darklight":  $gray-600,
   "dark":       $dark,
-  "darkgray":    $darkgray,
+  "darkgray":   $darkgray,
+  "attn":     $attn,
   "senate":   $senate,
   "house":    $house,
   "joint":    $joint
