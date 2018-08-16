@@ -6,18 +6,22 @@
 - variables changed with bootstrap update
 - _lnet-card.scss
 - preliminary print page styling
+- color: $wheat: #f5deb3, mapped as $attn (use .bg-attn, .text-attn, etc..)
 classes:
 - leg-footer (sticky footer)
 - leg-search-form
 - skip-navigation
+- card-info
 
 
 <b>Changed</b>
 - Bootstrap 4.0.1 beta to 4.1.3
+- Many changes to header and footer html
 
 <b> Removed</b>
+- .card-body li{border-bottom:1px solid #ddd;} !!use .border-bottom on li
 
-This is an abbreviated list of changes. See [full comparison](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1d035bd6)
+This is an abbreviated list of changes. See [full comparison.](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1d035bd6)
 
 
 ## [ChangeLog - 06/28/2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/master...reboot)

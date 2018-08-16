@@ -42,13 +42,14 @@ a{
 }
 
 a:hover{
-    background-color: #dedede;
-    .leg-portal-header &{
-        text-decoration: underline;
-    }
-    .footer &{
-        text-decoration: underline;
-    }
+    background-color: $attn;
+    text-decoration: underline;
+    // .leg-portal-header &{
+    //     text-decoration: underline;
+    // }
+    // .footer &{
+    //     text-decoration: underline;
+    // }
     &.leg-title-text{
         text-decoration: none;
     }
@@ -66,12 +67,12 @@ a:hover{
     }
     .leg-subfooter &{
         color: lighten($link-color, 25%);
-        text-decoration: underline;
+        // text-decoration: underline;
         background-color: transparent;
     }
     .lcc-upcoming-meetings &{
         background-color: #dedede;
-        text-decoration: underline;
+        // text-decoration: underline;
     }
     .leg-title-container &{
         background-color: transparent;
