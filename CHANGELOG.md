@@ -1,4 +1,4 @@
-## [ChangeLog - 08/15/2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1d035bd6)
+## [ChangeLog - 08/15/2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1b4bde91)
 
 <b>Added</b>
 - banner images
@@ -21,7 +21,7 @@ classes:
 <b> Removed</b>
 - .card-body li{border-bottom:1px solid #ddd;} !!use .border-bottom on li
 
-This is an abbreviated list of changes. See [full comparison.](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1d035bd6)
+This is an abbreviated list of changes. See [full comparison.](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1b4bde91)
 
 
 ## [ChangeLog - 06/28/2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/master...reboot)

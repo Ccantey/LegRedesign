@@ -7710,12 +7710,6 @@ input + label {
 .leg-menu-text {
   font-size: 1rem; }
 
-dt {
-  font-weight: 500; }
-
-dd {
-  margin-bottom: .2rem; }
-
 .fa-2x {
   font-size: 1.333333rem !important; }
 
@@ -7918,7 +7912,7 @@ dt {
   font-weight: 400; }
 
 dd {
-  margin-bottom: .2rem; }
+  margin-bottom: .1rem; }
 
 .nav-item a:hover {
   background-color: transparent;
