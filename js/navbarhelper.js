@@ -1,7 +1,7 @@
 
 function closeBanner(){
   if ($('.navbar-nav-collapse').hasClass('show')){
-    console.log('close banner called');
+    // console.log('close banner called');
     // $('.navbar-nav-collapse').removeClass('notransition');
     $(".navbar-nav-collapse").collapse('hide').removeClass('notransition');
     $('.nav-item').removeClass('active');
