@@ -387,6 +387,15 @@ a:hover{
 
 // md is where top navbar collapses
 @include media-breakpoint-up(lg) {
+//in the unlikely scenario where search and nav list crunch
+  //(a very particluar screen size). 
+  //need down-carets centered
+    .bg-dark{
+    a.nav-link.dropdown-toggle{
+      text-align:center;
+      line-height: 1rem;
+    }
+  }
 
   //top navigation absolute positioning
   .navbar-nav-collapse{
@@ -418,15 +427,8 @@ a:hover{
 } //end media-breakpoint-up
 
 @include media-breakpoint-only(lg){
-  //in the unlikely scenario where search and nav list crunch
-  //(a very particluar screen size). 
-  //need down-carets centered
-  .bg-dark{
-    a.nav-link.dropdown-toggle{
-      text-align:center;
-      line-height: 1rem;
-    }
-  }
+  
+
 }
 
 @include media-breakpoint-down(md){
