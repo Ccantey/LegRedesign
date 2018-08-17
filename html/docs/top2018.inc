@@ -34,7 +34,7 @@
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
            <div class="container  d-print-none">
-            <img src="https://ww2.gis.leg.mn/iMaps/bootstrap4/img/icons/capitol2.svg" height="22px" style="margin-top:-8px;opacity:0.95">
+            <img src="https://ww2.gis.leg.mn/iMaps/bootstrap4/img/icons/capitol2.svg" height="24px" style="margin-top:-8px;opacity:0.95">
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white pl-1" href="/" ">Minnesota Legislature</a>
 
 
