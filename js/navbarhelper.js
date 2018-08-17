@@ -17,7 +17,7 @@ function changeBanner(event){
 }
 
 $(document).ready(function () {
-  // $('.js-search').hide();
+  $('.js-search').hide();
   $('[data-toggle="tooltip"]').tooltip({
     delay: { "show": 100, "hide": 100 }
   });
@@ -29,7 +29,7 @@ $(document).ready(function () {
     $('.navbar-nav-collapse').removeClass('notransition');
   });
 
-  $(".js-search-btn").click(function(e){
+  $(".js-search-btn, .js-search-label").click(function(e){
     e.preventDefault();
     $(".js-search").animate({width: 'toggle'});
     // return false

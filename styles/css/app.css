@@ -7716,7 +7716,8 @@ input + label {
 .leg-brand-container form {
   margin-top: -0.08rem; }
 
-.js-search-btn:hover {
+.js-search-btn:hover,
+.js-search-label {
   cursor: pointer; }
 
 .leg-search-form {

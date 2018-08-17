@@ -34,13 +34,14 @@
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
            <div class="container  d-print-none">
-               <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota Legislature</a>
+            <img src="https://ww2.gis.leg.mn/iMaps/bootstrap4/img/icons/capitol2.svg" height="22px" style="margin-top:-8px;opacity:0.95">
+               <a id="ctl00_HyperLink1" class="leg-brand-text text-white pl-1" href="/" ">Minnesota Legislature</a>
 
 
                <form class="form-inline float-right ml-auto d-none d-md-block p-0">
                <label class="sr-only" for="main-search">Search Legislature</label>                
                 <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
-                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
               </form> 
 
               <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form"> 
