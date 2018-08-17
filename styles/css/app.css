@@ -7990,6 +7990,9 @@ dd {
     .navbar-collapse .collapsing {
       transition: none; } }
 
+@media (max-width: 991.98px) {
+  .nav-header {
+    padding-top: 0.5rem; } }
 .container-fluid {
   padding: 0; }
 
