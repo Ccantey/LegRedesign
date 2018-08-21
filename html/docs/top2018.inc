@@ -204,7 +204,7 @@
                           <hr class="my-1 bg-secondary">
                           <div class="row">
                             <!-- <div class="col"></div> -->
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">Joint Legislative Offices</dt>
@@ -213,18 +213,18 @@
                                 <dd><a href="http://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
-                              <dl>
+                            <div class="col-12 col-sm-4">
+                              <dl  class="mb-0">
                                 <dt class="text-white pb-1">Commissions</dt>
                                 <dd><a href="http://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd> 
                                 <dd><a href="http://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
 
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
 
-                                <dd class="mt-4"><a href="http://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>                    
+                                <dd class="mt-md-4"><a href="http://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>                    
                                 <dd><a href="http://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
                                 <dd><a href="http://www.legacy.mn.gov/">Legacy Amendment</a></dd>      
                                 <dd><a href="http://www.commissions.leg.state.mn.us/">More...</a></dd>
@@ -247,7 +247,7 @@
                           <hr class="my-1 bg-secondary">
                           <div class="row">
 
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">House</dt>
@@ -258,7 +258,7 @@
                                 <dd><a href="http://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Senate</dt>
                                 <dd><a href="http://www.senate.leg.state.mn.us/schedule/schedule.php?ls=">Senate Schedules</a></dd>
@@ -267,7 +267,7 @@
                                 <dd><a href="http://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Joint</dt>
                                 <dd><a href="http://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
@@ -291,7 +291,7 @@
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">House</dt>
@@ -312,7 +312,7 @@
                                 </dd>                  
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Senate</dt>
                                 <dd>
@@ -329,7 +329,7 @@
                                 </dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Joint</dt>
                                 <dd>
@@ -362,7 +362,7 @@
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">House</dt>
@@ -373,7 +373,7 @@
                                 <dd><a href="http://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Senate</dt>
                                 <dd><a href="https://www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
@@ -385,7 +385,7 @@
                                 </dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Joint</dt>
                                 <dd><a href="http://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
@@ -473,7 +473,7 @@
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white">House</dt>
@@ -484,7 +484,7 @@
                                 <dd><a href="http://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white">Senate</dt>
                                 <dd>
@@ -496,7 +496,7 @@
                                 <dd><a href="http://www.senate.mn/media/media_photos.php">Photos</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white">Joint</dt>
                                 <dd><a href="http://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
@@ -544,7 +544,7 @@
                             <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white">Legislative History</dt>
-                                <dd><a href="http://www.leg.state.mn.us/leg/leghist/histstep.aspx">Minnesota Legislative History Guide</a></dd>
+                                <dd><a href="http://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
                                 <dd><a href="http://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
                                 <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
                                 <dd><a href="http://www.senate.leg.state.mn.us/journals/index.php#current">Senate Journal</a></dd>
