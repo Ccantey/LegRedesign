@@ -192,14 +192,14 @@
     margin: 0.25rem 0;
     font-size: 0.85rem;
     .navbar-senate &{
-        background-color: lighten($senate, 7%);
+        background-color: lighten($senate, 6%);
     }
     .navbar-joint &{
-        background-color: lighten($joint, 5%);
+        background-color: lighten($joint, 4%);
     }
 
     .navbar-house &{
-        background-color: lighten($house, 7%);
+        background-color: lighten($house, 2%);
     }
 }
 
@@ -246,6 +246,14 @@
     .navbar-senate &{
       color: $navbar-senate-hover-color;
     }
+}
+
+.dropdown-header{
+  margin: 0.5rem 1.5rem;
+  padding: 0 0 0.25rem 0;
+  font-size:0.85rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid $white;
 }
 
 // .tooltip-inner{

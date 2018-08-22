@@ -45,7 +45,7 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
-$wheat:   #f5deb3 !default;
+$wheat:   #F9EBC8 !default;
 
 $colors: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
@@ -607,7 +607,7 @@ $input-height-sm:                       calc(#{$input-height-inner-sm}) !default
 // $dropdown-item-padding-y:           .25rem !default;
 // $dropdown-item-padding-x:           1.5rem !default;
 
-// $dropdown-header-color:             $gray-600 !default;
+$dropdown-header-color:             $wheat !default;
 
 
 // // Z-index master list
