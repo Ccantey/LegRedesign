@@ -19,7 +19,7 @@
   <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/calendar.js"></script>
   <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/navbarhelper.js"></script>
   <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/bootstrapWindowHelper.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 
   <title>LCC</title>
   </head>
@@ -34,13 +34,14 @@
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
            <div class="container  d-print-none">
-               <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" ">Minnesota Legislature</a>
+            <img src="https://ww2.gis.leg.mn/iMaps/bootstrap4/img/icons/capitol2.svg" height="24px" style="margin-top:-8px;opacity:0.95">
+               <a id="ctl00_HyperLink1" class="leg-brand-text text-white pl-1" href="/" ">Minnesota Legislature</a>
 
 
                <form class="form-inline float-right ml-auto d-none d-md-block p-0">
                <label class="sr-only" for="main-search">Search Legislature</label>                
                 <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">  
-                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i></button>  
+                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
               </form> 
 
               <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form"> 
@@ -76,13 +77,13 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3">
+                        <div class="container px-4 px-md-3">
                           <div class="row">
                             <div class="col nav-header  "><a href="https://www.house.leg.state.mn.us/">Minnesota House of Representatives</a></div>
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col-6 col-sm-3 mt-1">
+                            <div class="col-12 col-sm-6 col-md-3 mt-1">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">House Members and Staff</dt>
@@ -94,7 +95,7 @@
                                 <dd><a href="http://www.leg.state.mn.us/leg/districtfinder.aspx">Who Represents Me?</a></dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3 mt-1">
+                            <div class="col-12 col-sm-6 col-md-3 mt-1">
                               <dl>
                                 <dt class="text-white pb-1">Committees</dt>
                                 <dd><a href="http://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
@@ -105,7 +106,7 @@
                                 <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3 mt-1">
+                            <div class="col-12 col-sm-6 col-md-3 mt-1">
                               <dl>
                                 <dt class="text-white pb-1">Offices</dt>
                                 <dd><a href="http://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
@@ -116,7 +117,7 @@
                                 <dd><a href="http://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3 mt-1">
+                            <div class="col-12 col-sm-6 col-md-3 mt-1">
                               <dl>
                                 <dt class="text-white pb-1">Other Information</dt>
                                 <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
@@ -137,13 +138,13 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3">
+                        <div class="container px-4 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="http://www.senate.mn/">Minnesota Senate</a></div>
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">Senators and Staff</dt>
@@ -156,7 +157,7 @@
                                 <!-- <dd class="text-muted">Employment</dd> -->
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white pb-1">Committees</dt>
                                 <dd><a href="http://www.senate.mn/committees">Committee List</a></dd>
@@ -167,7 +168,7 @@
                                 <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white pb-1">Offices</dt>
                                 <dd><a href="http://www.senate.mn/departments/office_bio.php?office_id=1005&amp;ls=">Secretary of the Senate</a></dd>
@@ -175,7 +176,7 @@
                                 <dd><a href="http://www.senate.mn/caucus/index.php?ls=#header">Caucuses - DFL/GOP</a></dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white pb-1">Other Information</dt>
                                 <dd><a href="http://www.senate.mn/rules/index.php?ls=#rulesofthesenate">Senate Rules</a></dd>
@@ -196,14 +197,14 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3">
+                        <div class="container px-4 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments, Offices, and Commissions</a></div>
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
                             <!-- <div class="col"></div> -->
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">Joint Legislative Offices</dt>
@@ -212,18 +213,18 @@
                                 <dd><a href="http://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
-                              <dl>
+                            <div class="col-12 col-sm-4">
+                              <dl  class="mb-0">
                                 <dt class="text-white pb-1">Commissions</dt>
                                 <dd><a href="http://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd> 
                                 <dd><a href="http://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
 
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
 
-                                <dd class="mt-4"><a href="http://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>                    
+                                <dd class="mt-md-4"><a href="http://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>                    
                                 <dd><a href="http://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
                                 <dd><a href="http://www.legacy.mn.gov/">Legacy Amendment</a></dd>      
                                 <dd><a href="http://www.commissions.leg.state.mn.us/">More...</a></dd>
@@ -239,14 +240,14 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3">
+                        <div class="container px-4 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars, and Legislative Business</a></div>
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
 
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">House</dt>
@@ -257,7 +258,7 @@
                                 <dd><a href="http://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Senate</dt>
                                 <dd><a href="http://www.senate.leg.state.mn.us/schedule/schedule.php?ls=">Senate Schedules</a></dd>
@@ -266,7 +267,7 @@
                                 <dd><a href="http://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Joint</dt>
                                 <dd><a href="http://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
@@ -284,13 +285,13 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3">
+                        <div class="container px-4 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/committees">Legislative Committees</a></div>
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">House</dt>
@@ -311,7 +312,7 @@
                                 </dd>                  
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Senate</dt>
                                 <dd>
@@ -328,7 +329,7 @@
                                 </dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Joint</dt>
                                 <dd>
@@ -355,13 +356,13 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3">
+                        <div class="container px-4 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white pb-1">House</dt>
@@ -372,7 +373,7 @@
                                 <dd><a href="http://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Senate</dt>
                                 <dd><a href="https://www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
@@ -384,7 +385,7 @@
                                 </dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white pb-1">Joint</dt>
                                 <dd><a href="http://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
@@ -405,13 +406,13 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3">
+                        <div class="container px-4 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.revisor.mn.gov/pubs/">Statutes, Laws, and Rules</a></div>
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white">Statutes</dt>
@@ -426,7 +427,7 @@
                                 </dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white">Session Laws</dt>
                                 <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword Search</a></dd>
@@ -437,7 +438,7 @@
                                 <dd><a href="https://www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes Changed (Table 2)</a></dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white">Administrative Rules</dt>
                                 <dd><a href="https://www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword Search</a></dd>
@@ -448,7 +449,7 @@
                                 <dd><a href="https://www.revisor.mn.gov/state_register/">State Register</a></dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white">Other Legal Materials</dt>
                                 <dd><a href="https://www.revisor.mn.gov/constitution/">Minnesota Constitution</a></dd>
@@ -466,13 +467,13 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3">
+                        <div class="container px-4 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio, Video, Broadcast TV, News, & Photos</a></div>
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white">House</dt>
@@ -483,7 +484,7 @@
                                 <dd><a href="http://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white">Senate</dt>
                                 <dd>
@@ -495,7 +496,7 @@
                                 <dd><a href="http://www.senate.mn/media/media_photos.php">Photos</a></dd>
                               </dl>
                             </div>
-                            <div class="col">
+                            <div class="col-12 col-sm-4">
                               <dl>
                                 <dt class="text-white">Joint</dt>
                                 <dd><a href="http://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
@@ -512,13 +513,13 @@
                     </li>
                     <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
                       <div class="bg-dark">
-                        <div class="container px-1 px-md-3">
+                        <div class="container px-4 px-md-3">
                           <div class="row">
                             <div class="col nav-header pb-1"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research, Reports & Information</a></div>
                           </div>
                           <hr class="my-1 bg-secondary">
                           <div class="row">
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                               <dl>
                                 <dt class="text-white">Office Research &amp; Reports</dt>
@@ -530,7 +531,7 @@
                                 <dd><a href="http://www.leg.state.mn.us/lrl/">Library</a></dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white">News</dt>
                                 <dd><a href="http://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
@@ -540,10 +541,10 @@
 
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white">Legislative History</dt>
-                                <dd><a href="http://www.leg.state.mn.us/leg/leghist/histstep.aspx">Minnesota Legislative History Guide</a></dd>
+                                <dd><a href="http://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
                                 <dd><a href="http://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
                                 <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
                                 <dd><a href="http://www.senate.leg.state.mn.us/journals/index.php#current">Senate Journal</a></dd>
@@ -551,7 +552,7 @@
                                 <dd><a href="http://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
                               </dl>
                             </div>
-                            <div class="col-6 col-sm-3">
+                            <div class="col-12 col-sm-6 col-md-3">
                               <dl>
                                 <dt class="text-white">Notable Documents</dt>
                                 <dd><a href="http://www.senate.leg.state.mn.us/departments/scr/report/index.php#budgetsummaries">Fiscal Review</a></dd>

@@ -3,7 +3,8 @@
       margin-top: -0.08rem;
     }
 }
-.js-search-btn:hover{
+.js-search-btn:hover,
+.js-search-label{
   cursor:pointer;
 }
 
@@ -191,14 +192,14 @@
     margin: 0.25rem 0;
     font-size: 0.85rem;
     .navbar-senate &{
-        background-color: lighten($senate, 7%);
+        background-color: lighten($senate, 6%);
     }
     .navbar-joint &{
-        background-color: lighten($joint, 5%);
+        background-color: lighten($joint, 4%);
     }
 
     .navbar-house &{
-        background-color: lighten($house, 7%);
+        background-color: lighten($house, 2%);
     }
 }
 
@@ -245,6 +246,14 @@
     .navbar-senate &{
       color: $navbar-senate-hover-color;
     }
+}
+
+.dropdown-header{
+  margin: 0.5rem 1.5rem;
+  padding: 0 0 0.25rem 0;
+  font-size:0.85rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid $white;
 }
 
 // .tooltip-inner{
@@ -341,7 +350,7 @@ dt {
 }
 
 dd {
-    margin-bottom: .2rem;
+    margin-bottom: .1rem;
 }
 
 a:hover{  
@@ -386,6 +395,15 @@ a:hover{
 
 // md is where top navbar collapses
 @include media-breakpoint-up(lg) {
+//in the unlikely scenario where search and nav list crunch
+  //(a very particluar screen size). 
+  //need down-carets centered
+    .bg-dark{
+    a.nav-link.dropdown-toggle{
+      text-align:center;
+      line-height: 1rem;
+    }
+  }
 
   //top navigation absolute positioning
   .navbar-nav-collapse{
@@ -417,15 +435,8 @@ a:hover{
 } //end media-breakpoint-up
 
 @include media-breakpoint-only(lg){
-  //in the unlikely scenario where search and nav list crunch
-  //(a very particluar screen size). 
-  //need down-carets centered
-  .bg-dark{
-    a.nav-link.dropdown-toggle{
-      text-align:center;
-      line-height: 1rem;
-    }
-  }
+  
+
 }
 
 @include media-breakpoint-down(md){
@@ -439,6 +450,10 @@ a:hover{
     & .collapsing{      
       @include transition($transition-none);     
     }
+  }
+
+  .nav-header{
+    padding-top: 0.5rem
   }
 
 } //end media-breakpoint-down
