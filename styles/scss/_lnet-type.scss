@@ -80,7 +80,12 @@ a:hover{
     
 }
 
-[data-toggle='collapse']:hover {cursor:pointer;}
+// [data-toggle='collapse']:hover {cursor:pointer;}
+
+.card-header[data-toggle='collapse']:hover {
+    cursor:pointer;
+    background-color: darken($light, 2%) !important;
+}
 
 input[type="radio"],
 input[type="checkbox"] {

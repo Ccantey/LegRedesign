@@ -7655,8 +7655,9 @@ a:hover {
   .leg-title-container a:hover {
     background-color: transparent; }
 
-[data-toggle='collapse']:hover {
-  cursor: pointer; }
+.card-header[data-toggle='collapse']:hover {
+  cursor: pointer;
+  background-color: #ededed !important; }
 
 input[type="radio"],
 input[type="checkbox"] {
