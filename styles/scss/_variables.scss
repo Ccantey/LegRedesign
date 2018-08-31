@@ -9,15 +9,15 @@
 // //
 
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #f2f2f2 !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-100: #f8f9fa !default; // original
+$gray-200: #f2f2f2 !default; // #e9ecef $light -light
+$gray-300: #dee2e6 !default; // original
+$gray-400: #ced4da !default; // original
+$gray-500: #adb5bd !default; // original
+$gray-600: #6c757d !default; // #6c757d $gray -secondary #868e96
+$gray-700: #495057 !default; // original
+$gray-800: #343a40 !default; // original
+$gray-900: #212529 !default; // original
 $black:    #000 !default;
 
 $grays: () !default;
@@ -46,11 +46,13 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 $wheat:   #F9EBC8 !default;
+$steelblue: #4682B4 !default;
 
 $colors: () !default;
 // // stylelint-disable-next-line scss/dollar-variable-default
 $colors: map-merge((
   "blue":       $blue,
+  "steelblue":  $steelblue,
   "indigo":     $indigo,
   "purple":     $purple,
   "pink":       $pink,
@@ -93,6 +95,7 @@ $theme-colors: map-merge((
   "darklight":  $gray-600,
   "dark":       $dark,
   "darkgray":   $darkgray,
+  "alt-blue": $steelblue,
   "attn":     $attn,
   "senate":   $senate,
   "house":    $house,

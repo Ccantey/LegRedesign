@@ -1,3 +1,11 @@
+## [ChangeLog - current]
+<b>Added</b>
+
+<b>Changed</b>
+- changed $gray-600 back to Bootstrap default. This affects any instance of xx-secondary
+
+<b> Removed</b>
+
 ## [ChangeLog - 08/15/2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1b4bde91)
 
 <b>Added</b>
