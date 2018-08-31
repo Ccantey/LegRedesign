@@ -39,6 +39,9 @@ a{
         color:lighten($link-color, 35%);
         text-decoration: none;
     }
+    .list-group &{
+        text-decoration: none;
+    }
 }
 
 a:hover{

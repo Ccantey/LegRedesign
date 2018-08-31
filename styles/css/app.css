@@ -7734,6 +7734,8 @@ a {
   .leg-subfooter a {
     color: #a2c6e8;
     text-decoration: none; }
+  .list-group a {
+    text-decoration: none; }
 
 a:hover {
   background-color: #F9EBC8;
