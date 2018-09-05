@@ -36,6 +36,7 @@ cap_summer_closeup.jpg
 cap_summer_oblique.jpg
 cap_summer_oblique_distance.jpg
 cap_summer_va.jpg
+cap_sunset.jpg
 cap_va.jpg
 cap_veterans.jpg
 cap_winter.jpg

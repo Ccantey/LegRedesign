@@ -1,3 +1,16 @@
+## [ChangeLog - 09/05/2018](#)
+<b>Added</b>
+- [.underline-list-group](http://gitrh01.revisor.mn.gov/legislature/2018_design/blob/master/styles/scss/_lnet-type.scss#L18-51)
+- partial: _lnet-tables.scss
+- [.table {.thead-lightdark {th{a and a:hover}}}](http://gitrh01.revisor.mn.gov/legislature/2018_design/blob/master/styles/scss/_lnet-tables.scss#L1-21)
+
+<b>Changed</b>
+- changed $gray-600 back to Bootstrap default. This affects any instance of xx-secondary
+- $breadcrumb-divider: quote(">");
+- display-x size and weights
+
+<b> Removed</b>
+
 ## [ChangeLog - 08/15/2018](http://gitrh01.revisor.mn.gov/legislature/2018_design/compare/1e0dbfb9...1b4bde91)
 
 <b>Added</b>
