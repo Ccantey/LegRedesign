@@ -375,23 +375,23 @@ h6, .h6 {
   font-weight: 300; }
 
 .display-1 {
-  font-size: 6rem;
-  font-weight: 300;
+  font-size: 3.5rem;
+  font-weight: 400;
   line-height: 1.2; }
 
 .display-2 {
-  font-size: 5.5rem;
-  font-weight: 300;
+  font-size: 2.5rem;
+  font-weight: 400;
   line-height: 1.2; }
 
 .display-3 {
-  font-size: 4.5rem;
-  font-weight: 300;
+  font-size: 2rem;
+  font-weight: 400;
   line-height: 1.2; }
 
 .display-4 {
-  font-size: 3.5rem;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 400;
   line-height: 1.2; }
 
 hr {
@@ -7651,9 +7651,6 @@ a.ui-datepicker-next-hover.ui-corner-all {
   border-radius: 0.25rem;
   margin: 0 0 10px 0; }
 
-.gis-btn {
-  padding: 0.2rem 0.5rem; }
-
 /************************************************************
 *************************Footer******************************
 *************************************************************/
@@ -7709,8 +7706,7 @@ a.ui-datepicker-next-hover.ui-corner-all {
 
 html {
   position: relative;
-  min-height: 100%;
-  font-family: 'Roboto', sans-serif; }
+  min-height: 100%; }
 
 body {
   margin-bottom: 187px;
@@ -7735,6 +7731,10 @@ a {
     color: #a2c6e8;
     text-decoration: none; }
   .list-group a {
+    text-decoration: none; }
+  .underline-list-group a {
+    text-decoration: underline; }
+  .nav-tabs a {
     text-decoration: none; }
 
 a:hover {
@@ -7816,6 +7816,20 @@ input + label {
 
 .fa-2x {
   font-size: 1.333333rem !important; }
+
+.table .thead-lightdark th {
+  background-color: #ced4da;
+  border-color: #32383e; }
+  .table .thead-lightdark th a {
+    color: #343a40;
+    text-decoration: none; }
+.table .thead-lightdark th:hover {
+  cursor: pointer; }
+
+caption {
+  padding-bottom: 0;
+  caption-side: top;
+  font-size: 1.2rem; }
 
 .leg-brand-container form {
   margin-top: -0.08rem; }

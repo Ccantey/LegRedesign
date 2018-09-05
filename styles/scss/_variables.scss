@@ -282,19 +282,19 @@ $h6-font-size:                $font-size-base * 0.67 !default;
 // $headings-margin-bottom:      ($spacer / 2) !default;
 // $headings-font-family:        inherit !default;
 // $headings-font-weight:        500 !default;
-// $headings-line-height:        1.2 !default;
+$headings-line-height:        1.2 !default;
 // $headings-color:              inherit !default;
 
-// $display1-size:               6rem !default;
-// $display2-size:               5.5rem !default;
-// $display3-size:               4.5rem !default;
-// $display4-size:               3.5rem !default;
+$display1-size:               3.5rem !default;
+$display2-size:               2.5rem !default;
+$display3-size:               2rem !default;
+$display4-size:               1.5rem !default;
 
-// $display1-weight:             300 !default;
-// $display2-weight:             300 !default;
-// $display3-weight:             300 !default;
-// $display4-weight:             300 !default;
-// $display-line-height:         $headings-line-height !default;
+$display1-weight:             400 !default;
+$display2-weight:             400 !default;
+$display3-weight:             400 !default;
+$display4-weight:             400 !default;
+$display-line-height:         $headings-line-height !default;
 
 // $lead-font-size:              ($font-size-base * 1.25) !default;
 // $lead-font-weight:            300 !default;

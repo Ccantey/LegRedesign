@@ -1,7 +1,7 @@
 html{
     position: relative;
     min-height: 100%;
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
 }
 body {
     margin-bottom: 187px; //height of footer section
@@ -40,6 +40,12 @@ a{
         text-decoration: none;
     }
     .list-group &{
+        text-decoration: none;
+    }
+    .underline-list-group &{
+        text-decoration: underline;
+    }
+    .nav-tabs &{
         text-decoration: none;
     }
 }
