@@ -368,6 +368,12 @@ a:hover{
     }
 }
 
+.nav-item:last-child{
+  .nav-link{
+    padding-right: 0;
+  }
+}
+
 .nav-header a{
   color:lighten($link-color, 35%);
   font-weight:500;

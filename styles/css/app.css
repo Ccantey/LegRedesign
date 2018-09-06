@@ -7661,7 +7661,7 @@ a.ui-datepicker-next-hover.ui-corner-all {
   height: 187px; }
 
 .footer {
-  border-top: 1px solid black; }
+  border-top: 1px solid #737373; }
 
 .footer .a {
   color: #fff; }
@@ -8048,6 +8048,9 @@ dd {
 .nav-header a:hover {
   color: #7aadde;
   text-decoration: underline; }
+
+.nav-item:last-child .nav-link {
+  padding-right: 0; }
 
 .nav-header a {
   color: #a2c6e8;
