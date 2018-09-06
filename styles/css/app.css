@@ -8049,6 +8049,9 @@ dd {
   color: #7aadde;
   text-decoration: underline; }
 
+.nav-item:last-child .nav-link {
+  padding-right: 0; }
+
 .nav-header a {
   color: #a2c6e8;
   font-weight: 500;
