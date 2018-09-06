@@ -3,7 +3,7 @@
           <div class="container" style="">
             <div class="row pt-3 px-4">            
               <div class="col-sm">
-                <h4 class="title-widget text-left">About the Legislature</h4>
+                <h5 class="title-widget text-left">About the Legislature</h5>
                 <ul  class="list-unstyled clear-margins">
                   <li>
                     <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
@@ -24,7 +24,7 @@
                 </ul>
               </div>
               <div class="col-sm">
-                <h4 class="title-widget text-left">Contact Your Legislator</h4>
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
                 <ul  class="list-unstyled clear-margins">
                   <li   class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
                   <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
@@ -32,7 +32,7 @@
                 </ul>
               </div>
               <div class="col-sm">
-                <h4 class="title-widget text-left">General Contact</h4>
+                <h5 class="title-widget text-left">General Contact</h5>
                 <ul  class="list-unstyled clear-margins">
                   <li  class="mt-2">Contact a legislative librarian:</li>
                   <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
@@ -42,7 +42,7 @@
                 </ul>
               </div>
               <div class="col-sm">
-                <h4 class="title-widget">Get Connected</h4>
+                <h5 class="title-widget">Get Connected</h5>
                 <ul class="list-unstyled clear-margins">
                   <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
                   <li><a href="http://www.senate.leg.state.mn.us/media/">Senate News</a></li>
