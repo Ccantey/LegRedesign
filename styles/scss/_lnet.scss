@@ -1,24 +1,19 @@
-.container-fluid{
-    padding:0;
-}
+.container-fluid{ padding:0; }
 
-.bibliography{
+.bibliography{ 
     padding-left: 1.5em;
     text-indent:-1.5em;
 }
 
-.table .thead-light th{
-    border-color: #a9a9a9;
-}
+.table .thead-light th{ border-color: #a9a9a9; }
 
-.table-bordered td{
-    border: 1px solid #a9a9a9;
-}
+.table-bordered td{ border: 1px solid #a9a9a9; }
 
  .leg-cal-card .card-header a {
      color: white;
      text-decoration: underline;
  }
+
  .leg-cal-live-video {
       margin: 10px 10px 0 0;
       float: right;
@@ -40,3 +35,5 @@
     background-color: white;
     padding: 0.75rem 0;
 }
+
+legend { font-size: inherit; }

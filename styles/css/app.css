@@ -8158,4 +8158,7 @@ dd {
   background-color: white;
   padding: 0.75rem 0; }
 
+legend {
+  font-size: inherit; }
+
 /*# sourceMappingURL=app.css.map */

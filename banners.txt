@@ -1,6 +1,4 @@
 SOB_1.jpg
-SOB_2.jpg
-SOB_winter.jpg
 bill.jpg
 cap_Dome_chandelier.jpg
 cap_SP_background.jpg
@@ -27,6 +25,7 @@ cap_rotunda.jpg
 cap_rotunda3.jpg
 cap_rotundaR.jpg
 cap_rotunda_flag_half_mass.jpg
+cap_slightly_distant.jpg
 cap_spring_flowers.jpg
 cap_spring_gray.jpg
 cap_spring_yellow_flowers.jpg
@@ -53,3 +52,5 @@ senate_building.jpg
 senate_capitol_reflection.jpg
 senate_knute.jpg
 snowfall.jpg
+SOB_2.jpg
+SOB_winter.jpg
