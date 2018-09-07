@@ -25,7 +25,7 @@ git branch
 git branch -d [branch]
 
 ## DELETE A BRANCH FROM REMOTE
-git push origin -d [branch]
+git push origin --delete [branch]
 
 ## PUSH BRANCH TO REMOTE
 git push -u origin [branch]
