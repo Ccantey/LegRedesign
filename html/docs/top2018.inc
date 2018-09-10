@@ -637,10 +637,10 @@
               </ul>
               <ul class="navbar-nav ml-auto d-flex flex-row">
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
-                  <a class="nav-link test" href="mailto:lcc@lcc.leg.mn"><i class="far fa-lg fa-envelope"></i></a>
+                  <a  aria-label="email staff" class="nav-link test" href="mailto:lcc@lcc.leg.mn"><i class="far fa-lg fa-envelope"></i></a>
                 </li>
                 <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Print">
-                  <a class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                  <a  aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
                 </li>
               </ul>
             </div>

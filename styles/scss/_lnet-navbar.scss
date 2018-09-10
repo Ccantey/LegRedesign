@@ -329,10 +329,8 @@ dt,dd {
       padding:0 1rem;
     }
   }
-  .leg-brand-container{
-
-    text-align: center;
-}
+  // Center Brand/"Minnesota Legislature"
+  .leg-brand-container{ text-align: center; }
 }
 
 dd > a{
@@ -401,7 +399,7 @@ a:hover{
 
 // md is where top navbar collapses
 @include media-breakpoint-up(lg) {
-//in the unlikely scenario where search and nav list crunch
+  //in the unlikely scenario where search and nav list crunch
   //(a very particluar screen size). 
   //need down-carets centered
     .bg-dark{
