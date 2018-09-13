@@ -636,11 +636,11 @@
                 
               </ul>
               <ul class="navbar-nav ml-auto d-flex flex-row">
-                <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Email">
+                <li class="nav-item list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Email">
                   <a  aria-label="email staff" class="nav-link test" href="mailto:lcc@lcc.leg.mn"><i class="far fa-lg fa-envelope"></i></a>
                 </li>
-                <li class="nav-item list-inline-item px-0" data-toggle="tooltip" data-placement="bottom" title="Print">
-                  <a  aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                <li class="nav-item list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a  aria-label="print page pr-1" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
                 </li>
               </ul>
             </div>

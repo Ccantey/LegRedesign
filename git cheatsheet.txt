@@ -24,6 +24,9 @@ git branch
 ## DELETE A BRANCH
 git branch -d [branch]
 
+## Add remote
+git remote add origin https://github.com/user/repo.git
+
 ## DELETE A BRANCH FROM REMOTE
 git push origin --delete [branch]
 

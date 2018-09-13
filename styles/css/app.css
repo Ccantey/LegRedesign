@@ -7817,20 +7817,6 @@ input + label {
 .fa-2x {
   font-size: 1.333333rem !important; }
 
-.table .thead-lightdark th {
-  background-color: #ced4da;
-  border-color: #32383e; }
-  .table .thead-lightdark th a {
-    color: #343a40;
-    text-decoration: none; }
-.table .thead-lightdark th:hover {
-  cursor: pointer; }
-
-caption {
-  padding-bottom: 0;
-  caption-side: top;
-  font-size: 1.2rem; }
-
 .leg-brand-container form {
   margin-top: -0.08rem; }
 
@@ -7957,11 +7943,11 @@ caption {
   color: rgba(255, 255, 255, 0.25); }
 
 .dropdown-item {
-  padding: 0.1rem 1.5rem 0.25rem 1.5rem; }
+  padding: 0.1rem 1.5rem 0.1rem 1.5rem; }
   .dropdown-item:first-child {
     padding-top: 0.25rem; }
   .dropdown-item:last-child {
-    padding-bottom: 0.35rem; }
+    padding-bottom: 0.5rem; }
   .navbar-joint .dropdown-item {
     color: rgba(255, 255, 255, 0.875); }
   .navbar-senate .dropdown-item {
@@ -8049,9 +8035,6 @@ dd {
   color: #7aadde;
   text-decoration: underline; }
 
-.nav-item:last-child .nav-link {
-  padding-right: 0; }
-
 .nav-header a {
   color: #a2c6e8;
   font-weight: 500;
@@ -8121,6 +8104,25 @@ dd {
 @media (max-width: 991.98px) {
   .nav-header {
     padding-top: 0.5rem; } }
+.table .thead-lightdark th {
+  background-color: #ced4da;
+  border-color: #32383e; }
+  .table .thead-lightdark th a {
+    color: #343a40;
+    text-decoration: none; }
+  .table .thead-lightdark th a:hover {
+    background-color: transparent; }
+.table .thead-lightdark th:hover {
+  cursor: pointer; }
+
+.table-nav a:hover {
+  background-color: #F9EBC8; }
+
+caption {
+  padding-bottom: 0;
+  caption-side: top;
+  font-size: 1.2rem; }
+
 .container-fluid {
   padding: 0; }
 
