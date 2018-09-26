@@ -421,7 +421,7 @@ a:hover{
   .collapse {
     &.show {
       & .bg-dark{        
-        height:12.6rem;
+        height:12.3rem;
         padding-top: 0.2rem;
       }
     }
@@ -430,7 +430,7 @@ a:hover{
   .collapsing {
     // @include transition($transition-none); //remove transition entirely
     & .bg-dark{      
-      height: 12.6rem;
+      height: 12.3rem;
       padding-top: 0.2rem;     
     }
   }
