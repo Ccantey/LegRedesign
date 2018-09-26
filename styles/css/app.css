@@ -8110,12 +8110,7 @@ dd {
   .table .thead-lightdark th a {
     color: #343a40;
     text-decoration: none; }
-<<<<<<< HEAD
-.table .thead-lightdark th:hover {
-  cursor: pointer; }
-
-=======
-  .table .thead-lightdark th a:hover {
+ .table .thead-lightdark th a:hover {
     background-color: transparent; }
 .table .thead-lightdark th:hover {
   cursor: pointer; }
@@ -8123,7 +8118,6 @@ dd {
 .table-nav a:hover {
   background-color: #F9EBC8; }
 
->>>>>>> dev
 caption {
   padding-bottom: 0;
   caption-side: top;
