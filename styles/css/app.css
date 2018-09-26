@@ -7943,11 +7943,11 @@ input + label {
   color: rgba(255, 255, 255, 0.25); }
 
 .dropdown-item {
-  padding: 0.1rem 1.5rem 0.25rem 1.5rem; }
+  padding: 0.1rem 1.5rem 0.1rem 1.5rem; }
   .dropdown-item:first-child {
     padding-top: 0.25rem; }
   .dropdown-item:last-child {
-    padding-bottom: 0.35rem; }
+    padding-bottom: 0.5rem; }
   .navbar-joint .dropdown-item {
     color: rgba(255, 255, 255, 0.875); }
   .navbar-senate .dropdown-item {
@@ -8035,9 +8035,6 @@ dd {
   color: #7aadde;
   text-decoration: underline; }
 
-.nav-item:last-child .nav-link {
-  padding-right: 0; }
-
 .nav-header a {
   color: #a2c6e8;
   font-weight: 500;
@@ -8088,11 +8085,11 @@ dd {
     z-index: 1; }
 
   .collapse.show .bg-dark {
-    height: 12.6rem;
+    height: 12.3rem;
     padding-top: 0.2rem; }
 
   .collapsing .bg-dark {
-    height: 12.6rem;
+    height: 12.3rem;
     padding-top: 0.2rem; } }
 @media (max-width: 991.98px) {
   .navbar-nav-collapse .bg-dark {
@@ -8113,9 +8110,20 @@ dd {
   .table .thead-lightdark th a {
     color: #343a40;
     text-decoration: none; }
+<<<<<<< HEAD
 .table .thead-lightdark th:hover {
   cursor: pointer; }
 
+=======
+  .table .thead-lightdark th a:hover {
+    background-color: transparent; }
+.table .thead-lightdark th:hover {
+  cursor: pointer; }
+
+.table-nav a:hover {
+  background-color: #F9EBC8; }
+
+>>>>>>> dev
 caption {
   padding-bottom: 0;
   caption-side: top;
@@ -8127,12 +8135,6 @@ caption {
 .bibliography {
   padding-left: 1.5em;
   text-indent: -1.5em; }
-
-.table .thead-light th {
-  border-color: #a9a9a9; }
-
-.table-bordered td {
-  border: 1px solid #a9a9a9; }
 
 .leg-cal-card .card-header a {
   color: white;
