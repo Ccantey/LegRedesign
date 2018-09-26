@@ -7817,20 +7817,6 @@ input + label {
 .fa-2x {
   font-size: 1.333333rem !important; }
 
-.table .thead-lightdark th {
-  background-color: #ced4da;
-  border-color: #32383e; }
-  .table .thead-lightdark th a {
-    color: #343a40;
-    text-decoration: none; }
-.table .thead-lightdark th:hover {
-  cursor: pointer; }
-
-caption {
-  padding-bottom: 0;
-  caption-side: top;
-  font-size: 1.2rem; }
-
 .leg-brand-container form {
   margin-top: -0.08rem; }
 
@@ -8121,6 +8107,20 @@ dd {
 @media (max-width: 991.98px) {
   .nav-header {
     padding-top: 0.5rem; } }
+.table .thead-lightdark th {
+  background-color: #ced4da;
+  border-color: #32383e; }
+  .table .thead-lightdark th a {
+    color: #343a40;
+    text-decoration: none; }
+.table .thead-lightdark th:hover {
+  cursor: pointer; }
+
+caption {
+  padding-bottom: 0;
+  caption-side: top;
+  font-size: 1.2rem; }
+
 .container-fluid {
   padding: 0; }
 
