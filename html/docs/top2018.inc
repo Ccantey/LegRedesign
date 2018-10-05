@@ -3,8 +3,10 @@
 <head>
   <!-- Required meta tags always come first -->
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-  <meta content="ie=edge" http-equiv="x-ua-compatible"><!-- ==================================================
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimal-ui, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- ==================================================
   INSTRUCTIONS:
 
 
@@ -587,12 +589,12 @@
               <!-- <a class="leg-title-text-2-lines text-white" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
               <a class="leg-subtitle-text text-white" href="/" id="leg-title-text" style="">Geospatial Information</a> -->
 
-              <a class="leg-title-text text-white" href="index.html" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
+              <a class="leg-title-text text-white" href="index.html" id="leg-title-text" style="">Joint Departments and Commssions</a><br>
             </div>
           </div>
           </div>
         </div>
-        <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">Legislative Coordinating Commission</h1>
+        <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">Joint Departments and Commssions</h1>
         <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
           <div class="container">
             <div class="d-block ml-0">
@@ -636,10 +638,10 @@
                 
               </ul>
               <ul class="navbar-nav ml-auto d-flex flex-row">
-                <li class="nav-item list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Email">
+                <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">
                   <a  aria-label="email staff" class="nav-link test" href="mailto:lcc@lcc.leg.mn"><i class="far fa-lg fa-envelope"></i></a>
                 </li>
-                <li class="nav-item list-inline-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
                   <a  aria-label="print page pr-1" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
                 </li>
               </ul>

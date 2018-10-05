@@ -7736,6 +7736,8 @@ a {
     text-decoration: underline; }
   .nav-tabs a {
     text-decoration: none; }
+  a.btn {
+    text-decoration: none; }
 
 a:hover {
   background-color: #F9EBC8;
@@ -7817,6 +7819,12 @@ input + label {
 .fa-2x {
   font-size: 1.333333rem !important; }
 
+::selection {
+  background-color: #ffc107; }
+
+::-moz-selection {
+  background-color: #ffc107; }
+
 .leg-brand-container form {
   margin-top: -0.08rem; }
 
@@ -7845,9 +7853,7 @@ input + label {
   color: #fff; }
 .navbar-joint .navbar-toggler {
   color: rgba(255, 255, 255, 0.875);
-  border-color: rgba(255, 255, 255, 0.4);
-  font-size: 1rem;
-  padding: 0.1rem 0.25rem; }
+  border-color: rgba(255, 255, 255, 0.4); }
 .navbar-joint .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.875)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 .navbar-joint .navbar-text {
@@ -7875,9 +7881,7 @@ input + label {
   color: #fff; }
 .navbar-senate .navbar-toggler {
   color: rgba(255, 255, 255, 0.875);
-  border-color: rgba(255, 255, 255, 0.4);
-  font-size: 1rem;
-  padding: 0.1rem 0.25rem; }
+  border-color: rgba(255, 255, 255, 0.4); }
 .navbar-senate .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.875)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 .navbar-senate .navbar-text {
@@ -7905,9 +7909,7 @@ input + label {
   color: #fff; }
 .navbar-house .navbar-toggler {
   color: rgba(255, 255, 255, 0.875);
-  border-color: rgba(255, 255, 255, 0.4);
-  font-size: 1rem;
-  padding: 0.1rem 0.25rem; }
+  border-color: rgba(255, 255, 255, 0.4); }
 .navbar-house .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.875)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 .navbar-house .navbar-text {

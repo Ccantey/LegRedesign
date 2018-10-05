@@ -48,6 +48,9 @@ a{
     .nav-tabs &{
         text-decoration: none;
     }
+    &.btn{
+        text-decoration: none;
+    }
 }
 
 a:hover{
@@ -164,4 +167,12 @@ input + label {margin-bottom: 0;}
 
 .fa-2x{
     font-size: 1.333333rem !important;
+}
+
+::selection{
+    background-color: $yellow;
+}
+
+::-moz-selection{
+    background-color: $yellow;
 }
