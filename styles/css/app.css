@@ -7713,6 +7713,9 @@ body {
   font-size: 14px;
   overflow-x: hidden; }
 
+h1 {
+  margin-bottom: .75rem; }
+
 a {
   text-decoration: underline; }
   .navbar a {
