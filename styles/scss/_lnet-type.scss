@@ -14,6 +14,23 @@ body {
     // padding-bottom: 3rem;
 }
 
+h1{margin-bottom: .75rem;}
+
+//formatting pages with a lot of text
+p + h2, p + h3, p + h4, 
+ul + h2, ul + h3, ul + h4, 
+ol + h2, ol + h3, ol + h4 {
+  margin-top: 1.4rem;
+}
+
+p + h5, ul + h5, ol + h5 {
+  margin-top: 1rem;
+}
+
+h4 + h5 {
+  margin-top: 0.75rem;
+}
+
 // Request to keep underlines - just can't have them everywhere
 a{
     text-decoration: underline;
