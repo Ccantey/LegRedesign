@@ -35,5 +35,13 @@
     background-color: white;
     padding: 0.75rem 0;
 }
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0.3rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 0.3rem;
+  }
+
 
 legend { font-size: inherit; }
