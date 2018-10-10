@@ -1,4 +1,6 @@
 SOB_1.jpg
+SOB_2.jpg
+SOB_winter.jpg
 bill.jpg
 cap_Dome_chandelier.jpg
 cap_SP_background.jpg
@@ -43,14 +45,17 @@ cap_xmas.jpg
 cap_yellow_leaves.jpg
 cap_yellow_leaves_front.jpg
 full_cap_yellow_leaves.jpg
+greenheads.jpg
 halloween.jpg
 house_floor.jpg
 house_floor_full.jpg
 house_session.jpg
 leg_session_bakk.jpg
+lsohc_pheasant_flight.jpg
+lsohc_pheasant_hunt.jpg
+lsohc_pheasant_snow.jpg
+lsohc_wtd.jpg
 senate_building.jpg
 senate_capitol_reflection.jpg
 senate_knute.jpg
 snowfall.jpg
-SOB_2.jpg
-SOB_winter.jpg
