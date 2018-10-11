@@ -7752,6 +7752,8 @@ a {
     text-decoration: none; }
   a.btn {
     text-decoration: none; }
+  .table-striped a {
+    text-decoration: none; }
 
 a:hover {
   background-color: #F9EBC8;
