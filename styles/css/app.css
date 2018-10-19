@@ -8136,6 +8136,9 @@ dd {
 .table-nav a:hover {
   background-color: #F9EBC8; }
 
+.table th, .table td {
+  padding: 0.5rem; }
+
 caption {
   padding-bottom: 0;
   caption-side: top;

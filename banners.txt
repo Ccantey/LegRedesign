@@ -1,6 +1,4 @@
 SOB_1.jpg
-SOB_2.jpg
-SOB_winter.jpg
 bill.jpg
 cap_Dome_chandelier.jpg
 cap_SP_background.jpg
@@ -11,6 +9,7 @@ cap_bluesky_runner.jpg
 cap_bluesky_shady.jpg
 cap_bluesky_vibrant.jpg
 cap_dome_green_leaves.jpg
+cap_early_autumn_2018.jpg
 cap_fall.jpg
 cap_fall_distant.jpg
 cap_flower_forground.jpg
@@ -59,3 +58,5 @@ senate_building.jpg
 senate_capitol_reflection.jpg
 senate_knute.jpg
 snowfall.jpg
+SOB_2.jpg
+SOB_winter.jpg
