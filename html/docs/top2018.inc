@@ -213,6 +213,7 @@
                                 <dd><a href="https://www.revisor.mn.gov/">Revisor of Statutes</a></dd>
                                 <dd><a href="http://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd> 
                                 <dd><a href="http://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                <dd><a href="http://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
                               </dl>
                             </div>
                             <div class="col-12 col-sm-4">
