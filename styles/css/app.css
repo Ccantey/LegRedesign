@@ -8139,6 +8139,9 @@ dd {
 .table th, .table td {
   padding: 0.5rem; }
 
+.table ol, .table ul {
+  margin-bottom: 0; }
+
 caption {
   padding-bottom: 0;
   caption-side: top;
