@@ -23,15 +23,13 @@
   }
 }
 
-.table th, .table td{
-  padding:0.5rem;
-}
-
-.table{
+.table {
+  th,td{
+    padding:0.5rem;
+  }
   ol, ul {
     margin-bottom: 0;
   }
-
 }
 
 caption{
