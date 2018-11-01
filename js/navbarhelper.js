@@ -29,11 +29,21 @@ $(document).ready(function () {
     $('.navbar-nav-collapse').removeClass('notransition');
   });
 
-  $(".js-search-btn, .js-search-label").click(function(e){
-    e.preventDefault();
-    $(".js-search").animate({width: 'toggle'});
-    // return false
-  });
+  $(".js-search-btn, .js-search-label").click(function (e) {
+        e.preventDefault();
+        var jssearchisVisible = $(".js-search").is(":visible");
+        //console.log(jssearchisVisible);
+        if (jssearchisVisible === false) {
+            $(".js-search").animate({ width: 'toggle' });
+        } else {
+            window.location.href = "https://www.leg.state.mn.us/search?q=" + $('#main-search').val();
+        };
+    });
+    $("#main-search").on("keydown", function (event) {
+        if (event.which === 13)
+            window.location.href = "https://www.leg.state.mn.us/search?q=" + $('#main-search').val();
+    });
+
 
   //switch active class and change banner if already open
   $('.navbar-nav-collapse').on('show.bs.collapse', function () {
