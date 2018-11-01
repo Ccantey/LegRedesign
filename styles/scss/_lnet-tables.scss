@@ -23,6 +23,17 @@
   }
 }
 
+.table {
+  th,td{
+    padding:0.5rem;
+  }
+  ol, ul {
+    margin-bottom: 0;
+  }
+  li{
+    padding-bottom: .5rem;
+  }
+}
 
 caption{
   padding-bottom: 0;
