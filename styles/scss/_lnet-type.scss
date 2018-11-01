@@ -68,6 +68,9 @@ a{
     &.btn{
         text-decoration: none;
     }
+    &.badge{
+        text-decoration: none;
+    }
     .table-striped &{
         text-decoration: none;
     }
@@ -89,6 +92,9 @@ a:hover{
         text-decoration: none;
     }
     &.leg-subtitle-text{
+        text-decoration: none;
+    }
+    &.badge{
         text-decoration: none;
     }
     .footer &{

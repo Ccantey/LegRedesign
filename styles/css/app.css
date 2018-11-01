@@ -7752,6 +7752,8 @@ a {
     text-decoration: none; }
   a.btn {
     text-decoration: none; }
+  a.badge {
+    text-decoration: none; }
   .table-striped a {
     text-decoration: none; }
 
@@ -7763,6 +7765,8 @@ a:hover {
   a:hover.leg-title-text-2-lines {
     text-decoration: none; }
   a:hover.leg-subtitle-text {
+    text-decoration: none; }
+  a:hover.badge {
     text-decoration: none; }
   .footer a:hover {
     background-color: transparent; }
@@ -8140,6 +8144,8 @@ dd {
   padding: 0.5rem; }
 .table ol, .table ul {
   margin-bottom: 0; }
+.table li {
+  padding-bottom: .5rem; }
 
 caption {
   padding-bottom: 0;

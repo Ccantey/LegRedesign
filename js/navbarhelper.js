@@ -48,12 +48,13 @@ $(document).ready(function () {
 
   // hide navbar-nav-collapse when user clicks away from navigation menu
   $(document).click(function (e) {
-    var target = $(e.target);
-    if (!target.hasClass('nav-link')){
+    // var target = $(e.target);
+    if (!target.hasClass('nav-link') || !target.closest('.bg-dark')){
+      console.log('here')
       if($('.navbar-nav-collapse').hasClass('notransition')){
         $(".navbar-nav-collapse").removeClass('notransition')
       }
-      closeBanner();
+      // closeBanner();
     } 
   });
 
