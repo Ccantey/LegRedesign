@@ -32,8 +32,9 @@ $(document).ready(function () {
   $(".js-search-btn, .js-search-label").click(function (e) {
         e.preventDefault();
         var jssearchisVisible = $(".js-search").is(":visible");
-        //console.log(jssearchisVisible);
-        if (jssearchisVisible === false) {
+        var jssearchisBlank = $(".js-search").val().length === 0;
+        // console.log(jssearchisBlank);
+        if (jssearchisVisible === false || jssearchisBlank === true) {
             $(".js-search").animate({ width: 'toggle' });
         } else {
             window.location.href = "https://www.leg.state.mn.us/search?q=" + $('#main-search').val();
@@ -58,9 +59,9 @@ $(document).ready(function () {
 
   // hide navbar-nav-collapse when user clicks away from navigation menu
   $(document).click(function (e) {
-    // var target = $(e.target);
+    var target = $(e.target);
     if (!target.hasClass('nav-link') || !target.closest('.bg-dark')){
-      console.log('here')
+      // console.log('here')
       if($('.navbar-nav-collapse').hasClass('notransition')){
         $(".navbar-nav-collapse").removeClass('notransition')
       }
