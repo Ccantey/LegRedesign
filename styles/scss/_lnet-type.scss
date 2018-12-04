@@ -43,6 +43,13 @@ a{
     .footer &{
         text-decoration: none;
     }
+    .leg-no-decoration &{
+        text-decoration: none;
+    }
+    .leg-decoration &{
+        text-decoration: underline !important;
+        color: $link-color !important;
+    }
     dd &{
         text-decoration: none;
     }
