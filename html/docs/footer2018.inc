@@ -16,7 +16,7 @@
                   </li>
 
                   <li>
-                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?id=98">Accessibility</a>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?id=98">Special Needs Access</a>
                   </li>
                   <li>
                     <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">FAQ</a>
