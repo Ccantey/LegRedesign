@@ -45,6 +45,18 @@ $(document).ready(function () {
             window.location.href = "https://www.leg.state.mn.us/search?q=" + $('#main-search').val();
     });
 
+    $(".js-sm-search").on("keydown", function (event) {
+      
+        if (event.which === 13){
+          event.preventDefault();
+            window.location.href = "https://www.leg.state.mn.us/search?q=" + $('.js-sm-search').val();
+        }
+    });
+    $(".js-search-sm-btn").click(function (event) {
+        
+            window.location.href = "https://www.leg.state.mn.us/search?q=" + $('#sm-search').val();
+    });
+
 
   //switch active class and change banner if already open
   $('.navbar-nav-collapse').on('show.bs.collapse', function () {
