@@ -16,10 +16,10 @@
                   </li>
 
                   <li>
-                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?id=98">Accessibility</a>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx?id=98">Special Needs Access</a>
                   </li>
                   <li>
-                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">FAQ</a>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
                   </li>
                 </ul>
               </div>
@@ -33,11 +33,10 @@
               </div>
               <div class="col-sm-6 col-md-3">
                 <h5 class="title-widget text-left">General Contact</h5>
-                <ul  class="list-unstyled clear-margins">
-                  <li  class="mt-2">Contact a legislative librarian:</li>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
                   <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
-
-                  <li  class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>         
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>         
                   <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>            
                 </ul>
               </div>

@@ -43,6 +43,13 @@ a{
     .footer &{
         text-decoration: none;
     }
+    .leg-no-decoration &{
+        text-decoration: none;
+    }
+    .leg-decoration &{
+        text-decoration: underline !important;
+        color: $link-color !important;
+    }
     dd &{
         text-decoration: none;
     }
@@ -161,7 +168,7 @@ input + label {margin-bottom: 0;}
 }
 
 .leg-title-text {
-    font-size: 1.8em;
+    font-size: 2em;
     text-decoration: none;
     font-family: georgia, serif;
     text-shadow: 1px 1px 1px #000;

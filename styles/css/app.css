@@ -359,7 +359,7 @@ h2, .h2 {
   font-size: 1.35rem; }
 
 h3, .h3 {
-  font-size: 1.25rem; }
+  font-size: 1.15rem; }
 
 h4, .h4 {
   font-size: 1rem; }
@@ -7735,6 +7735,11 @@ a {
     text-decoration: none; }
   .footer a {
     text-decoration: none; }
+  .leg-no-decoration a {
+    text-decoration: none; }
+  .leg-decoration a {
+    text-decoration: underline !important;
+    color: #2b6dad !important; }
   dd a {
     text-decoration: none; }
   .leg-portal-header a {
@@ -7811,7 +7816,7 @@ input + label {
   letter-spacing: .15rem; }
 
 .leg-title-text {
-  font-size: 1.8em;
+  font-size: 2em;
   text-decoration: none;
   font-family: georgia, serif;
   text-shadow: 1px 1px 1px #000;
@@ -7965,7 +7970,7 @@ input + label {
   color: rgba(255, 255, 255, 0.25); }
 
 .dropdown-item {
-  padding: 0.1rem 1.5rem 0.1rem 1.5rem; }
+  padding: 0.1rem 1rem 0.1rem 1rem; }
   .dropdown-item:first-child {
     padding-top: 0.25rem; }
   .dropdown-item:last-child {
@@ -7987,7 +7992,7 @@ input + label {
     color: white; }
 
 .dropdown-header {
-  margin: 0.5rem 1.5rem;
+  margin: 0.5rem 1rem;
   padding: 0 0 0.25rem 0;
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -7996,7 +8001,7 @@ input + label {
 .navbar-joint .nav-link,
 .navbar-senate .nav-link,
 .navbar-house .nav-link {
-  padding: 0.3rem 1rem; }
+  padding: 0.3rem 0; }
 
 dt, dd {
   font-size: 0.85rem; }
