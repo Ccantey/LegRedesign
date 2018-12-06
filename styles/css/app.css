@@ -7761,6 +7761,8 @@ a {
     text-decoration: none; }
   .table-striped a {
     text-decoration: none; }
+  .pagination a {
+    text-decoration: none; }
 
 a:hover {
   background-color: #F9EBC8;
