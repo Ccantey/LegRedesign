@@ -21,7 +21,7 @@
   <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/bootstrapWindowHelper.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 
-  <title>LCC-GIS</title>
+  <title>LCC</title>
   </head>
   <body class="joint"> <!-- closing tag in footer -->
 
@@ -33,7 +33,7 @@
       <div class="container-fluid"> <!-- closing tag in footer -->
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
-           <div class="container  d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
             <img src="https://ww2.gis.leg.mn/iMaps/bootstrap4/img/icons/capitol2.svg" height="24px" style="margin-top:-8px;opacity:0.95">
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white pl-1" href="/" ">Minnesota Legislature</a>
 
@@ -62,7 +62,7 @@
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
           <div class="container">
             <div class="w-100 px-auto">
-              <div class="col-12 position-static p-lg-0">
+              <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
                <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
                 <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav"> Menu</span>
 
@@ -590,25 +590,25 @@
         <div class="leg-banner img-joint d-print-none">
           <div class="position-relative h-100">
           <div class="leg-title-container pl-0">
-            <div class="container">
+            <div class="container pl-sm-0 pl-md-3">
               <!-- TWO TITLE LINES -->
-              <a class="leg-title-text-2-lines text-white" href="https://ww2.gis.leg.mn/index.html" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
-              <a class="leg-subtitle-text text-white" href="https://ww2.gis.leg.mn/index.html" id="leg-title-text" style="">Geospatial Information</a>
+              <!-- <a class="leg-title-text-2-lines text-white" href="https://ww2.gis.leg.mn/index.html" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
+              <a class="leg-subtitle-text text-white" href="https://ww2.gis.leg.mn/index.html" id="leg-title-text" style="">Geospatial Information</a> -->
 
-              <!-- <a class="leg-title-text text-white" href="index.html" id="leg-title-text" style="">Legislative Coordinating Commission</a><br> -->
+              <a class="leg-title-text text-white" href="index.html" id="leg-title-text" style="">Legislative Coordinating Commission</a><br>
             </div>
           </div>
           </div>
         </div>
-        <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">LCC-GIS Office</h1>
+        <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">LCC Office</h1>
         <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
           <div class="container">
             <div class="d-block ml-0">
               <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav"> GIS Menu</span>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav"> LCC Menu</span>
             </div>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+              <ul class="navbar-nav px-2 px-md-0">
                 <li class="nav-item">
                   <a class="nav-link pl-md-0" href="index.html">LCC Home</a>
                 </li>

@@ -177,7 +177,7 @@
 .navbar-senate,
 .navbar-joint,
 .navbar-house{
-    padding: .3rem 1rem;
+    // padding: .3rem 1rem;
 }
 
 //this is what makes Sass awesome
@@ -189,7 +189,7 @@
 .dropdown-menu.show{
     border-radius: 0;
     padding: 0;
-    margin: 0.25rem 0;
+    margin: 0.45rem 0;
     font-size: 0.85rem;
     .navbar-senate &{
         background-color: lighten($senate, 6%);
