@@ -21,7 +21,7 @@
   <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/bootstrapWindowHelper.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 
-  <title>LCC-GIS</title>
+  <title>LCC</title>
   </head>
   <body class="joint"> <!-- closing tag in footer -->
 
@@ -600,12 +600,12 @@
           </div>
           </div>
         </div>
-        <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">LCC-GIS Office</h1>
+        <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">LCC Office</h1>
         <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
           <div class="container">
             <div class="d-block ml-0">
               <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav"> GIS Menu</span>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav"> LCC Menu</span>
             </div>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav px-2 px-md-0">
