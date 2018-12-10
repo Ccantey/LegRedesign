@@ -10,15 +10,15 @@
 
   ================================================== -->
 
-  <link href="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
+  <link href="https://ww2.gis.leg.mn/assets/js/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet">
   <!-- LNET compiled SASS -->
-  <link href="https://ww2.gis.leg.mn/iMaps/bootstrap4/styles/css/app.css" rel="stylesheet">
+  <link href="https://ww2.gis.leg.mn/assets/styles/css/app.css" rel="stylesheet">
   <!-- jQuery needs to load before Bootstrap JS. -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/getParameterByName.js"></script>
-  <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/calendar.js"></script>
-  <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/navbarhelper.js"></script>
-  <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/bootstrapWindowHelper.js"></script>
+  <script src="https://ww2.gis.leg.mn/assets/js/getParameterByName.js"></script>
+  <script src="https://ww2.gis.leg.mn/assets/js/calendar.js"></script>
+  <script src="https://ww2.gis.leg.mn/assets/js/navbarhelper.js"></script>
+  <script src="https://ww2.gis.leg.mn/assets/js/bootstrapWindowHelper.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 
   <title>LCC</title>
@@ -34,7 +34,7 @@
 
        <div class="leg-brand-container bg-darkgray py-1 pl-0">
            <div class="container pl-0 pl-md-3 d-print-none">
-            <img src="https://ww2.gis.leg.mn/iMaps/bootstrap4/img/icons/capitol2.svg" height="24px" style="margin-top:-8px;opacity:0.95">
+            <img src="https://ww2.gis.leg.mn/assets/img/icons/capitol2.svg" height="24px" style="margin-top:-8px;opacity:0.95">
                <a id="ctl00_HyperLink1" class="leg-brand-text text-white pl-1" href="/" ">Minnesota Legislature</a>
 
 
