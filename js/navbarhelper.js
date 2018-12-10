@@ -1,6 +1,7 @@
 
-function closeBanner(){
-  if ($('.navbar-nav-collapse').hasClass('show')){
+function closeBanner(target){
+  // console.log($(target).parents().is('dd'))
+  if ($('.navbar-nav-collapse').hasClass('show') && !$(target).parents().is('dd')){
     // console.log('close banner called');
     // $('.navbar-nav-collapse').removeClass('notransition');
     $(".navbar-nav-collapse").collapse('hide').removeClass('notransition');
@@ -77,7 +78,7 @@ $(document).ready(function () {
       if($('.navbar-nav-collapse').hasClass('notransition')){
         $(".navbar-nav-collapse").removeClass('notransition')
       }
-      closeBanner();
+      closeBanner(target);
     } 
   });
 
