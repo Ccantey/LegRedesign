@@ -1,7 +1,7 @@
 
 function closeBanner(target){
-  // console.log($(target).parents().is('dd'))
-  if ($('.navbar-nav-collapse').hasClass('show') && !$(target).parents().is('dd')){
+  // close banner if click is not a banner navigation item (otherwise the banner starts to close and freezes on transition)
+  if ($('.navbar-nav-collapse').hasClass('show') && !$(target).parents().is('dd') && !$(target).parents().is('.nav-header')){
     // console.log('close banner called');
     // $('.navbar-nav-collapse').removeClass('notransition');
     $(".navbar-nav-collapse").collapse('hide').removeClass('notransition');
