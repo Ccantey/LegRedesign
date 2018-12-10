@@ -77,7 +77,7 @@ $(document).ready(function () {
       if($('.navbar-nav-collapse').hasClass('notransition')){
         $(".navbar-nav-collapse").removeClass('notransition')
       }
-      // closeBanner();
+      closeBanner();
     } 
   });
 
