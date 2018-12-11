@@ -59,11 +59,11 @@
         </div>
       </div>
     </div> <!-- container.fluid (from top) -->
-    <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/js/jquery-ui-1.12.1.custom/jquery-ui.min.js">
+    <script src="https://ww2.gis.leg.mn/assets/js/jquery-ui-1.12.1.custom/jquery-ui.min.js">
     </script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
     </script> 
-    <script src="https://ww2.gis.leg.mn/iMaps/bootstrap4/node_modules/bootstrap/dist/js/bootstrap.min.js">
+    <script src="https://ww2.gis.leg.mn/assets/node_modules/bootstrap/dist/js/bootstrap.min.js">
     </script> 
   </body>
 </html>
