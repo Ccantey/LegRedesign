@@ -92,7 +92,7 @@
                                 <dd><a href="http://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
                                 <dd><a href="http://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
 
-                                <dd><a href="http://www.leg.state.mn.us/leg/districtfinder.aspx">Who Represents Me?</a></dd>
+                                <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
                               </dl>
                             </div>
                             <div class="col-12 col-sm-6 col-md-3 mt-1">
@@ -152,7 +152,7 @@
                                 <dd class="text-muted"><a href="http://www.senate.mn/members/index.php?ls=#leader">Leadership</a></dd>
                                 <dd class="text-muted"><a href="http://www.senate.mn/employees/employee_list.php?ls=">Staff</a></dd>
                                 <dd class="text-muted"><a href="http://www.senate.mn/jobs/index.php?office_id=1005&amp;div_id=1020#header">Employment</a></dd>
-                                <dd><a href="http://www.leg.state.mn.us/leg/districtfinder.aspx">Who Represents Me?</a></dd>
+                                <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
 
                                 <!-- <dd class="text-muted">Employment</dd> -->
                               </dl>
