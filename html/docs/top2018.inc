@@ -501,7 +501,7 @@
                               <dl>
                                 <dt class="text-white">Joint</dt>
                                 <dd><a href="http://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
-                                <dd><a href="http://www.lcc.leg.mn/meetings-all.htm">Commission Audio/Video</a></dd>
+                                <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
                               </dl>
                             </div>
                           </div>
