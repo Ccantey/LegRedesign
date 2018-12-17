@@ -557,7 +557,6 @@
                               <dl>
                                 <dt class="text-white">Notable Documents</dt>
                                 <dd><a href="http://www.senate.leg.state.mn.us/departments/scr/report/index.php#budgetsummaries">Fiscal Review</a></dd>
-                                <dd><a href="http://www.house.leg.state.mn.us/hrd/databook/datamain.aspx">MN Government in Brief</a></dd>
                                 <dd><a href="http://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
                                 <dd><a href="http://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
                                 <dd><a href="http://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
