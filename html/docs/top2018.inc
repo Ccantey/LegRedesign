@@ -19,7 +19,7 @@
   <script src="https://ww2.gis.leg.mn/assets/js/calendar.js"></script>
   <script src="https://ww2.gis.leg.mn/assets/js/navbarhelper.js"></script>
   <script src="https://ww2.gis.leg.mn/assets/js/bootstrapWindowHelper.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ" crossorigin="anonymous"></script>
 
   <title>LCC</title>
   </head>
