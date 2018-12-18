@@ -163,7 +163,7 @@
                                 <dd><a href="http://www.senate.mn/committees">Committee List</a></dd>
                                 <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
                                 <dd><a href="http://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
-                                <dd><a href="http://www.senate.mn/schedule/schedule.php?ls=&amp;cmte_id=&amp;cmte_type=&amp;type=upcoming">Upcoming Meetings</a></dd>
+                                <dd><a href="http://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
                                 <dd><a href="http://www.senate.mn/committees/cmte_meeting_schedule.php?ls=">Standing Committee Schedule</a></dd>
                                 <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
                               </dl>
