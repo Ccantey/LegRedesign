@@ -7786,6 +7786,8 @@ a:hover {
     background-color: #dedede; }
   .leg-title-container a:hover {
     background-color: transparent; }
+  a:hover.js-search-adv {
+    text-decoration: underline; }
 
 .card-header[data-toggle='collapse']:hover {
   cursor: pointer;

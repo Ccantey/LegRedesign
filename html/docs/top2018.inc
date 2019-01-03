@@ -39,7 +39,7 @@
 
 
             <form class="form-inline float-right ml-auto d-none d-md-block p-0">
-                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" ><u>Advanced Search</u></a>
+                <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" >Advanced Search</a>
                 <label class="sr-only" for="main-search">Search Legislature</label>
                 <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" placeholder="Search..." type="text">
                 <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
