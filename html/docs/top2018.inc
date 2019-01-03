@@ -598,7 +598,7 @@
             </div>
         </div>
     </div>
-    <h1 class="d-none d-print-block text-center" href="/" id="leg-title-text" style="">LCC Office</h1>
+    <h1 class="d-none d-print-block leg-title-text text-center" id="leg-title-text" style="">Legislative Coordinating Commission</h1>
     <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
         <div class="container">
             <div class="d-block ml-0">

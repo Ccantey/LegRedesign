@@ -7853,12 +7853,18 @@ input + label {
   background-color: #ffc107; }
 
 @media print {
+  /* remove headers and footers from print dialog */
+  @page {
+    margin: 0.5in 0; }
+  /* Put this class in the ROW that needs to be full page width on print*/
+  .leg-row-print-full {
+    display: block !important; }
+
+  /* Put this class in the COL that needs to be full page width on print*/
+  /* In the col that needs to be hidden, add d-print-none*/
   .leg-col-print-12 {
     flex: 0 0 100%;
     max-width: 100%; }
-
-  .row {
-    display: block !important; }
 
   .container {
     width: 100%;
