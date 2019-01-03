@@ -1,0 +1,17 @@
+@if $enable-print-styles {
+  @media print {
+	.leg-col-print-12 {
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+	.row {
+    display: block !important;
+	} 
+
+	.container {
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+  }}

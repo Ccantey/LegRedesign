@@ -7852,6 +7852,17 @@ input + label {
 ::-moz-selection {
   background-color: #ffc107; }
 
+@media print {
+  .leg-col-print-12 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+
+  .row {
+    display: block !important; }
+
+  .container {
+    width: 100%;
+    max-width: 100%; } }
 .leg-brand-container form {
   margin-top: -0.08rem; }
 
