@@ -32,8 +32,8 @@
 
 <div class="container-fluid"> <!-- closing tag in footer -->
 
-    <div class="leg-brand-container bg-darkgray py-1 pl-0">
-        <div class="container pl-0 pl-md-3 d-print-none">
+    <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+        <div class="container pl-0 pl-md-3">
             <img src="https://ww2.gis.leg.mn/iMaps/bootstrap4/img/icons/capitol2.svg" height="24px" style="margin-top:-8px;opacity:0.95">
             <a id="ctl00_HyperLink1" class="leg-brand-text text-white pl-1" href="https://www.leg.state.mn.us/" ">Minnesota Legislature</a>
 

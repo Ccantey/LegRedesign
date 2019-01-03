@@ -7862,7 +7862,10 @@ input + label {
 
   .container {
     width: 100%;
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .tooltip {
+    display: none; } }
 .leg-brand-container form {
   margin-top: -0.08rem; }
 
