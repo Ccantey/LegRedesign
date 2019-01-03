@@ -7870,7 +7870,10 @@ input + label {
     width: 95%;
     max-width: 95%;
     font-size: 12pt !important;
-    color: black !important; } }
+    color: black !important; }
+
+  .tooltip {
+    display: none; } }
 .leg-brand-container form {
   margin-top: -0.08rem; }
 
