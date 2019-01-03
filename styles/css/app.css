@@ -7867,11 +7867,10 @@ input + label {
     max-width: 100%; }
 
   .container {
-    width: 100%;
-    max-width: 100%; }
-
-  .tooltip {
-    display: none; } }
+    width: 95%;
+    max-width: 95%;
+    font-size: 12pt !important;
+    color: black !important; } }
 .leg-brand-container form {
   margin-top: -0.08rem; }
 
