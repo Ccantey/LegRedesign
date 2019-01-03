@@ -1,4 +1,3 @@
-
 function closeBanner(target){
   // close banner if click is not a banner navigation item (otherwise the banner starts to close and freezes on transition)
   if ($('.navbar-nav-collapse').hasClass('show') && !$(target).parents().is('dd') && !$(target).parents().is('.nav-header')){
@@ -18,7 +17,7 @@ function changeBanner(event){
 }
 
 $(document).ready(function () {
-  $('.js-search').hide();
+  $('.js-search,.js-search-adv').hide();
   $('[data-toggle="tooltip"]').tooltip({
     delay: { "show": 100, "hide": 100 }
   });
@@ -37,6 +36,7 @@ $(document).ready(function () {
         // console.log(jssearchisBlank);
         if (jssearchisVisible === false || jssearchisBlank === true) {
             $(".js-search").animate({ width: 'toggle' });
+            $(".js-search-adv").animate({ width: 'toggle' });
         } else {
             window.location.href = "https://www.leg.state.mn.us/search?q=" + $('#main-search').val();
         };
