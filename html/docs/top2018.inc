@@ -149,10 +149,10 @@
                                                 <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                                                 <dl>
                                                     <dt class="text-white">Senators and Staff</dt>
-                                                    <dd class="text-white"><a href="http://www.senate.mn/members/index.php">Senators</a></dd>
-                                                    <dd class="text-muted"><a href="http://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
-                                                    <dd class="text-muted"><a href="http://www.senate.mn/employees/index.php">Staff</a></dd>
-                                                    <dd class="text-muted"><a href="http://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="http://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="http://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="http://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="http://www.senate.mn/jobs/index.php">Employment</a></dd>
                                                     <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
                                                     <!-- <dd class="text-muted">Employment</dd> -->
                                                 </dl>
@@ -162,10 +162,10 @@
                                                     <dt class="text-white">Committees</dt>
                                                     <dd><a href="http://www.senate.mn/committees">Committee List</a></dd>
                                                     <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
-                                                    <dd><a target="_blank" href="http://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="http://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
                                                     <dd><a href="http://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
                                                     <dd><a href="http://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
-                                                    <dd><a target="_blank" href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-6 col-md-3">
