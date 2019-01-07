@@ -7857,7 +7857,7 @@ input + label {
 @media print {
   /* align headers and footers with page */
   @page {
-    margin: 0.5in 0; }
+    margin: 0.75in 0; }
   /* Put this class in the ROW that needs to be full page width on print*/
   .leg-row-print-full {
     display: block !important; }
@@ -7875,7 +7875,10 @@ input + label {
     color: black !important; }
 
   .tooltip {
-    display: none; } }
+    display: none; }
+
+  a.leg-title-text {
+    text-decoration: none; } }
 .leg-brand-container form {
   margin-top: -0.08rem; }
 

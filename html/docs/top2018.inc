@@ -586,7 +586,7 @@
             </div>
         </div>
     </nav>
-    <div class="leg-banner img-joint d-print-none">
+    <div class="leg-banner img-joint">
         <div class="position-relative h-100">
             <div class="leg-title-container pl-0">
                 <div class="container pl-sm-0 pl-md-3">
@@ -599,7 +599,7 @@
             </div>
         </div>
     </div>
-    <h1 class="d-none d-print-block leg-title-text text-center" id="leg-title-text" style="">Legislative Coordinating Commission</h1>
+
     <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
         <div class="container">
             <div class="d-block ml-0">
