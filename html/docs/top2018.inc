@@ -600,7 +600,7 @@
         </div>
     </div>
 
-    <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+    <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint d-print-none">
         <div class="container">
             <div class="d-block ml-0">
                 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>

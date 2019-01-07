@@ -7878,6 +7878,8 @@ input + label {
     display: none; }
 
   a.leg-title-text {
+    text-decoration: none; }
+  a.leg-title-text-2-lines {
     text-decoration: none; } }
 .leg-brand-container form {
   margin-top: -0.08rem; }
