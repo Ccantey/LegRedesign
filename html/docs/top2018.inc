@@ -179,12 +179,12 @@
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Other Information</dt>
-                                                    <dd><a href="http://www.senate.mn/rules/index.php?ls=#rulesofthesenate">Senate Rules</a></dd>
-                                                    <dd><a href="http://www.senate.mn/rules/index.php#jointrules">Joint Rules</a></dd>
-                                                    <dd><a href="http://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
-                                                    <dd><a href="http://www.senate.mn/members/member_pronounce.php">Pronunciation Guide</a></dd>
-                                                    <dd><a href="http://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
-                                                    <dd><a href="http://www.senate.mn/subscription">Subscriptions</a></dd>
+                                                    <dd><a href="/rules/index.php">Senate Rules</a></dd>
+                                                    <dd><a href="/rules/index.php">Joint Rules</a></dd>
+                                                    <dd><a href="/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="/subscription/index.php">Subscriptions</a></dd>
+                                                    <dd><a href="/journals/index.php">Senate Journals</a></dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -548,7 +548,6 @@
                                                     <dd><a href="http://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
-                                                    <dd><a href="http://www.senate.mn/journals/index.php">Senate Journal</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
                                                 </dl>
