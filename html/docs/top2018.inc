@@ -179,12 +179,12 @@
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Other Information</dt>
-                                                    <dd><a href="/rules/index.php">Senate Rules</a></dd>
-                                                    <dd><a href="/rules/index.php">Joint Rules</a></dd>
-                                                    <dd><a href="/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/index.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/index.php">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
                                                     <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
-                                                    <dd><a href="/subscription/index.php">Subscriptions</a></dd>
-                                                    <dd><a href="/journals/index.php">Senate Journals</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+                                                    <dd><a href="https://www.senate.mn/journals/index.php">Senate Journals</a></dd>
                                                 </dl>
                                             </div>
                                         </div>
