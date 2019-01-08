@@ -102,7 +102,7 @@
                                                     <dd><a href="http://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
                                                 </dl>
