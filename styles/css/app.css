@@ -7879,6 +7879,8 @@ input + label {
 
   a.leg-title-text {
     text-decoration: none; }
+  a.leg-title-text-2-lines {
+    text-decoration: none; }
   a.leg-subtitle-text {
     text-decoration: none; } }
 .leg-brand-container form {
