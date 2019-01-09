@@ -102,7 +102,7 @@
                                                     <dd><a href="http://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
                                                 </dl>
@@ -121,7 +121,7 @@
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Other Information</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
