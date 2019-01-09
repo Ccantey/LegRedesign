@@ -121,7 +121,7 @@
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Other Information</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
