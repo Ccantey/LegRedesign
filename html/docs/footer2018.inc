@@ -54,7 +54,7 @@
         </footer>
         <div class="row mx-0">
           <div class="col-12 bg-dark">
-            <div class="text-center text-light py-1 leg-subfooter">Legislative Coordinating Commission &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:lcc@lcc.leg.mn">lcc@lcc.leg.mn</a></div>
+            <div class="text-center text-light py-1 leg-subfooter">Legislative Coordinating Commission &middot; 100 Rev. Dr. Martin Luther King Jr. Blvd. Saint Paul, MN 55155 &middot; <a href="mailto:gis@gis.leg.mn">lcc@lcc.leg.mn</a></div>
           </div>
         </div>
       </div>
