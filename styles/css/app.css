@@ -7858,6 +7858,9 @@ input + label {
   /* align headers and footers with page */
   @page {
     margin: 0.75in 0; }
+  @-moz-document url-prefix() {
+    .row {
+      display: inline; } }
   /* Avoid page breaks on elements */
   .card {
     page-break-inside: avoid; }

@@ -5,10 +5,17 @@
 	    margin: 0.75in 0;
 	}
 
+	@-moz-document url-prefix() {
+	  .row{
+	  	display:inline;
+	  }
+	}
+
 	/* Avoid page breaks on elements */
 	.card {
 	    page-break-inside: avoid;
-	} 
+	}
+
 
 	/* Put this class in the ROW that needs to be full page width on print*/
 	.leg-row-print-full {
