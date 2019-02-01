@@ -33,7 +33,20 @@ h4 + h5 {
 
 // Request to keep underlines - just can't have them everywhere
 a{
-    text-decoration: underline;
+
+    #legContainerMain p &, #legContainerMain li &{
+        text-decoration: none;
+        border-bottom: 1px solid $link-color;
+    }
+
+    .nav-header &{
+      color:lighten($link-color, 35%);
+      font-weight:500;
+      border-bottom: none !important;
+      text-transform: uppercase;
+  }
+
+
     .navbar &{
         text-decoration: none;
     }
@@ -49,6 +62,15 @@ a{
     .leg-decoration &{
         text-decoration: underline !important;
         color: $link-color !important;
+    }
+    &.leg-title-text{
+        border-bottom: none !important;
+    }
+    &.leg-title-text-2-lines{
+        border-bottom: none !important;
+    }
+    &.leg-subtitle-text{
+        border-bottom: none !important;
     }
     dd &{
         text-decoration: none;
@@ -87,34 +109,50 @@ a{
 }
 
 a:hover{
-    background-color: $attn;
-    text-decoration: underline;
-    // .leg-portal-header &{
-    //     text-decoration: underline;
-    // }
-    // .footer &{
-    //     text-decoration: underline;
-    // }
-    &.leg-title-text{
-        text-decoration: none;
+    text-decoration: none;
+
+    &.leg-brand-text{
+        border-bottom:2px solid lighten($link-color, 25%) !important;
     }
-    &.leg-title-text-2-lines{
-        text-decoration: none;
+    #legContainerMain p &, #legContainerMain li &{
+        background-color: $gray-300;
+
+        border-bottom: 2px solid $link-color;
     }
-    &.leg-subtitle-text{
-        text-decoration: none;
-    }
-    &.badge{
-        text-decoration: none;
-    }
-    .footer &{
-        background-color: transparent;
-    }
-    .bg-dark &, .bg-darkgray &{
-        background-color: transparent;
-    }
-    .leg-subfooter &{
-        color: lighten($link-color, 25%);
+    
+    .nav-item &{
+      background-color: transparent;
+      text-decoration: underline;
+      &.btn-outline-darklight{
+          background-color: $gray-700;
+      }
+  }
+
+  .nav-header &{
+      color: lighten($link-color, 25%);
+      border-bottom:2px solid lighten($link-color, 25%) !important;
+  }
+
+  &.leg-title-text{
+    border-bottom: none !important;
+}
+&.leg-title-text-2-lines{
+    border-bottom: none !important;
+}
+&.leg-subtitle-text{
+    border-bottom: none !important;
+}
+&.badge{
+    border-bottom: none !important;
+}
+.footer &{
+    background-color: transparent;
+}
+.bg-dark &, .bg-darkgray &{
+    background-color: transparent;
+}
+.leg-subfooter &{
+    color: lighten($link-color, 25%);
         // text-decoration: underline;
         background-color: transparent;
     }
@@ -126,7 +164,7 @@ a:hover{
         background-color: transparent;
     }
     &.js-search-adv{
-        text-decoration: underline;
+        border-bottom:2px solid lighten($link-color, 25%) !important;
     }
     
 }
@@ -169,7 +207,7 @@ input + label {margin-bottom: 0;}
     font-size:1.1rem;
     text-decoration: none;
     font-family: georgia, serif;
-    padding: .2rem 0;
+    padding: 0;
     letter-spacing: .15rem;
 }
 
@@ -209,9 +247,9 @@ input + label {margin-bottom: 0;}
 }
 
 ::selection{
-    background-color: $yellow;
+    background-color: lighten($yellow, 20%);
 }
 
 ::-moz-selection{
-    background-color: $yellow;
+    background-color: lighten($yellow, 20%);
 }

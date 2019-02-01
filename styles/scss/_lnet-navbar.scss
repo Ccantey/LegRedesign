@@ -338,9 +338,9 @@ dd > a{
 }
 
 dd > a:hover{  
-  // color:$link-color;
+  text-decoration: none;
   color: lighten($link-color, 25%);
-  text-decoration: underline;
+  border-bottom:1px solid lighten($link-color, 25%) !important;
 }
 
 dt {
@@ -353,17 +353,17 @@ dd {
 
 a:hover{  
 
-    .nav-item &{
-      background-color: transparent;
-      text-decoration: underline;
-      &.btn-outline-darklight{
-          background-color: $gray-700;
-      }
-    }
-    .nav-header &{
-      color: lighten($link-color, 25%);
-      text-decoration: underline;
-    }
+    // .nav-item &{
+    //   background-color: transparent;
+    //   text-decoration: underline;
+    //   &.btn-outline-darklight{
+    //       background-color: $gray-700;
+    //   }
+    // }
+    // .nav-header &{
+    //   color: lighten($link-color, 25%);
+    //   border-bottom:2px solid lighten($link-color, 25%) !important;
+    // }
 }
 
 // .nav-item:last-child{
@@ -372,12 +372,12 @@ a:hover{
 //   }
 // }
 
-.nav-header a{
-  color:lighten($link-color, 35%);
-  font-weight:500;
-  text-decoration: none;
-  text-transform: uppercase;
-}
+// .nav-header a{
+//   color:lighten($link-color, 35%);
+//   font-weight:500;
+//   text-decoration: none;
+//   text-transform: uppercase;
+// }
 
 .skip-navigation {
   @include sr-only;

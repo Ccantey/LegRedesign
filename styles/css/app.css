@@ -7727,54 +7727,78 @@ p + h5, ul + h5, ol + h5 {
 h4 + h5 {
   margin-top: 0.75rem; }
 
-a {
+#legContainerMain p a, #legContainerMain li a {
+  text-decoration: none;
+  border-bottom: 1px solid #2b6dad; }
+.nav-header a {
+  color: #a2c6e8;
+  font-weight: 500;
+  border-bottom: none !important;
+  text-transform: uppercase; }
+.navbar a {
+  text-decoration: none; }
+.card a {
+  text-decoration: none; }
+.footer a {
+  text-decoration: none; }
+.leg-no-decoration a {
+  text-decoration: none; }
+.leg-decoration a {
+  text-decoration: underline !important;
+  color: #2b6dad !important; }
+a.leg-title-text {
+  border-bottom: none !important; }
+a.leg-title-text-2-lines {
+  border-bottom: none !important; }
+a.leg-subtitle-text {
+  border-bottom: none !important; }
+dd a {
+  text-decoration: none; }
+.leg-portal-header a {
+  text-decoration: none; }
+li a {
   text-decoration: underline; }
-  .navbar a {
-    text-decoration: none; }
-  .card a {
-    text-decoration: none; }
-  .footer a {
-    text-decoration: none; }
-  .leg-no-decoration a {
-    text-decoration: none; }
-  .leg-decoration a {
-    text-decoration: underline !important;
-    color: #2b6dad !important; }
-  dd a {
-    text-decoration: none; }
-  .leg-portal-header a {
-    text-decoration: none; }
-  li a {
-    text-decoration: underline; }
-  .leg-subfooter a {
-    color: #a2c6e8;
-    text-decoration: none; }
-  .list-group a {
-    text-decoration: none; }
-  .underline-list-group a {
-    text-decoration: underline; }
-  .nav-tabs a {
-    text-decoration: none; }
-  a.btn {
-    text-decoration: none; }
-  a.badge {
-    text-decoration: none; }
-  .table-striped a {
-    text-decoration: none; }
-  .pagination a {
-    text-decoration: none; }
+.leg-subfooter a {
+  color: #a2c6e8;
+  text-decoration: none; }
+.list-group a {
+  text-decoration: none; }
+.underline-list-group a {
+  text-decoration: underline; }
+.nav-tabs a {
+  text-decoration: none; }
+a.btn {
+  text-decoration: none; }
+a.badge {
+  text-decoration: none; }
+.table-striped a {
+  text-decoration: none; }
+.pagination a {
+  text-decoration: none; }
 
 a:hover {
-  background-color: #F9EBC8;
-  text-decoration: underline; }
+  text-decoration: none; }
+  a:hover.leg-brand-text {
+    border-bottom: 2px solid #7aadde !important; }
+  #legContainerMain p a:hover, #legContainerMain li a:hover {
+    background-color: #dee2e6;
+    border-bottom: 2px solid #2b6dad; }
+  .nav-item a:hover {
+    background-color: transparent;
+    text-decoration: underline; }
+    .nav-item a:hover.btn-outline-darklight {
+      background-color: #495057; }
+  .nav-header a:hover {
+    color: #7aadde;
+    border-bottom: 2px solid #7aadde !important; }
   a:hover.leg-title-text {
-    text-decoration: none; }
+    border-bottom: none !important; }
   a:hover.leg-title-text-2-lines {
-    text-decoration: none; }
+    border-bottom: none !important; }
   a:hover.leg-subtitle-text {
-    text-decoration: none; }
+    border-bottom: none !important; }
   a:hover.badge {
-    text-decoration: none; }
+    border-bottom: none !important; }
   .footer a:hover {
     background-color: transparent; }
   .bg-dark a:hover, .bg-darkgray a:hover {
@@ -7787,7 +7811,7 @@ a:hover {
   .leg-title-container a:hover {
     background-color: transparent; }
   a:hover.js-search-adv {
-    text-decoration: underline; }
+    border-bottom: 2px solid #7aadde !important; }
 
 .card-header[data-toggle='collapse']:hover {
   cursor: pointer;
@@ -7816,7 +7840,7 @@ input + label {
   font-size: 1.1rem;
   text-decoration: none;
   font-family: georgia, serif;
-  padding: .2rem 0;
+  padding: 0;
   letter-spacing: .15rem; }
 
 .leg-title-text {
@@ -7849,10 +7873,10 @@ input + label {
   font-size: 1.333333rem !important; }
 
 ::selection {
-  background-color: #ffc107; }
+  background-color: #ffdb6d; }
 
 ::-moz-selection {
-  background-color: #ffc107; }
+  background-color: #ffdb6d; }
 
 @media print {
   /* align headers and footers with page */
@@ -8079,29 +8103,15 @@ dd > a {
   color: #a2c6e8; }
 
 dd > a:hover {
+  text-decoration: none;
   color: #7aadde;
-  text-decoration: underline; }
+  border-bottom: 1px solid #7aadde !important; }
 
 dt {
   font-weight: 400; }
 
 dd {
   margin-bottom: .1rem; }
-
-.nav-item a:hover {
-  background-color: transparent;
-  text-decoration: underline; }
-  .nav-item a:hover.btn-outline-darklight {
-    background-color: #495057; }
-.nav-header a:hover {
-  color: #7aadde;
-  text-decoration: underline; }
-
-.nav-header a {
-  color: #a2c6e8;
-  font-weight: 500;
-  text-decoration: none;
-  text-transform: uppercase; }
 
 .skip-navigation {
   position: absolute;
