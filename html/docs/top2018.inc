@@ -382,7 +382,7 @@
                                                     <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
                                                         <a href="http://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
                                                     <dd><a href="http://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
-                                                    <dd><a href="http://www.senate.mn/departments/info/publications/popularbills.pdf">Hot List</a>
+                                                    <dd><a href="http://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
                                                     </dd>
                                                 </dl>
                                             </div>
