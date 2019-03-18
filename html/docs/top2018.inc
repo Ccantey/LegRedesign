@@ -180,11 +180,12 @@
                                                 <dl>
                                                     <dt class="text-white">Other Information</dt>
                                                     <dd><a href="https://www.senate.mn/journals/index.php">Senate Journal</a></dd>
-                                                    <dd><a href="http://www.senate.mn/rules/index.php?ls=#rulesofthesenate">Senate Rules</a></dd>
-                                                    <dd><a href="http://www.senate.mn/rules/index.php#jointrules">Joint Rules</a></dd>
-                                                    <dd><a href="http://www.senate.mn/departments/secretary/info/interns/index.php#header">Educational Programs</a></dd>
-                                                    <dd><a href="http://www.senate.mn/members/member_pronounce.php?ls=#header">Pronunciation Guide</a></dd>
-                                                    <dd><a href="http://www.senate.mn/members/member_labels_page.php?ls=">Address Labels</a></dd>
+                                                    <dd><a href="http://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="http://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="http://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="http://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="http://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+
                                                 </dl>
                                             </div>
                                         </div>
@@ -262,7 +263,7 @@
                                             <div class="col-12 col-sm-4">
                                                 <dl>
                                                     <dt class="text-white">Senate</dt>
-                                                    <dd><a href="http://www.senate.leg.state.mn.us/schedule/schedule.php">Senate Schedules</a></dd>
+                                                    <dd><a href="http://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
                                                     <dd><a href="http://www.senate.mn/orders/index.php">Order of Business</a></dd>
                                                     <dd><a href="http://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
                                                     <dd><a href="http://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
@@ -556,7 +557,7 @@
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Notable Documents</dt>
-                                                    <dd><a href="http://www.senate.leg.state.mn.us/departments/scr/report/index.php#budgetsummaries">Fiscal Review</a></dd>
+                                                    <dd><a href="http://www.senate.leg.state.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
