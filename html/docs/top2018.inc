@@ -557,7 +557,7 @@
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Notable Documents</dt>
-                                                    <dd><a href="http://www.senate.leg.state.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
