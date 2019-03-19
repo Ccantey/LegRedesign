@@ -211,7 +211,7 @@
                                                     <dt class="text-white">Joint Legislative Offices</dt>
                                                     <dd><a href="https://www.revisor.mn.gov/">Revisor of Statutes</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
-                                                    <dd><a href="http://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
                                                     <dd><a href="http://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
                                                 </dl>
                                             </div>
@@ -527,7 +527,7 @@
                                                     <dt class="text-white">Office Research &amp; Reports</dt>
                                                     <dd><a href="http://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
                                                     <dd><a href="http://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
-                                                    <dd><a href="http://www.auditor.leg.state.mn.us/ped/pedintro.htm">Legislative Auditor</a></dd>
+                                                    <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
                                                     <dd><a href="https://www.revisor.mn.gov/office/publications.php">Revisor Publications</a></dd>
                                                     <dd><a href="http://www.senate.mn/publications">Senate Publications</a></dd>
                                                     <dd><a href="http://www.leg.state.mn.us/lrl/">Library</a></dd>
