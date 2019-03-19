@@ -35,7 +35,7 @@
     <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
         <div class="container pl-0 pl-md-3">
             <img src="https://ww2.gis.leg.mn/iMaps/bootstrap4/img/icons/capitol2.svg" height="24px" style="margin-top:-8px;opacity:0.95">
-            <a id="ctl00_HyperLink1" class="leg-brand-text text-white pl-1" href="https://www.leg.state.mn.us/" ">Minnesota Legislature</a>
+            <a class="leg-brand-text text-white pl-1" href="https://www.leg.state.mn.us/" ">Minnesota Legislature</a>
 
 
             <form class="form-inline float-right ml-auto d-none d-md-block p-0">
@@ -88,10 +88,10 @@
                                                 <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                                                 <dl>
                                                     <dt class="text-white">House Members and Staff</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a></dd>
 
                                                     <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
                                                 </dl>
@@ -99,34 +99,34 @@
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Committees</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-6 col-md-3 ">
                                                 <dl>
                                                     <dt class="text-white">Offices</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief Clerk</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public Information</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses - DFL/GOP</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Other Information</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House Journal</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation Guide</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address Spreadsheet</a></dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -141,7 +141,7 @@
                                 <div class="bg-dark">
                                     <div class="container px-3">
                                         <div class="row">
-                                            <div class="col nav-header"><a href="http://www.senate.mn/">Minnesota Senate</a></div>
+                                            <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota Senate</a></div>
                                         </div>
                                         <hr class="my-1 bg-secondary">
                                         <div class="row">
@@ -149,10 +149,10 @@
                                                 <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                                                 <dl>
                                                     <dt class="text-white">Senators and Staff</dt>
-                                                    <dd><a href="http://www.senate.mn/members/index.php">Senators</a></dd>
-                                                    <dd><a href="http://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
-                                                    <dd><a href="http://www.senate.mn/employees/index.php">Staff</a></dd>
-                                                    <dd><a href="http://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a></dd>
+                                                    <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                    <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
                                                     <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents Me?</a></dd>
                                                     <!-- <dd class="text-muted">Employment</dd> -->
                                                 </dl>
@@ -160,31 +160,31 @@
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Committees</dt>
-                                                    <dd><a href="http://www.senate.mn/committees">Committee List</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
                                                     <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
-                                                    <dd><a href="http://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
-                                                    <dd><a href="http://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
-                                                    <dd><a href="http://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee Roster</a></dd>
+                                                    <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a></dd>
                                                     <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Offices</dt>
-                                                    <dd><a href="http://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
-                                                    <dd><a href="http://www.senate.mn/departments/scrfa/index.php">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
-                                                    <dd><a href="http://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/index.php">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Other Information</dt>
                                                     <dd><a href="https://www.senate.mn/journals/index.php">Senate Journal</a></dd>
-                                                    <dd><a href="http://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
-                                                    <dd><a href="http://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
-                                                    <dd><a href="http://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
-                                                    <dd><a href="http://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
-                                                    <dd><a href="http://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational Programs</a></dd>
+                                                    <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address Labels</a></dd>
+                                                    <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a></dd>
 
                                                 </dl>
                                             </div>
@@ -210,26 +210,26 @@
                                                 <dl>
                                                     <dt class="text-white">Joint Legislative Offices</dt>
                                                     <dd><a href="https://www.revisor.mn.gov/">Revisor of Statutes</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative Reference Library</a></dd>
                                                     <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the Legislative Auditor</a></dd>
-                                                    <dd><a href="http://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                    <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-4">
                                                 <dl  class="mb-0">
                                                     <dt class="text-white">Commissions</dt>
-                                                    <dd><a href="http://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
-                                                    <dd><a href="http://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
+                                                    <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating Commission (LCC)</a></dd>
+                                                    <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission on MN Resources (LCCMR)</a></dd>
 
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-4">
                                                 <dl>
 
-                                                    <dd class="mt-md-4"><a href="http://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
-                                                    <dd><a href="http://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
-                                                    <dd><a href="http://www.legacy.mn.gov/">Legacy Amendment</a></dd>
-                                                    <dd><a href="http://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                    <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                    <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage Council</a></dd>
+                                                    <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                    <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -253,28 +253,28 @@
                                                 <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                                                 <dl>
                                                     <dt class="text-white">House</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House Schedules</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order of Business</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental Calendar for the Day</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal Calendar</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-4">
                                                 <dl>
                                                     <dt class="text-white">Senate</dt>
-                                                    <dd><a href="http://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
-                                                    <dd><a href="http://www.senate.mn/orders/index.php">Order of Business</a></dd>
-                                                    <dd><a href="http://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
-                                                    <dd><a href="http://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
+                                                    <dd><a href="https://www.senate.leg.state.mn.us/schedule/index.php?type=upcoming">Senate Schedules</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/index.php">Order of Business</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/calendar.html">Senate Calendar</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the Day</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-4">
                                                 <dl>
                                                     <dt class="text-white">Joint</dt>
-                                                    <dd><a href="http://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined Upcoming Meetings</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a></dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -298,19 +298,19 @@
                                                 <dl>
                                                     <dt class="text-white">House</dt>
                                                     <dd>
-                                                        <a href="http://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee List</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="http://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee Roster</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="http://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming Meetings</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="http://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
+                                                        <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing Committee Schedule</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="http://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                        <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
                                                     </dd>
                                                 </dl>
                                             </div>
@@ -318,16 +318,16 @@
                                                 <dl>
                                                     <dt class="text-white">Senate</dt>
                                                     <dd>
-                                                        <a href="http://www.senate.mn/committees/">Committee List</a>
+                                                        <a href="https://www.senate.mn/committees/">Committee List</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="http://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
+                                                        <a href="https://www.senate.leg.state.mn.us/committees/display_pdf_cmte_roster.php">Committee Roster</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="http://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
+                                                        <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming Meetings</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="http://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
+                                                        <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing Committee Schedule</a>
                                                     </dd>
                                                 </dl>
                                             </div>
@@ -335,13 +335,13 @@
                                                 <dl>
                                                     <dt class="text-white">Joint</dt>
                                                     <dd>
-                                                        <a href="http://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
+                                                        <a href="https://www.commissions.leg.state.mn.us/">Joint Committees &amp; Task Forces</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="http://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
+                                                        <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="http://www.house.leg.state.mn.us/bills/confcommactivity.asp">Bills In Conference Committee</a>
+                                                        <a href="https://www.house.leg.state.mn.us/bills/confcommactivity.asp">Bills In Conference Committee</a>
                                                     </dd>
                                                     <dd>
                                                         <a href="https://www.revisor.mn.gov/bin/sbs.php">Side by Side Comparisons</a>
@@ -369,32 +369,32 @@
                                                 <dl>
                                                     <dt class="text-white">House</dt>
                                                     <dd><a href="https://www.revisor.mn.gov/bills/status_search.php?body=House">Bill Search &amp; Status (House)</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
-                                                    <dd class="text-white">Summaries: <a href="http://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="http://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill Introductions</a></dd>
+                                                    <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a> | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot List</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-4">
                                                 <dl>
                                                     <dt class="text-white">Senate</dt>
                                                     <dd><a href="https://www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill Search &amp; Status (Senate)</a></dd>
-                                                    <dd><a href="http://www.senate.mn/orders/intros/index.php">Bill Introductions</a></dd>
+                                                    <dd><a href="https://www.senate.mn/orders/intros/index.php">Bill Introductions</a></dd>
                                                     <dd class="text-white">Summaries: <a href="/departments/scr/billsumm/index.php?summary_type=bill">Bill</a> |
-                                                        <a href="http://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
-                                                    <dd><a href="http://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
-                                                    <dd><a href="http://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
+                                                        <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal Tracking Sheets</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot List</a>
                                                     </dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-4">
                                                 <dl>
                                                     <dt class="text-white">Joint</dt>
-                                                    <dd><a href="http://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
                                                     <dd><a href="https://www.revisor.mn.gov/bin/sbs.php">Side by Side Comparisons</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/bills/confcommactivity.asp">Bills In Conference Committee</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/confcommactivity.asp">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
                                                     <dd><a href="https://www.revisor.mn.gov/laws/current/">Current Session Laws</a></dd>
                                                 </dl>
                                             </div>
@@ -455,7 +455,7 @@
                                                 <dl>
                                                     <dt class="text-white">Other Legal Materials</dt>
                                                     <dd><a href="https://www.revisor.mn.gov/constitution/">Minnesota Constitution</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State Constitutional Amendments</a></dd>
                                                     <dd><a href="https://www.revisor.mn.gov/court_rules/">Court Rules</a></dd>
                                                 </dl>
                                             </div>
@@ -479,11 +479,11 @@
                                                 <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                                                 <dl>
                                                     <dt class="text-white">House</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/htv/mnhouse.asx">Live Video</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live Video</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-4">
@@ -492,16 +492,16 @@
                                                     <dd>
                                                         <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a>
                                                     </dd>
-                                                    <dd><a href="http://www.senate.mn/media/media_coming_up.php?">Webcast Schedule</a></dd>
-                                                    <dd><a href="http://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
-                                                    <dd><a href="http://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/media_coming_up.php?">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
                                                     <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-4">
                                                 <dl>
                                                     <dt class="text-white">Joint</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV Schedule</a></dd>
                                                     <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission Audio/Video</a></dd>
                                                 </dl>
                                             </div>
@@ -525,42 +525,42 @@
                                                 <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                                                 <dl>
                                                     <dt class="text-white">Office Research &amp; Reports</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House Research</a></dd>
                                                     <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
                                                     <dd><a href="https://www.revisor.mn.gov/office/publications.php">Revisor Publications</a></dd>
-                                                    <dd><a href="http://www.senate.mn/publications">Senate Publications</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/lrl/">Library</a></dd>
+                                                    <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Library</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">News</dt>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
-                                                    <dd><a href="http://www.senate.mn/media/index.php">Senate Media Services</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/hinfo/leginfo/elecdir10.pdf">Election Directory</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
+                                                    <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/elecdir10.pdf">Election Directory</a></dd>
 
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Legislative History</dt>
-                                                    <dd><a href="http://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative History Guide</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp; Present</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House Journal</a></dd>
                                                     <dd><a href="https://www.senate.mn/journals/index.php">Senate Journal</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative Time Capsule</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-6 col-md-3">
                                                 <dl>
                                                     <dt class="text-white">Notable Documents</dt>
                                                     <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal Review</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
-                                                    <dd><a href="http://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
-                                                    <dd><a href="http://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues Guides</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books &amp; reports</a></dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -645,10 +645,10 @@
                 </ul>
                 <ul class="navbar-nav ml-auto d-flex flex-row">
                     <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">
-                        <a  aria-label="email staff" class="nav-link test" href="mailto:gis@gis.leg.mn"><i class="far fa-lg fa-envelope"></i></a>
+                        <a  aria-label="email staff" class="nav-link" href="mailto:gis@gis.leg.mn"><i class="far fa-lg fa-envelope"></i></a>
                     </li>
                     <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
-                        <a  aria-label="print page pr-1" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+                        <a  aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
                     </li>
                 </ul>
             </div>
