@@ -37,6 +37,7 @@ $(document).ready(function () {
         if (jssearchisVisible === false || jssearchisBlank === true) {
             $(".js-search").animate({ width: 'toggle' });
             $(".js-search-adv").animate({ width: 'toggle' });
+            $(".js-search").focus();
         } else {
             window.location.href = "https://www.leg.state.mn.us/search?q=" + $('#main-search').val();
         };
