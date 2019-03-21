@@ -530,7 +530,7 @@
                                                     <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative Auditor</a></dd>
                                                     <dd><a href="https://www.revisor.mn.gov/office/publications.php">Revisor Publications</a></dd>
                                                     <dd><a href="https://www.senate.mn/publications">Senate Publications</a></dd>
-                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Library</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference Library</a></dd>
                                                 </dl>
                                             </div>
                                             <div class="col-12 col-sm-6 col-md-3">
