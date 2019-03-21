@@ -341,7 +341,7 @@
                                                         <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee Deadlines</a>
                                                     </dd>
                                                     <dd>
-                                                        <a href="https://www.house.leg.state.mn.us/bills/confcommactivity.asp">Bills In Conference Committee</a>
+                                                        <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a>
                                                     </dd>
                                                     <dd>
                                                         <a href="https://www.revisor.mn.gov/bin/sbs.php">Side by Side Comparisons</a>
@@ -393,7 +393,7 @@
                                                     <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search &amp; Status</a></dd>
                                                     <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a></dd>
                                                     <dd><a href="https://www.revisor.mn.gov/bin/sbs.php">Side by Side Comparisons</a></dd>
-                                                    <dd><a href="https://www.house.leg.state.mn.us/bills/confcommactivity.asp">Bills In Conference Committee</a></dd>
+                                                    <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference Committee</a></dd>
                                                     <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a></dd>
                                                     <dd><a href="https://www.revisor.mn.gov/laws/current/">Current Session Laws</a></dd>
                                                 </dl>
