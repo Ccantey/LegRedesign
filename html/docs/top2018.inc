@@ -34,9 +34,9 @@
 
     <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
         <div class="container pl-0 pl-md-3">
-            <img src="https://ww2.gis.leg.mn/iMaps/bootstrap4/img/icons/capitol2.svg" height="24px" style="margin-top:-8px;opacity:0.95">
-            <a class="leg-brand-text text-white pl-1" href="https://www.leg.state.mn.us/" ">Minnesota Legislature</a>
-
+            <a id="ctl00_HyperLink1" class="leg-brand-text text-white" href="/" >
+                <img src="/img/icons/capitol2.svg" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
 
             <form class="form-inline float-right ml-auto d-none d-md-block p-0">
                 <a href="https://www.leg.state.mn.us/search.aspx"  class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm"  style="display: none;">Advanced Search</a>
