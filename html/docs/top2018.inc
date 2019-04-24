@@ -479,8 +479,7 @@
                                                 <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
                                                 <dl>
                                                     <dt class="text-white">House</dt>
-                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live Video</a></dd>
-                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Live Audio</a></dd>
+                                                    <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
                                                     <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast Schedule</a></dd>
                                                     <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio &amp; Video Archives</a></dd>
                                                     <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session Daily</a></dd>
@@ -491,9 +490,7 @@
                                                 <dl>
                                                     <dt class="text-white">Senate</dt>
                                                     <dd>
-                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a>
-                                                    </dd>
-                                                    <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Live Audio</a></dd>
+                                                        <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
                                                     <dd><a href="https://www.senate.mn/media/media_coming_up.php?">Webcast Schedule</a></dd>
                                                     <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
                                                     <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
