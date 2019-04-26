@@ -1,12 +1,12 @@
-
 $(document).ready(function () {
 
-  var strCalDate = getParameterByName('jday');
+  var strCalDate = getParameterByName('d1');
 
   if (strCalDate === '') {
     strCalDate = $.datepicker.formatDate('mm/dd/yy', new Date());
-    console.log(strCalDate);
+    //console.log(strCalDate);
   };
+  
   $("#datepicker").datepicker({
     nextIcon:"ui-icon-gear",
     inline: true,
@@ -26,7 +26,7 @@ $(document).ready(function () {
   var the_date = $('#datepicker').val();
   //console.log(the_date);
 
-  window.location.href = "https://www.leg.state.mn.us/calendarday?jday=" + the_date;
+  window.location.href = "https://www.leg.state.mn.us/cal?d1=" + the_date;
   });
 
 
