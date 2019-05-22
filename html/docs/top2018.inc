@@ -491,7 +491,7 @@
                                                     <dt class="text-white">Senate</dt>
                                                     <dd>
                                                         <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
-                                                    <dd><a href="https://www.senate.mn/media/media_coming_up.php?">Webcast Schedule</a></dd>
+                                                    <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast Schedule</a></dd>
                                                     <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio Archives</a></dd>
                                                     <dd><a href="https://www.senate.mn/media/index.php?type=video">Video Archives</a></dd>
                                                     <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
