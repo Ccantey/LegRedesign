@@ -539,7 +539,7 @@
                                                     <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House Session Daily</a></dd>
                                                     <dd><a href="https://www.senate.mn/media/index.php">Senate Media Services</a></dd>
                                                     <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators Roster</a></dd>
-                                                    <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/elecdir10.pdf">Election Directory</a></dd>
+                                                    <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election Directory</a></dd>
 
                                                 </dl>
                                             </div>
