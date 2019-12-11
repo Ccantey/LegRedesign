@@ -35,7 +35,7 @@
     <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
         <div class="container pl-0 pl-md-3">
             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/" >
-                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+                <img src="https://www.gis.leg.mn/assets/img/icons/capitol2.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
             </a>
 
             <form class="form-inline float-right ml-auto d-none d-md-block p-0">
