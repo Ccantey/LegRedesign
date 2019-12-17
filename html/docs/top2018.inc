@@ -172,7 +172,7 @@
                                                 <dl>
                                                     <dt class="text-white">Offices</dt>
                                                     <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary of the Senate</a></dd>
-                                                    <dd><a href="https://www.senate.mn/departments/scrfa/index.php">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                    <dd><a href="https://www.senate.mn/departments/scrfa/">Senate Counsel, Research &amp; Fiscal Analysis</a></dd>
                                                     <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses - DFL/GOP</a></dd>
                                                 </dl>
                                             </div>
